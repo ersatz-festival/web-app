@@ -1,0 +1,23 @@
+{
+    "name": "ersatz-web-app",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "dependencies": {
+        "@headlessui/vue": "^1.7.23",
+        "@heroicons/vue": "^2.2.0",
+        "@pinia/nuxt": "^0.10.1",
+        "@tailwindcss/vite": "^4.0.9",
+        "nuxt": "^3.15.4",
+        "pinia": "^3.0.1",
+        "tailwindcss": "^4.0.9",
+        "vue": "latest",
+        "vue-router": "latest"
+    }
+}
