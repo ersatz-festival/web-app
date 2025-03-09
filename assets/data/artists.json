@@ -1,0 +1,26 @@
+[
+    {
+        "day": "Vendredi",
+        "name": "Daft Punk",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daft_Punk_in_2013_2.jpg/1920px-Daft_Punk_in_2013_2.jpg",
+        "public": true,
+        "shortDescription": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.",
+        "slug": "daft-punk"
+    },
+    {
+        "day": "Samedi",
+        "name": "Daft Punk",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daft_Punk_in_2013_2.jpg/1920px-Daft_Punk_in_2013_2.jpg",
+        "public": true,
+        "shortDescription": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.",
+        "slug": "daft-punk"
+    },
+    {
+        "day": "Dimanche",
+        "name": "Daft Punk",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daft_Punk_in_2013_2.jpg/1920px-Daft_Punk_in_2013_2.jpg",
+        "public": true,
+        "shortDescription": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.",
+        "slug": "daft-punk"
+    }
+]
