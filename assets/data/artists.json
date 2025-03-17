@@ -1,26 +1,41 @@
 [
     {
         "day": "Vendredi",
+        "description": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.",
         "name": "Daft Punk",
-        "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daft_Punk_in_2013_2.jpg/1920px-Daft_Punk_in_2013_2.jpg",
+        "pictureCover": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daft_Punk_in_2013_2.jpg/1920px-Daft_Punk_in_2013_2.jpg",
+        "pictureProfile": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daft_Punk_in_2013_2.jpg/1920px-Daft_Punk_in_2013_2.jpg",
         "public": true,
         "shortDescription": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.",
-        "slug": "daft-punk"
+        "slug": "daft-punk",
+        "socialNetworks": {
+            "instagram": "https://instagram.com"
+        }
     },
     {
         "day": "Samedi",
+        "description": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.",
         "name": "Daft Punk",
-        "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daft_Punk_in_2013_2.jpg/1920px-Daft_Punk_in_2013_2.jpg",
+        "pictureCover": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daft_Punk_in_2013_2.jpg/1920px-Daft_Punk_in_2013_2.jpg",
+        "pictureProfile": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daft_Punk_in_2013_2.jpg/1920px-Daft_Punk_in_2013_2.jpg",
         "public": true,
         "shortDescription": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.",
-        "slug": "daft-punk"
+        "slug": "daft-punk",
+        "socialNetworks": {
+            "instagram": "https://instagram.com"
+        }
     },
     {
         "day": "Dimanche",
+        "description": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.",
         "name": "Daft Punk",
-        "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daft_Punk_in_2013_2.jpg/1920px-Daft_Punk_in_2013_2.jpg",
+        "pictureCover": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daft_Punk_in_2013_2.jpg/1920px-Daft_Punk_in_2013_2.jpg",
+        "pictureProfile": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daft_Punk_in_2013_2.jpg/1920px-Daft_Punk_in_2013_2.jpg",
         "public": true,
         "shortDescription": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.",
-        "slug": "daft-punk"
+        "slug": "daft-punk",
+        "socialNetworks": {
+            "instagram": "https://instagram.com"
+        }
     }
 ]
