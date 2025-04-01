@@ -1,17 +1,18 @@
 <template>
-    <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+    <div class="">
         <LayoutTitle title="Informations" />
-        <div class="flex flex-col space-y-32">
-            <div
-                v-for="(index) in 5"
-                :key="index"
-                class="grid grid-cols-12 gap-4"
-            >
+        <div
+            v-for="(index) in 5"
+            :key="index"
+            class="py-16"
+        >
+            <div class="w-4/5 h-1 ml-24 mb-16 bg-pink-400" />
+            <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 grid grid-cols-12 gap-4">
                 <div class="col-span-2 mt-16">
-                    <IconsCalendarDays class="w-20 h-20 inline-block" />
+                    <IconsCalendarDays class="w-20 h-20 inline-block text-green-400" />
                 </div>
                 <div class="col-span-10">
-                    <h2 class="mb-4 text-5xl font-semibold">
+                    <h2 class="mb-4 text-5xl text-green-400 font-semibold">
                         Titre
                     </h2>
                     <p class="font-lg">

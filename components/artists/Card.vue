@@ -1,5 +1,5 @@
 <template>
-    <div class="rounded-lg shadow hover:bg-gray-50 hover:shadow-lg duration-300">
+    <div class="rounded-lg shadow text-black bg-gray-50 hover:bg-gray-200 hover:shadow-lg duration-300">
         <NuxtLink :to="`/artistes/${artist.slug}`">
             <img
                 :src="artist.pictureCover"
@@ -7,12 +7,16 @@
                 class="w-full rounded-lg rounded-b-none"
             />
             <div class="p-4">
-                <h2 class="mb-2 text-4xl font-semibold">{{ artist.name }}</h2>
-                <p>{{ artist.shortDescription }}</p>
-                <span class="flex items-center mt-32 text-primary-500">
-                    <IconsCalendarDays class="w-5 h-5 inline-block mr-2" />
-                    {{ artist.day }}
-                </span>
+                <h3 class="mb-2 text-4xl font-semibold">{{ artist.name }}</h3>
+                <div class="flex justify-between items-end">
+                    <p class="text-lg">
+                        {{ artist.genre }}
+                    </p>
+                    <p class="flex items-center mt-16 text-primary-500 text-lg">
+                        <IconsCalendarDays class="w-5 h-5 inline-block mr-2" />
+                        {{ artist.day }}
+                    </p>
+                </div>
             </div>
         </NuxtLink>
     </div>
