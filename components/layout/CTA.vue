@@ -3,12 +3,26 @@
         <a
             href=""
             target="_blank"
-            class="inline-flex justify-center items-center px-24 py-6 border-3 text-white border-green-500 bg-green-500 rounded-lg hover:text-green-500 hover:bg-white duration-200"
+            :class="buttonClasses"
         >
-            <span class="text-xl font-semibold uppercase">
-                Billeterie
+            <span class="text-5xl font-semibold uppercase">
+                Acheter sur Petzi
             </span>
-            <!--IconsArrowTopRightOnSquare class="w-6 h-6" /-->
         </a>
     </div>
 </template>
+
+<script setup lang="ts">
+const props = defineProps({
+    inverted: {
+        type: Boolean,
+        default: false,
+    },
+});
+
+const buttonClasses = computed(() =>
+    props.inverted
+        ? 'inline-flex justify-center items-center px-12 py-3 ring ring-purple-500 text-pink-500 bg-purple-500 rounded-full hover:ring-4 hover:ring-purple-500 duration-500'
+        : 'inline-flex justify-center items-center px-12 py-3 ring ring-pink-500 text-purple-500 bg-pink-500 rounded-full hover:ring-4 hover:ring-pink-500 duration-500'
+);
+</script>

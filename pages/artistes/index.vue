@@ -1,15 +1,9 @@
 <template>
-    <div class="text-gray-50 bg-purple-500">
-        <img src="/public/img/25SO_ersatz_concours.png" alt="Ersatz" class="w-full h-96 object-cover align-top" />
+    <div class="text-pink-500 bg-purple-500">
+        <img src="/public/img/ersatz-cover.jpeg" alt="Ersatz" class="w-full object-cover align-top" />
         
-        <LayoutTitle title="Ersatz Festival" />
-        <section class="mb-16 mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-            <p class="text-5xl font-semibold text-center">
-                22 - 24 Août 2025
-            </p>
-        </section>
+        <LayoutTitle title="Programme" />
 
-        <LayoutSubTitle title="Artistes" />
         <section class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div
