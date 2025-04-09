@@ -54,16 +54,16 @@
 
 <script setup lang="ts">
 import { type Artist } from '~/interfaces/artist';
-import Instagram from '~/components/icons/Instagram.vue';
+// import Instagram from '~/components/icons/Instagram.vue';
 
 const artist = ref<Artist | undefined>(
     useArtistsStore().getArtistBySlug(useRoute().params.slug as string)
 );
 
-const getSocialIcon = (network: string) => {
-    const icons: Record<string, any> = {
-        instagram: Instagram,
-    };
-    return icons[network] || null;
-};
+// const getSocialIcon = (network: string) => {
+//     const icons: Record<string, any> = {
+//         instagram: Instagram,
+//     };
+//     return icons[network] || null;
+// };
 </script>
