@@ -3,9 +3,6 @@ import convertImages from './tools/convert-images';
 
 export default defineNuxtConfig({
     ssr: false,
-    app: {
-        baseURL: '/web-app/',
-    },
     compatibilityDate: '2024-11-01',
     devtools: { enabled: true },
     css: [
