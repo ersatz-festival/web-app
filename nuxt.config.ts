@@ -20,9 +20,4 @@ export default defineNuxtConfig({
             await convertImages();
         },
     },
-    // Ensure Vite is running inside the Docker container
-    devServer: {
-        host: '0.0.0.0',
-        port: 3000,
-    },
 });
