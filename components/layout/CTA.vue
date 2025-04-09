@@ -1,11 +1,11 @@
 <template>
-    <div class="flex justify-center py-16">
+    <div class="flex justify-center items-center py-16">
         <a
             href=""
             target="_blank"
             :class="buttonClasses"
         >
-            <span class="text-5xl font-semibold uppercase">
+            <span class="text-3xl sm:text-4xl md:text-5xl font-semibold uppercase">
                 Acheter sur Petzi
             </span>
         </a>

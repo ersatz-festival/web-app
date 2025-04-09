@@ -26,8 +26,8 @@
                     'border-t border-pink-500': true
                 }"
             >
-                <IconsPlus class="w-12 h-12 text-pink-500" />
-                <h3 class="py-4 text-5xl font-semibold tracking-tight">
+                <IconsPlus class="w-10 h-10 md:w-12 md:h-12 text-pink-500" />
+                <h3 class="py-4 text-4xl md:text-5xl font-semibold tracking-tight">
                     {{ info.title }}
                 </h3>
             </section>

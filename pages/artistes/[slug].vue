@@ -2,17 +2,15 @@
     <div v-if="artist" class="pt-12 text-purple-500 bg-pink-500">
 
         <section class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-12 gap-16">
-                <div class="col-span-4">
-
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                <div class="col-span-1 lg:col-span-4">
                     <img
                         :src="artist.pictureProfile"
                         :alt="artist.name"
-                        class="w-96 h-96 object-cover rounded"
+                        class="w-full lg:w-96 ld:h-96 rounded"
                     />
-
                 </div>
-                <div class="col-span-8">
+                <div class="col-span-1 lg:col-span-8">
                     <div class="flex flex-col space-y-4">
                     
                         <LayoutTitle :title="artist.name" color="purple-500" no-margin />
@@ -27,7 +25,7 @@
                             </p>
                         </div>
 
-                        <p class="text-2xl text-justify">
+                        <p class="text-lg lg:text-2xl text-justify">
                             {{ artist.description }}
                         </p>
 

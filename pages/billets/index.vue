@@ -7,12 +7,12 @@
 
             <LayoutSubTitle title="Prix" />
 
-            <table class="w-full text-2xl">
+            <table class="w-full text-lg sm:text-xl md:text-2xl">
                 <thead>
                     <tr class="border-b border-pink-500">
                         <th class="text-right py-2"></th>
-                        <th class="text-right py-2">Adulte (>16)</th>
-                        <th class="text-right py-2">Enfant (<16)</th>
+                        <th class="text-right py-2">Adulte (&gt;16)</th>
+                        <th class="text-right py-2">Enfant (&lt;16)</th>
                     </tr>
                 </thead>
                 <tbody>
