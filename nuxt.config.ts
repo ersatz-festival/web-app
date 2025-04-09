@@ -1,4 +1,5 @@
 import tailwindcss from "@tailwindcss/vite";
+import convertImages from './tools/convert-images';
 
 export default defineNuxtConfig({
     ssr: false,
@@ -16,6 +17,11 @@ export default defineNuxtConfig({
         plugins: [
             tailwindcss(),
         ],
+    },
+    hooks: {
+        'build:before': async () => {
+            await convertImages();
+        },
     },
     // Ensure Vite is running inside the Docker container
     devServer: {
