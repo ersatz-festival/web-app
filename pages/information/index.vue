@@ -12,7 +12,7 @@
                 
                 <div class="mt-4 grid grid-cols-12 gap-4">
                     <p class="col-span-12 sm:col-span-6 text-xl md:text-2xl">
-                        Le festival de musique alternative et indépendante de la région de St-Blaise.
+                        Ersatz est un festival biannuel de musique et d’art de rue, fondé en 2020. En 2025, il vivra sa quatrième édition.
                     </p>
                 </div>
             </section>
@@ -70,20 +70,20 @@ import IconsMinus from '@/components/icons/Minus.vue';
 
 const informations = [
 {
-    title: 'Accès',
-    text: 'Le festival de musique alternative et indépendante de la région de St-Blaise.',
+    title: 'Emplacement',
+    text: 'Le festival a lieu à la ferme du Clos-aux-Moines, à St-Blaise.',
 },
 {
-    title: 'Transport',
-    text: 'Le festival de musique alternative et indépendante de la région de St-Blaise.',
+    title: 'Venir en train (c\'est mieux !!)',
+    text: 'Les lignes R13, R16, S20 et S21 permettent de venir facilement en transport au festival. Selon les lignes, il est nécéssaire de descendre à St-Blaise ou à Marin-Epagnier, puis de marcher une quinzaine de minutes. Se référer aux informations des CFF pour plus de détail.',
+},
+{
+    title: 'Venir en voiture (c\'est moins bien !!)',
+    text: 'Des informations seront annoncées prochainement concernant les parkings à disposition du public.',
 },
 {
     title: 'Charte Aretha',
-    text: 'Le festival de musique alternative et indépendante de la région de St-Blaise.',
-},
-{
-    title: 'L\'Erste',
-    text: 'Le festival de musique alternative et indépendante de la région de St-Blaise.',
-},
+    text: 'Le festival s\'engage depuis toujours à proposer un environnement safer, et adhère à la charte Aretha.',
+}
 ];
 </script>
