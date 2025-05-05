@@ -14,7 +14,7 @@
                     <div class="flex flex-col space-y-4">
                     
                         <LayoutTitle :title="artist.name" color="purple-500" no-margin />
-
+                        <span v-if="artist.erste" class="text-sm align-top mr-1">Gagnant de l'Erste </span>
                         <div class="flex justify-between items-center">
                             <h1 class="text-2xl text-left">
                                 {{ artist.genre }}
@@ -24,6 +24,7 @@
                                 {{ artist.day }}
                             </p>
                         </div>
+
 
                         <p class="text-lg lg:text-2xl text-justify whitespace-pre-line">
                             {{ artist.description }}
