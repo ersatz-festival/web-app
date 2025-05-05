@@ -1,7 +1,7 @@
 [
     {
         "day": "Vendredi",
-        "description": "\"Professional Ghosts\" est le deuxième album de Softlander. Le quatuor originaire de Berne et de Zurich joue des chansons pop rêveuses et soigneusement construites. \nAprès l'esthétique aux couleurs néons de leur premier disque autoproduit \"Get On Board !\", Softlander emmènent à présent leurs auditeur·ice·s dans des paysages luxuriants, peints au coucher du soleil. Les grooves, extraits de la machine à rêver, ont l'intention de déplacer votre mobilier émotionnel. \nC’est une musique faite de bruns et de jaunes délavés, rappelant les couvertures beiges des pochettes de disques des années 70, s'inspirant de ces sons du passé et les poussant dans un présent incertain. C'est un disque qui parle de souvenirs, de rêves mais aussi de fantômes. Comme le suggère le nom de l’album, elle est opérée par des techniciens invisibles : \"They let the sliders rise and the lights are bleeding through. They are professional ghosts, they are spirits on demand and they are getting it done, oh yeah.\"",
+        "description": "Professional Ghosts est le deuxième album de Softlander. Le quatuor originaire de Berne et de Zurich joue des chansons pop rêveuses et soigneusement construites. \nAprès l'esthétique aux couleurs néons de leur premier disque autoproduit \"Get On Board !\", Softlander emmènent à présent leurs auditeur·ice·s dans des paysages luxuriants, peints au coucher du soleil. Les grooves, extraits de la machine à rêver, ont l'intention de déplacer votre mobilier émotionnel. \nC’est une musique faite de bruns et de jaunes délavés, rappelant les couvertures beiges des pochettes de disques des années 70, s'inspirant de ces sons du passé et les poussant dans un présent incertain. C'est un disque qui parle de souvenirs, de rêves mais aussi de fantômes. Comme le suggère le nom de l’album, elle est opérée par des techniciens invisibles : \"They let the sliders rise and the lights are bleeding through. They are professional ghosts, they are spirits on demand and they are getting it done, oh yeah.\"",
         "genre": "Dream-Pop",
         "name": "Softlander",
         "pictureCover": "/_nuxt/assets/img/softlander-1.jpeg",
@@ -27,15 +27,15 @@
     },
     {
         "day": "Vendredi",
-        "description": "",
-        "genre": "",
-        "name": "RedMoon",
-        "pictureCover": "",
-        "pictureProfile": "",
+        "description": "Alliant rock brut et sonorités électroniques modernes, REDMOON crée un mur de son puissant et mélodique. Leur musique oscille entre intensité et harmonies pop accrocheuses. Il en résulte un univers sonore résolument moderne.\nIls proposent un univers à la croisée des chemins entre progrès technologique, héritage industriel et sensibilité existentielle. Le groupe est à l'image de son époque : dynamique et électrique.",
+        "genre": "Hybrid Rock",
+        "name": "REDMOON",
+        "pictureCover": "/_nuxt/assets/img/redmoon-1.jpg",
+        "pictureProfile": "/_nuxt/assets/img/redmoon-1.jpg",
         "public": true,
         "slug": "redmoon",
         "socialNetworks": {
-            "instagram": ""
+            "instagram": "https://www.instagram.com/weareredmoon/"
         }
     },
     {
@@ -48,26 +48,26 @@
         "public": true,
         "slug": "tomorrow-s-ghost",
         "socialNetworks": {
-            "instagram": ""
+            "instagram": "https://www.instagram.com/tomorrowsghost.band/"
         }
     },
     {
         "day": "Vendredi",
-        "description": "",
-        "genre": "",
-        "name": "Nonante",
-        "pictureCover": "",
-        "pictureProfile": "",
+        "description": "NONANTE est un quatuor post-punk/new wave, formé de musiciens (Nicolas, Adrien, Sebastian et Philippe) adeptes de boucles percutantes et de guitares flottantes.\nÀ la recherche de frissons, ils tricotent et triturent des sons intemporels jusqu’à obtenir une mixture à la frontière entre le garage punk et la techno.\nInspirés à la fois par la pop et le rock psychédélique ainsi que par la musique électronique et le krautrock, NONANTE zigzague sans cesse entre nappes mélodiques et sursauts synthétiques.",
+        "genre": "Post-Punk, New Wave",
+        "name": "NONANTE",
+        "pictureCover": "/_nuxt/assets/img/nonante-1.jpg",
+        "pictureProfile": "/_nuxt/assets/img/nonante-2.jpg",
         "public": true,
         "slug": "nonante",
         "socialNetworks": {
-            "instagram": ""
+            "instagram": "https://www.instagram.com/no.nante/"
         }
     },
     {
         "day": "Vendredi",
         "description": "S’inspirant des années Krautrock, Orphia façonne un son froid et synthétique, empreint d’une nouvelle forme de nostalgie. \nDerrière ses machines, il tisse une musique live qui mêle soigneusement cold wave, électro et EBM, le tout porté par des paroles poignantes et minimalistes.",
-        "genre": "Synth, Cold W ave, Electro, Pop",
+        "genre": "Synth, Cold Wave, Electro, Pop",
         "name": "Orphia",
         "pictureCover": "/_nuxt/assets/img/orphia-1.jpg",
         "pictureProfile": "/_nuxt/assets/img/orphia-2.jpg",
@@ -92,15 +92,15 @@
     },
     {
         "day": "Samedi",
-        "description": "",
-        "genre": "",
+        "description": "Hantébius est un projet artistique qui explore les frontières du rock et de la musique électronique à travers des chansons brutes et des textes profondément personnels.\nSur scène, c’est un voyage émotionnel intense où se tisse une véritable complicité avec le public.",
+        "genre": "Rock, Electro",
         "name": "Hantébius",
-        "pictureCover": "",
-        "pictureProfile": "",
+        "pictureCover": "/_nuxt/assets/img/hantebius-1.JPG",
+        "pictureProfile": "/_nuxt/assets/img/hantebius-2.JPG",
         "public": true,
         "slug": "hantebius",
         "socialNetworks": {
-            "instagram": ""
+            "instagram": "https://www.instagram.com/_hantebius_/"
         }
     },
     {
@@ -183,15 +183,15 @@
     },
     {
         "day": "Dimanche",
-        "description": "",
-        "genre": "",
+        "description": "Nappes de brouillard, synthétiseurs gazeux, percussions solides, basses liquides, l’univers du premier album de ESAÏA est un appel à la rêverie, les pieds solidement ancrés dans la culture sound system.\nConçu comme un voyage initiatique au cours duquel le Berghain aurait posé ses valises à Kingston, MINDSCAPES plonge l’auditeur dans un clair-obscur cinématographique tapissé d’infrabasses.\nPropulsée par un besoin crucial d’hybridation et d’expérimentation à l’image des pionniers du dub, ESAÏA repousse les limites du genre pour se les réapproprier. Conçu comme un objet organique, la musique d’ESAÏA vibre avec les visuels de MADAME IPSUM, luminescences propices à l’éveil de nos synapses.",
+        "genre": "Dub, Reggae",
         "name": "Esaïa",
-        "pictureCover": "",
-        "pictureProfile": "",
+        "pictureCover": "/_nuxt/assets/img/esaia-1.jpg",
+        "pictureProfile": "/_nuxt/assets/img/esaia-2.jpg",
         "public": true,
         "slug": "esaia",
         "socialNetworks": {
-            "instagram": ""
+            "instagram": "https://www.instagram.com/esaia.eaz"
         }
     },
     {
@@ -235,15 +235,15 @@
     },
     {
         "day": "Dimanche",
-        "description": "",
-        "genre": "",
-        "name": "Eggs and tiaras",
-        "pictureCover": "",
-        "pictureProfile": "",
+        "description": "Une émotion qui s’inscrit dans un sentiment excessif. Frôle le mystique et réinvente le sombre avec des histoires joyeusement funestes.\nDes kicks vitaminés et des synthétiseurs sauvages entourent des voix fines. Les paroles chantées en allemand, français et anglais évoquent des histoires quotidiennes dérivant dans les eaux profondes de l’absurde.\nC'est ainsi que l'on peut décrire la musique de Mara Meier et Laetitia Khiara. Un duo d'électro-clashpop de Zürich et Neuchâtel fondé en 2021.\neggs and tiaras fait partie de la sélection 2023-2024 du programme d’encadrement pour artistes Embrayage de la Case à Chocs, à Neuchâtel.",
+        "genre": "Electro Clashpop",
+        "name": "eggs and tiaras",
+        "pictureCover": "/_nuxt/assets/img/eat-1.jpg",
+        "pictureProfile": "/_nuxt/assets/img/eat-2.jpg",
         "public": true,
         "slug": "eggs-and-tiaras",
         "socialNetworks": {
-            "instagram": ""
+            "instagram": "https://www.instagram.com/eggs_and_tiaras/"
         }
     }
 ]
