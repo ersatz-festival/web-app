@@ -1,5 +1,5 @@
 <template>
-    <div v-if="artist" class="pt-12 text-purple-500 bg-pink-500">
+    <div v-if="artist" class="pt-6 sm:pt-8 md:pt-12 text-purple-500 bg-pink-500">
 
         <section class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
@@ -16,16 +16,16 @@
                         <LayoutTitle :title="artist.name" color="purple-500" no-margin />
 
                         <div class="flex justify-between items-center">
-                            <h1 class="text-2xl text-left">
+                            <h1 class="text-lg sm:text-xl md:text-2xl text-left">
                                 {{ artist.genre }}
                             </h1>
 
-                            <p class="text-2xl">
+                            <p class="text-lg sm:text-xl md:text-2xl">
                                 {{ artist.day }}
                             </p>
                         </div>
 
-                        <p class="text-lg lg:text-2xl text-justify">
+                        <p class="text-base sm:text-lg lg:text-2xl text-justify">
                             {{ artist.description }}
                         </p>
 

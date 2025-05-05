@@ -1,7 +1,7 @@
 <template>
     <section :class="{ 'mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8': !props.noMargin }">
         <h1
-            class="text-7xl sm:text-8xl md:text-9xl font-semibold tracking-tight"
+            class="text-5xl sm:text-7xl md:text-9xl font-semibold tracking-tight"
             :class="props.color"
         >
             {{ props.title }}

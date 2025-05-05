@@ -5,7 +5,7 @@
             target="_blank"
             :class="buttonClasses"
         >
-            <span class="text-3xl sm:text-4xl md:text-5xl font-semibold uppercase">
+            <span class="text-xl sm:text-4xl md:text-5xl font-semibold uppercase">
                 Acheter sur Petzi
             </span>
         </a>

@@ -7,7 +7,7 @@
 
             <LayoutSubTitle title="Prix" />
 
-            <table class="w-full text-lg sm:text-xl md:text-2xl">
+            <table class="w-full text-base sm:text-xl md:text-2xl">
                 <thead>
                     <tr class="border-b border-pink-500">
                         <th class="text-right py-2"></th>
