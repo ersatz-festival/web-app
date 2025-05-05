@@ -1,5 +1,5 @@
 <template>
-    <h2 class="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight">
+    <h2 class="text-3xl sm:text-5xl md:text-6xl font-semibold tracking-tight">
         {{ props.title }}
     </h2>
 </template>

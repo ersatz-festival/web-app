@@ -1,11 +1,11 @@
 <template>
     <header class="fixed top-0 inset-x-0 text-pink-500 bg-purple-500 shadow-md">
-        <div class="mx-auto flex max-w-7xl items-center justify-end gap-8 p-6 lg:px-8">
+        <div class="mx-auto flex max-w-7xl items-center justify-end gap-4 sm:gap-6 md:gap-8 p-6 lg:px-8">
             <NuxtLink
                 v-for="link in links"
                 :key="link.name"
                 :to="link.to"
-                class="text-lg font-semibold hover:text-gray-50 duration-200 relative"
+                class="text-sm sm:text-base md:text-lg font-semibold hover:text-gray-50 duration-200 relative"
                 :class="{ 'active-link': isActive(link.to) }"
             >
                 {{ link.name }}
@@ -16,7 +16,7 @@
             </NuxtLink>
         </div>
     </header>
-    <main class="pt-18">
+    <main class="pt-16 sm:pt-18">
         <NuxtPage />
     </main>
     <footer class="pt-24 pb-12 text-purple-500 bg-pink-500">

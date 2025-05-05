@@ -7,12 +7,12 @@
                 class="w-full rounded-lg rounded-b-none"
             />
             <div class="p-4">
-                <h3 class="mb-2 text-4xl font-semibold">{{ artist.name }}</h3>
+                <h3 class="mb-2 text-3xl sm:text-4xl font-semibold">{{ artist.name }}</h3>
                 <div class="flex justify-between items-end">
                     <p class="text-lg">
                         {{ artist.genre }}
                     </p>
-                    <p class="flex items-center mt-16 text-lg">
+                    <p class="flex items-center mt-12 sm:mt-14 md:mt-16 text-base sm:text-lg">
                         <IconsCalendarDays class="w-5 h-5 inline-block mr-2" />
                         {{ artist.day }}
                     </p>

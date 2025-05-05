@@ -11,7 +11,7 @@
                 </div>
                 
                 <div class="mt-4 grid grid-cols-12 gap-4">
-                    <p class="col-span-12 sm:col-span-6 text-xl md:text-2xl">
+                    <p class="col-span-12 sm:col-span-6 text-lg sm:text-xl md:text-2xl">
                         Le festival de musique alternative et indépendante de la région de St-Blaise.
                     </p>
                 </div>
@@ -31,7 +31,7 @@
                             :is="open ? IconsMinus : IconsPlus"
                             class="w-10 h-10 md:w-12 md:h-12 text-pink-500 group-hover:text-gray-50 duration-200"
                         />
-                        <h3 class="py-4 text-4xl md:text-5xl font-semibold tracking-tight">
+                        <h3 class="py-4 text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight">
                             {{ info.title }}
                         </h3>
                     </DisclosureButton>
@@ -44,7 +44,7 @@
                         leave-to-class="transform scale-95 opacity-0"
                     >
                         <DisclosurePanel>
-                            <p class="pb-2 text-xl md:text-2xl">
+                            <p class="pb-2 text-lg sm:text-xl md:text-2xl">
                                 {{ info.text }}
                             </p>
                         </DisclosurePanel>
