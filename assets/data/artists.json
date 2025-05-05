@@ -1,7 +1,7 @@
 [
     {
         "day": "Vendredi",
-        "description": "\"Professional Ghosts\" est le deuxième album de Softlander. Le quatuor originaire de Berne et de Zurich joue des chansons pop rêveuses et soigneusement construites. Après l'esthétique aux couleurs néons de leur premier disque autoproduit \"Get On Board !\", Softlander emmènent à présent leurs auditeur·ice·s dans des paysages luxuriants, peints au coucher du soleil. Les grooves, extraits de la machine à rêver, ont l'intention de déplacer votre mobilier émotionnel. C’est une musique faite de bruns et de jaunes délavés, rappelant les couvertures beiges des pochettes de disques des années 70, s'inspirant de ces sons du passé et les poussant dans un présent incertain. C'est un disque qui parle de souvenirs, de rêves mais aussi de fantômes. Comme le suggère le nom de l’album, elle est opérée par des techniciens invisibles : \"They let the sliders rise and the lights are bleeding through. They are professional ghosts, they are spirits on demand and they are getting it done, oh yeah.\"", 
+        "description": "\"Professional Ghosts\" est le deuxième album de Softlander. Le quatuor originaire de Berne et de Zurich joue des chansons pop rêveuses et soigneusement construites. \nAprès l'esthétique aux couleurs néons de leur premier disque autoproduit \"Get On Board !\", Softlander emmènent à présent leurs auditeur·ice·s dans des paysages luxuriants, peints au coucher du soleil. Les grooves, extraits de la machine à rêver, ont l'intention de déplacer votre mobilier émotionnel. \nC’est une musique faite de bruns et de jaunes délavés, rappelant les couvertures beiges des pochettes de disques des années 70, s'inspirant de ces sons du passé et les poussant dans un présent incertain. C'est un disque qui parle de souvenirs, de rêves mais aussi de fantômes. Comme le suggère le nom de l’album, elle est opérée par des techniciens invisibles : \"They let the sliders rise and the lights are bleeding through. They are professional ghosts, they are spirits on demand and they are getting it done, oh yeah.\"",
         "genre": "Dream-Pop",
         "name": "Softlander",
         "pictureCover": "/_nuxt/assets/img/softlander-1.jpeg",
@@ -66,7 +66,7 @@
     },
     {
         "day": "Vendredi",
-        "description": "S’inspirant des années Krautrock, Orphia façonne un son froid et synthétique, empreint d’une nouvelle forme de nostalgie. Derrière ses machines, il tisse une musique live qui mêle soigneusement cold wave, électro et EBM, le tout porté par des paroles poignantes et minimalistes.",
+        "description": "S’inspirant des années Krautrock, Orphia façonne un son froid et synthétique, empreint d’une nouvelle forme de nostalgie. \nDerrière ses machines, il tisse une musique live qui mêle soigneusement cold wave, électro et EBM, le tout porté par des paroles poignantes et minimalistes.",
         "genre": "Synth, Cold wave, Electro, Pop",
         "name": "Orphia",
         "pictureCover": "/_nuxt/assets/img/orphia-1.jpg",
@@ -171,7 +171,7 @@
     {
         "day": "Samedi",
         "description": "",
-        "genre": "",
+        "genre": "Techno",
         "name": "Pho3 b2b 13R",
         "pictureCover": "",
         "pictureProfile": "",
@@ -196,7 +196,7 @@
     },
     {
         "day": "Dimanche",
-        "description": "Zadkiel est un DJ suisse-paraguayen, membre du collectif neuchâtelois Retroblast, aussi connu sous le nom d’artiste HZJM. C’est à partir de 2023, qu’iel enchaîne avec le SAS à Delémont, La Case à Chocs à Neuchâtel, la Coupole à Bienne et Festi’Neuch, où iel partagera des line-up avec: The Lady Machine, MCR-T, Miss Bashful x DBBD et Shoki287. C’est avec fluidité qu’iel jongle entre les styles, en passant par de la techno, à du breakbeat ou de la house. Pour Ersatz Festival, Zadkiel prépare une track selection housy pleine de groove et de bonne humeur pour vous faire danser. Passionné.x par la club culture, iel cherche à découvrir et à faire découvrir. Dans ses inspirations on y retrouve un panel d’artistes variés tels que: Rosa Terenzi, Sally C, L.P. Rhythm, Shonky, Ignition Technician et plus encore.",
+        "description": "Zadkiel est un DJ suisse-paraguayen, membre du collectif neuchâtelois Retroblast, aussi connu sous le nom d’artiste HZJM. C’est à partir de 2023, qu’iel enchaîne avec le SAS à Delémont, La Case à Chocs à Neuchâtel, la Coupole à Bienne et Festi’Neuch, où iel partagera des line-up avec: The Lady Machine, MCR-T, Miss Bashful x DBBD et Shoki287. \nC’est avec fluidité qu’iel jongle entre les styles, en passant par de la techno, à du breakbeat ou de la house. Pour Ersatz Festival, Zadkiel prépare une track selection housy pleine de groove et de bonne humeur pour vous faire danser. \nPassionné.x par la club culture, iel cherche à découvrir et à faire découvrir. Dans ses inspirations on y retrouve un panel d’artistes variés tels que: Rosa Terenzi, Sally C, L.P. Rhythm, Shonky, Ignition Technician et plus encore.",
         "genre": "Progressive House, Hip House",
         "name": "Zadkiel",
         "pictureCover": "/_nuxt/assets/img/zadkiel-1.jpg",
@@ -222,7 +222,7 @@
     },
     {
         "day": "Dimanche",
-        "description": "Isia dessine un univers musical riche et audacieux, où des sonorités R&B se mêlent à des atmosphères mystérieuses et aériennes et au trip-hop. Portée par des influences variées et une sensibilité unique, elle enchante avec des chansons interprétées en français, anglais et portugais du Brésil, révélant toute la profondeur de son art. Sur scène, Isia livre des performances intenses et captivantes, créant une alchimie rare avec son public, entre émotion brute et élégance.",
+        "description": "Isia dessine un univers musical riche et audacieux, où des sonorités R&B se mêlent à des atmosphères mystérieuses et aériennes et au trip-hop. \nPortée par des influences variées et une sensibilité unique, elle enchante avec des chansons interprétées en français, anglais et portugais du Brésil, révélant toute la profondeur de son art. Sur scène, Isia livre des performances intenses et captivantes, créant une alchimie rare avec son public, entre émotion brute et élégance.",
         "genre": "R&B Alternatif, Neo-Soul, Trip-Hop",
         "name": "Isia",
         "pictureCover": "/_nuxt/assets/img/isia-1.jpeg",
@@ -246,4 +246,4 @@
             "instagram": ""
         }
     }
-]       
+]
