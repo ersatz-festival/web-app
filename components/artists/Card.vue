@@ -7,7 +7,7 @@
                 class="w-full rounded-lg rounded-b-none"
             />
             <div class="p-4">
-                <h3 class="mb-2 text-4xl font-semibold">{{ artist.name }}</h3>
+                <h3 class="mb-2 text-4xl font-semibold">{{ artist.name.toUpperCase() }}</h3>
                 <div class="flex justify-between items-end">
                     <p class="text-lg">
                         {{ artist.genre }}
