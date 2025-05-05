@@ -40,11 +40,11 @@
     },
     {
         "day": "Vendredi",
-        "description": "",
-        "genre": "",
-        "name": "Tomorrow's ghost",
-        "pictureCover": "",
-        "pictureProfile": "",
+        "description": "À l’écoute de leur premier album, on s’imagine dans une cave londonienne poisseuse au milieu des années quatre-vingts : TOMORROW’S GHOST délivrent un post-punk crasseux et désenchanté – rock minimaliste, riffs de guitares distordus et vitupérations vocales désabusées.\nLeur musique se déguste en live lors de prestations du plus bel effet, au cours desquelles le duo originel se mue en trio.",
+        "genre": "Dark Wave",
+        "name": "TOMORROW’S GHOST",
+        "pictureCover": "/_nuxt/assets/img/tg-1.jpg",
+        "pictureProfile": "/_nuxt/assets/img/tg-2.jpg",
         "public": true,
         "slug": "tomorrow-s-ghost",
         "socialNetworks": {
@@ -67,7 +67,7 @@
     {
         "day": "Vendredi",
         "description": "S’inspirant des années Krautrock, Orphia façonne un son froid et synthétique, empreint d’une nouvelle forme de nostalgie. \nDerrière ses machines, il tisse une musique live qui mêle soigneusement cold wave, électro et EBM, le tout porté par des paroles poignantes et minimalistes.",
-        "genre": "Synth, Cold wave, Electro, Pop",
+        "genre": "Synth, Cold W ave, Electro, Pop",
         "name": "Orphia",
         "pictureCover": "/_nuxt/assets/img/orphia-1.jpg",
         "pictureProfile": "/_nuxt/assets/img/orphia-2.jpg",
@@ -105,28 +105,28 @@
     },
     {
         "day": "Samedi",
-        "description": "",
-        "genre": "",
-        "name": "Ely tina",
-        "pictureCover": "",
-        "pictureProfile": "",
+        "description": "Je m’appelle Ely Tina, j’ai 19 ans et je viens de Bienne. J’écris et chante depuis mes 12 ans et je fais du piano depuis que j’ai 6 ans. Depuis 2021 je fais des concerts où je présente mes compositions de chant et je m’accompagne au piano. Depuis 2023 je suis la plupart du temps accompagnée de mes deux musiciens : Simon Zbinden à la basse et la guitare, et Adrien Kobel à la batterie. J’ai participé au concours de Dimension Jeunes Talents et j’ai donc eu l’occasion de jouer sur la scène de la Marée à Festi’neuch 2023.",
+        "genre": "RnB, Soul, Jazz, Pop, Neo RnB",
+        "name": "Ely Tina",
+        "pictureCover": "/_nuxt/assets/img/elytina-1.jpg",
+        "pictureProfile": "/_nuxt/assets/img/elytina-2.jpg",
         "public": true,
         "slug": "ely-tina",
         "socialNetworks": {
-            "instagram": ""
+            "instagram": "https://www.instagram.com/elytinaa/"
         }
     },
     {
         "day": "Samedi",
-        "description": "",
-        "genre": "",
-        "name": "Pug impact",
-        "pictureCover": "",
-        "pictureProfile": "",
+        "description": "Doux mélange de voix pailletées, de rythmiques numérisées et de guitare électrifiée, Pug Impact est un groupe neuchâtelois qui compose en explorant et en s'amusant.\nLes inspirations sont multiples, allant de l'électro planante à l'indie rock, le tout saupoudré de styles non définis à savourer où que vous soyez. En résumé, Pug Impact, c'est de l'amitié musicale à partager, toujours spontanée, et surtout, qui vient du cœur.\nLes paroles sont nourries par les questionnements et expériences de vie des trois membres du groupe. Par l’alliance de textes mélancoliques et de mélodies enjouées, Pug Impact illustre le grand huit de la vie à sa manière.",
+        "genre": "Indie Rock Electro",
+        "name": "Pug Impact",
+        "pictureCover": "/_nuxt/assets/img/pugimpact-1.jpg",
+        "pictureProfile": "/_nuxt/assets/img/pugimpact-2.jpg",
         "public": true,
         "slug": "pug-impact",
         "socialNetworks": {
-            "instagram": ""
+            "instagram": "https://www.instagram.com/pug_impact/"
         }
     },
     {
@@ -157,15 +157,15 @@
     },
     {
         "day": "Samedi",
-        "description": "",
-        "genre": "",
+        "description":"Barbicop est le projet solo de Madeleine Sandri, musicienne suisse de 24 ans. Son univers mêle une pop entraînante mais étrange à une esthétique colorée et décalée, tissant satire et échantillons vocaux troublants dans une exploration ludique des personnages, identités et images numériques.\nAprès son deuxième EP Barbicopium, Barbicop monte sur scène fin 2024, proposant un live rafraîchissant, soigneusement conçu, à la fois humoristique et puissant à travers l’Europe. Ayant partagé la scène avec des artistes comme Irène Drésel aux Docks et BODEGA au Fri-Son, elle s’est produite sur certaines des plus grandes scènes suisses. Sa pop décalée et non conventionnelle, sa personnalité marquée et son talent pour créer des univers — combinés à la complicité unique qu’elle partage sur scène avec son frère lumberGucci (batteur) — laissent le public touché et captivé.",
+        "genre": "Hyper-Pop, Lo-fi Pop",
         "name": "Barbicop",
-        "pictureCover": "",
-        "pictureProfile": "",
+        "pictureCover": "/_nuxt/assets/img/barbicop-1.jpg",
+        "pictureProfile": "/_nuxt/assets/img/barbicop-2.jpg",
         "public": true,
         "slug": "barbicop",
         "socialNetworks": {
-            "instagram": ""
+            "instagram": "https://www.instagram.com/barbicop.maddie/"
         }
     },
     {
@@ -209,21 +209,21 @@
     },
     {
         "day": "Dimanche",
-        "description": "",
-        "genre": "",
+        "description": "Roxo est un passionné de musique électronique, un explorateur sonore et un dénicheur de pépites musicales qui aime partager ces trouvailles.\nEn tant que moitié du duo Psycho Weazel, il vous invite à plonger dans un univers en constante évolution, où les frontières entre Trance, House, Breakbeat et Hypnotic Groove s’estompent pour créer une expérience immersive unique.\nChaque set de Roxo est une invitation à découvrir des sonorités inédites aux rythmes envoûtants, tout en restant fidèle à l’esprit du partage. Laissez-vous captiver par ses mixs audacieux et sa passion contagieuse. Roxo est là pour vous surprendre à chaque instant.",
+        "genre": "Trance, House, Hypnotic Groove",
         "name": "Roxo",
-        "pictureCover": "",
-        "pictureProfile": "",
+        "pictureCover": "/_nuxt/assets/img/roxo-1.jpg",
+        "pictureProfile": "/_nuxt/assets/img/roxo-2.jpg",
         "public": true,
         "slug": "roxo",
         "socialNetworks": {
-            "instagram": ""
+            "instagram": "https://www.instagram.com/roxo_"
         }
     },
     {
         "day": "Dimanche",
         "description": "Isia dessine un univers musical riche et audacieux, où des sonorités R&B se mêlent à des atmosphères mystérieuses et aériennes et au trip-hop. \nPortée par des influences variées et une sensibilité unique, elle enchante avec des chansons interprétées en français, anglais et portugais du Brésil, révélant toute la profondeur de son art. Sur scène, Isia livre des performances intenses et captivantes, créant une alchimie rare avec son public, entre émotion brute et élégance.",
-        "genre": "R&B Alternatif, Neo-Soul, Trip-Hop",
+        "genre": "RnB Alternatif, Neo-Soul, Trip-Hop",
         "name": "Isia",
         "pictureCover": "/_nuxt/assets/img/isia-1.jpeg",
         "pictureProfile": "/_nuxt/assets/img/isia-2.jpeg",
