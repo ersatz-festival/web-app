@@ -14,15 +14,15 @@
     },
     {
         "day": "Vendredi",
-        "description": "",
-        "genre": "",
+        "description": "Batbait fait une musique qui va bien au-delà des guitares saturées et des rythmes rapides. Leur son est riche en couches : profond, puissant et vibrant d’intensité. Lorsqu’il y a des problèmes avec le patriarcat, Batbait résonne comme une réponse.\nBatbait joue sa musique à sa manière. Iels ne suivent pas les règles.\n“DIY” signifie qu’iels font tout elles-mêmes. Les quatre musicien·ne·s ont leur propre langage musical. Iels mélangent différents effets comme la distorsion et l’écho avec des rythmes singuliers. Musique, paroles et esthétique s’assemblent pour créer leur art. Iels mettent l’accent sur la liberté et l’expression de soi.\nBatbait montre que le rock peut être bruyant et enragé, mais aussi doux et réfléchi. Leur son est unique. Batbait suit sa propre voie. Après leur premier album Dirty Clothes, de nouveaux morceaux arrivent bientôt.",
+        "genre": "Rock, Garage Rock, Indie",
         "name": "Batbait",
-        "pictureCover": "",
-        "pictureProfile": "",
+        "pictureCover": "/_nuxt/assets/img/batbait-1.jpg",
+        "pictureProfile": "/_nuxt/assets/img/batbait-2.jpg",
         "public": true,
         "slug": "batbait",
         "socialNetworks": {
-            "instagram": ""
+            "instagram": "https://www.instagram.com/batbaitband/"
         }
     },
     {
@@ -80,10 +80,10 @@
     {
         "day": "Samedi",
         "description": "",
-        "genre": "",
-        "name": "Coup de coeur",
-        "pictureCover": "",
-        "pictureProfile": "",
+        "genre": "Hyper-Pop, Rap",
+        "name": "COUP DE COEUR",
+        "pictureCover": "/_nuxt/assets/img/cdc-1.png",
+        "pictureProfile": "/_nuxt/assets/img/cdc-2.jpg",
         "public": true,
         "slug": "coup-de-coeur",
         "socialNetworks": {
@@ -133,15 +133,15 @@
     },
     {
         "day": "Samedi",
-        "description": "",
+        "description": "Dibby, l’éclair de la scène rap queer, renversant les codes d’un genre qui a besoin de renouveau. À 29 ans, il est auteur, beatmaker, interprète, créateur de vêtements.\nCe personnage aux multiples talents nous fait voyager dans son univers transcendant, euphorisant et inclusif, au son des synthétiseurs futuristes et de basses saturées, mêlées à des punchlines fortes, des textes crus, militants et des storytellings dans lesquels il ose mettre en écriture les aspects les plus vulnérables de sa vie.\nUne véritable bête de scène, son univers prend une tournure plus intense et rock face au public. Accompagné d’un batteur, d’un guitariste et de 7 danseur.euse.xs et de son style excentrique. Ses shows sont percutants et son aisance à mettre le public dans sa poche promet à chaque fois une expérience mémorable.\n2025 est l’année du renouveau : un nouvel album “HARDCOEUR” attendu, Dibby, ses musiciens (Dim the Drummer & Alex Merlin) et ses danseur.euse.xs sont prêt.e.xs à casser les codes habituels du rap, pour marquer de pied ferme l’arrivée d’une nouvelle ère innovante, et queer.",
         "genre": "",
         "name": "Dibby",
         "pictureCover": "",
-        "pictureProfile": "",
+        "pictureProfile": ""    ,
         "public": true,
         "slug": "dibby",
         "socialNetworks": {
-            "instagram": ""
+            "instagram": "https://www.instagram.com/dibby.officiel"
         }
     },
     {

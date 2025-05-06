@@ -15,13 +15,16 @@
                     
                         <LayoutTitle :title="artist.name" color="purple-500" no-margin />
                         <span v-if="artist.erste" class="text-sm align-top mr-1">Gagnant de l'Erste 2025</span>
-                        <div class="flex justify-between items-center">
+                        <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
                             <h1 class="text-2xl text-left">
                                 {{ artist.genre }}
                             </h1>
-
-                            <p class="text-2xl">
+                            <p class="flex items-center text-2xl">
+                                <IconsCalendarDays class="w-5 h-5 inline-block mr-2" />
                                 {{ artist.day }}
+                                <span v-if="artist.day === 'Vendredi'">&nbsp22 août 2025</span>
+                                <span v-else-if="artist.day === 'Samedi'">&nbsp23 août 2025</span>
+                                <span v-else-if="artist.day === 'Dimanche'">&nbsp24 août 2025</span>
                             </p>
                         </div>
 

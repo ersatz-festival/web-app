@@ -30,51 +30,58 @@ const sortedArtists = computed(() => {
 
         <LayoutTitle title="Programme" />
 
-        <!-- Boutons de filtre (style tuile) -->
-        <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-            <div class="flex flex-wrap gap-4">
-                <button
-                class="rounded-lg shadow duration-300 px-6 py-3 text-lg font-semibold transition-colors"
-                :class="{
-                    'bg-pink-500 text-white': !filterDay,
-                    'text-purple-500 bg-gray-50 hover:bg-gray-200 hover:shadow-lg': filterDay
-                }"
-                @click="filterDay = null"
-                >
-                Tous
-                </button>
-                <button
-                class="rounded-lg shadow duration-300 px-6 py-3 text-lg font-semibold transition-colors"
-                :class="{
-                    'bg-pink-500 text-white': filterDay === 'Vendredi',
-                    'text-purple-500 bg-gray-50 hover:bg-gray-200 hover:shadow-lg': filterDay !== 'Vendredi'
-                }"
-                @click="filterDay = 'Vendredi'"
-                >
-                Vendredi
-                </button>
-                <button
-                class="rounded-lg shadow duration-300 px-6 py-3 text-lg font-semibold transition-colors"
-                :class="{
-                    'bg-pink-500 text-white': filterDay === 'Samedi',
-                    'text-purple-500 bg-gray-50 hover:bg-gray-200 hover:shadow-lg': filterDay !== 'Samedi'
-                }"
-                @click="filterDay = 'Samedi'"
-                >
-                Samedi
-                </button>
-                <button
-                class="rounded-lg shadow duration-300 px-6 py-3 text-lg font-semibold transition-colors"
-                :class="{
-                    'bg-pink-500 text-white': filterDay === 'Dimanche',
-                    'text-purple-500 bg-gray-50 hover:bg-gray-200 hover:shadow-lg': filterDay !== 'Dimanche'
-                }"
-                @click="filterDay = 'Dimanche'"
-                >
-                Dimanche
-                </button>
-            </div>
-            </div>
+        <!-- Section filtres -->
+        <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 space-y-4">
+        
+        <!-- Bouton "Tous" -->
+        <div>
+            <button
+            class="rounded-lg shadow duration-300 px-6 py-3 text-lg font-semibold transition-colors"
+            :class="{
+                'bg-pink-500 text-white': !filterDay,
+                'text-purple-500 bg-gray-50 hover:bg-gray-200 hover:shadow-lg': filterDay
+            }"
+            @click="filterDay = null"
+            >
+            Tous
+            </button>
+        </div>
+
+        <!-- Boutons jours scrollables -->
+        <div class="flex gap-4 overflow-x-auto whitespace-nowrap sm:overflow-visible">
+            <button
+            class="rounded-lg shadow duration-300 px-6 py-3 text-lg font-semibold transition-colors"
+            :class="{
+                'bg-pink-500 text-white': filterDay === 'Vendredi',
+                'text-purple-500 bg-gray-50 hover:bg-gray-200 hover:shadow-lg': filterDay !== 'Vendredi'
+            }"
+            @click="filterDay = 'Vendredi'"
+            >
+            Vendredi
+            </button>
+            <button
+            class="rounded-lg shadow duration-300 px-6 py-3 text-lg font-semibold transition-colors"
+            :class="{
+                'bg-pink-500 text-white': filterDay === 'Samedi',
+                'text-purple-500 bg-gray-50 hover:bg-gray-200 hover:shadow-lg': filterDay !== 'Samedi'
+            }"
+            @click="filterDay = 'Samedi'"
+            >
+            Samedi
+            </button>
+            <button
+            class="rounded-lg shadow duration-300 px-6 py-3 text-lg font-semibold transition-colors"
+            :class="{
+                'bg-pink-500 text-white': filterDay === 'Dimanche',
+                'text-purple-500 bg-gray-50 hover:bg-gray-200 hover:shadow-lg': filterDay !== 'Dimanche'
+            }"
+            @click="filterDay = 'Dimanche'"
+            >
+            Dimanche
+            </button>
+        </div>
+
+        </div>
 
 
         <!-- Grille des artistes -->
