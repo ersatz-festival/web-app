@@ -55,7 +55,7 @@ const route = useRoute();
 
 const links = [
     { name: 'Programme', to: '/programme' },
-    { name: 'Information', to: '/information' },
+    { name: 'Informations', to: '/informations' },
     { name: 'Billets', to: '/billets' },
 ];
 
