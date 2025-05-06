@@ -10,8 +10,8 @@
                     <LayoutSubTitle title="Ersatz Festival" />
                 </div>
                 
-                <div class="mt-4 grid grid-cols-12 gap-4">
-                    <p class="col-span-12 sm:col-span-6 text-xl md:text-2xl">
+                <div class="mt-4 grid grid-cols-6 gap-4">
+                    <p class="col-span-6 sm:col-span-6 text-xl md:text-2xl">
                         Ersatz est un festival biannuel de musique et d’art de rue, fondé en 2020. En 2025, il vivra sa quatrième édition.
                     </p>
                 </div>
@@ -74,7 +74,7 @@ const informations = [
     text: 'Le festival a lieu à la ferme du Clos-aux-Moines, à St-Blaise.',
 },
 {
-    title: 'Venir en train (c\'est mieux !!)',
+    title: 'Venir en transports publics (c\'est mieux !!)',
     text: 'Les lignes R13, R16, S20 et S21 permettent de venir facilement en transport au festival. Selon les lignes, il est nécéssaire de descendre à St-Blaise ou à Marin-Epagnier, puis de marcher une quinzaine de minutes. Se référer aux informations des CFF pour plus de détail.',
 },
 {
@@ -84,6 +84,10 @@ const informations = [
 {
     title: 'Charte Aretha',
     text: 'Le festival s\'engage depuis toujours à proposer un environnement safer, et adhère à la charte Aretha.',
+},
+{
+    title: 'Dormir sur place',
+    text: 'Nouveau en 2025 : Il sera possible de planter sa tente et de dormir sur place le vendredi et le samedi soir. \nUne petite restauration sera également disponible.',
 }
 ];
 </script>
