@@ -11,8 +11,8 @@
                 <thead>
                     <tr class="border-b border-pink-500">
                         <th class="text-right py-2"></th>
-                        <th class="text-right py-2">Adulte (&gt;16)</th>
-                        <th class="text-right py-2">Enfant (&lt;16)</th>
+                        <th class="text-right py-2">1 jour</th>
+                        <th class="text-right py-2">Pass 3 jours</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -25,10 +25,10 @@
                             {{ price.name }}
                         </td>
                         <td class="text-right py-2">
-                            {{ price.adultPrice }}.- chf
+                            CHF {{ price.dayPrice }}.-
                         </td>
                         <td class="text-right py-2">
-                            {{ price.childPrice }}.- chf
+                            {{ price.passPrice ? 'CHF ' + price.passPrice + '.-' : '-' }}
                         </td>
                     </tr>
                 </tbody>
@@ -44,24 +44,29 @@
 <script setup lang="ts">
 const pricesPerDay = [
     {
-        name: 'Les trois jours',
-        adultPrice: 50,
-        childPrice: 10,
+        name: 'Early-bird',
+        dayPrice: 15,
+        passPrice: 45,
     },
     {
-        name: 'Vendredi',
-        adultPrice: 20,
-        childPrice: 5,
+        name: 'Normal',
+        dayPrice: 20,
+        passPrice: 50,
     },
     {
-        name: 'Samedi',
-        adultPrice: 20,
-        childPrice: 5,
+        name: 'Soutien',
+        dayPrice: 30,
+        passPrice: 60,
     },
     {
-        name: 'Dimanche',
-        adultPrice: 20,
-        childPrice: 5,
+        name: 'Sur place',
+        dayPrice: 25,
+        
+    },
+    {
+        name: 'Camping',
+        dayPrice: 3,
+        
     },
 ];
 </script>
