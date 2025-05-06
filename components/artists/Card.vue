@@ -7,7 +7,7 @@
                 class="w-full rounded-lg rounded-b-none"
             />
             <div class="p-4">
-                <h3 class="mb-2 text-4xl font-semibold">
+                <h3 class="mb-2 text-4xl">
                     <span v-if="artist.erste" class="text-sm align-top mr-1">l'Erste </span>{{ artist.name.toUpperCase() }}
                 </h3>
                 <div class="flex justify-between items-end">

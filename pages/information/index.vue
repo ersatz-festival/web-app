@@ -31,7 +31,7 @@
                             :is="open ? IconsMinus : IconsPlus"
                             class="w-10 h-10 md:w-12 md:h-12 text-pink-500 group-hover:text-gray-50 duration-200"
                         />
-                        <h3 class="py-4 text-4xl md:text-5xl font-semibold tracking-tight">
+                        <h3 class="py-4 text-4xl md:text-5xl tracking-tight">
                             {{ info.title }}
                         </h3>
                     </DisclosureButton>

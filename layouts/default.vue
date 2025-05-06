@@ -5,7 +5,7 @@
                 v-for="link in links"
                 :key="link.name"
                 :to="link.to"
-                class="text-lg font-semibold hover:text-gray-50 duration-200 relative"
+                class="text-lg hover:text-gray-50 duration-200 relative"
                 :class="{ 'active-link': isActive(link.to) }"
             >
                 {{ link.name }}
