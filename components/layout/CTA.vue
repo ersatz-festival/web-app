@@ -1,12 +1,12 @@
 <template>
     <div class="flex justify-center items-center py-16">
         <a
-            href=""
+            href="https://www.petzi.ch/fr/events/59445/"
             target="_blank"
             :class="buttonClasses"
         >
             <span class="text-3xl sm:text-4xl md:text-5xl font-semibold uppercase">
-                Acheter sur Petzi
+                Prends ton billet !
             </span>
         </a>
     </div>
