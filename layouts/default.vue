@@ -14,6 +14,14 @@
                     class="absolute -top-2 left-1/2 transform -translate-x-1/2 w-full h-0.5 bg-pink-500"
                 ></span>
             </NuxtLink>
+            <a
+                href="https://open.spotify.com/playlist/1zb6DNXLiK9UL7VqimfjMA"
+                target="_blank"
+                rel="noopener"
+                class="text-lg hover:text-gray-50 duration-200"
+            >
+                La playlist Spotify
+            </a>
         </div>
     </header>
     <main class="pt-18">
