@@ -9,7 +9,9 @@
         "public": true,
         "slug": "softlander",
         "socialNetworks": {
-            "instagram": "https://www.instagram.com/softlanderband/"
+            "instagram": [
+                "https://www.instagram.com/softlanderband/"
+            ]
         }
     },
     {
@@ -22,7 +24,9 @@
         "public": true,
         "slug": "batbait",
         "socialNetworks": {
-            "instagram": "https://www.instagram.com/batbaitband/"
+            "instagram": [
+                "https://www.instagram.com/batbaitband/"
+            ]
         }
     },
     {
@@ -35,7 +39,9 @@
         "public": true,
         "slug": "redmoon",
         "socialNetworks": {
-            "instagram": "https://www.instagram.com/weareredmoon/"
+            "instagram": [
+                "https://www.instagram.com/weareredmoon/"
+            ]
         }
     },
     {
@@ -48,7 +54,9 @@
         "public": true,
         "slug": "tomorrow-s-ghost",
         "socialNetworks": {
-            "instagram": "https://www.instagram.com/tomorrowsghost.band/"
+            "instagram": [
+                "https://www.instagram.com/tomorrowsghost.band/"
+            ]
         }
     },
     {
@@ -61,7 +69,9 @@
         "public": true,
         "slug": "nonante",
         "socialNetworks": {
-            "instagram": "https://www.instagram.com/no.nante/"
+            "instagram": [
+                "https://www.instagram.com/no.nante/"
+            ]
         }
     },
     {
@@ -74,7 +84,9 @@
         "public": true,
         "slug": "orphia",
         "socialNetworks": {
-            "instagram": "https://www.instagram.com/_orphia"
+            "instagram": [
+                "https://www.instagram.com/_orphia"
+            ]
         }
     },
     {
@@ -87,7 +99,9 @@
         "public": true,
         "slug": "coup-de-coeur",
         "socialNetworks": {
-            "instagram": ""
+            "instagram": [
+                ""
+            ]
         },
         "erste": true
     },
@@ -101,7 +115,9 @@
         "public": true,
         "slug": "hantebius",
         "socialNetworks": {
-            "instagram": "https://www.instagram.com/_hantebius_/"
+            "instagram": [
+                "https://www.instagram.com/_hantebius_/"
+            ]
         },
         "erste": true
     },
@@ -115,7 +131,9 @@
         "public": true,
         "slug": "ely-tina",
         "socialNetworks": {
-            "instagram": "https://www.instagram.com/elytinaa/"
+            "instagram": [
+                "https://www.instagram.com/elytinaa/"
+            ]
         }
     },
     {
@@ -128,7 +146,9 @@
         "public": true,
         "slug": "pug-impact",
         "socialNetworks": {
-            "instagram": "https://www.instagram.com/pug_impact/"
+            "instagram": [
+                "https://www.instagram.com/pug_impact/"
+            ]
         }
     },
     {
@@ -137,11 +157,13 @@
         "genre": "",
         "name": "Dibby",
         "pictureCover": "",
-        "pictureProfile": ""    ,
+        "pictureProfile": "",
         "public": true,
         "slug": "dibby",
         "socialNetworks": {
-            "instagram": "https://www.instagram.com/dibby.officiel"
+            "instagram": [
+                "https://www.instagram.com/dibby.officiel"
+            ]
         }
     },
     {
@@ -154,12 +176,14 @@
         "public": true,
         "slug": "serotonine",
         "socialNetworks": {
-            "instagram": ""
+            "instagram": [
+                ""
+            ]
         }
     },
     {
         "day": "Samedi",
-        "description":"Barbicop est le projet solo de Madeleine Sandri, musicienne suisse de 24 ans. Son univers mêle une pop entraînante mais étrange à une esthétique colorée et décalée, tissant satire et échantillons vocaux troublants dans une exploration ludique des personnages, identités et images numériques.\nAprès son deuxième EP Barbicopium, Barbicop monte sur scène fin 2024, proposant un live rafraîchissant, soigneusement conçu, à la fois humoristique et puissant à travers l’Europe. Ayant partagé la scène avec des artistes comme Irène Drésel aux Docks et BODEGA au Fri-Son, elle s’est produite sur certaines des plus grandes scènes suisses. Sa pop décalée et non conventionnelle, sa personnalité marquée et son talent pour créer des univers — combinés à la complicité unique qu’elle partage sur scène avec son frère lumberGucci (batteur) — laissent le public touché et captivé.",
+        "description": "Barbicop est le projet solo de Madeleine Sandri, musicienne suisse de 24 ans. Son univers mêle une pop entraînante mais étrange à une esthétique colorée et décalée, tissant satire et échantillons vocaux troublants dans une exploration ludique des personnages, identités et images numériques.\nAprès son deuxième EP Barbicopium, Barbicop monte sur scène fin 2024, proposant un live rafraîchissant, soigneusement conçu, à la fois humoristique et puissant à travers l’Europe. Ayant partagé la scène avec des artistes comme Irène Drésel aux Docks et BODEGA au Fri-Son, elle s’est produite sur certaines des plus grandes scènes suisses. Sa pop décalée et non conventionnelle, sa personnalité marquée et son talent pour créer des univers — combinés à la complicité unique qu’elle partage sur scène avec son frère lumberGucci (batteur) — laissent le public touché et captivé.",
         "genre": "Hyper-Pop, Lo-fi Pop",
         "name": "Barbicop",
         "pictureCover": "/_nuxt/assets/img/barbicop-1.jpg",
@@ -167,7 +191,9 @@
         "public": true,
         "slug": "barbicop",
         "socialNetworks": {
-            "instagram": "https://www.instagram.com/barbicop.maddie/"
+            "instagram": [
+                "https://www.instagram.com/barbicop.maddie/"
+            ]
         }
     },
     {
@@ -180,7 +206,9 @@
         "public": true,
         "slug": "pho3-b2b-13r",
         "socialNetworks": {
-            "instagram": ""
+            "instagram": [
+                ""
+            ]
         }
     },
     {
@@ -193,7 +221,9 @@
         "public": true,
         "slug": "esaia",
         "socialNetworks": {
-            "instagram": "https://www.instagram.com/esaia.eaz"
+            "instagram": [
+                "https://www.instagram.com/esaia.eaz"
+            ]
         }
     },
     {
@@ -206,7 +236,9 @@
         "public": true,
         "slug": "zadkiel",
         "socialNetworks": {
-            "instagram": "https://www.instagram.com/hzjm.7"
+            "instagram": [
+                "https://www.instagram.com/hzjm.7"
+            ]
         }
     },
     {
@@ -219,7 +251,10 @@
         "public": true,
         "slug": "roxo",
         "socialNetworks": {
-            "instagram": "https://www.instagram.com/roxo_"
+            "instagram": [
+                "https://www.instagram.com/roxo_",
+                "https://www.instagram.com/psychoweazel"
+            ]
         }
     },
     {
@@ -232,7 +267,9 @@
         "public": true,
         "slug": "isia",
         "socialNetworks": {
-            "instagram": "https://www.instagram.com/isiamend"
+            "instagram": [
+                "https://www.instagram.com/isiamend"
+            ]
         }
     },
     {
@@ -245,7 +282,9 @@
         "public": true,
         "slug": "eggs-and-tiaras",
         "socialNetworks": {
-            "instagram": "https://www.instagram.com/eggs_and_tiaras/"
+            "instagram": [
+                "https://www.instagram.com/eggs_and_tiaras/"
+            ]
         }
     }
 ]

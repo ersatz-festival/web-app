@@ -33,16 +33,26 @@
                             {{ artist.description }}
                         </p>
 
-                        <div v-if="artist.socialNetworks?.instagram" class="mt-6 flex items-center gap-2 text-xl">
-                        <Instagram class="w-6 h-6 inline-block fill-current" />
-                        <a
-                            :href="artist.socialNetworks.instagram"
+                        <!-- Liens Instagram -->
+                        <div
+                        v-if="Array.isArray(artist.socialNetworks?.instagram)"
+                        class="mt-6 flex flex-col gap-2 text-xl text-purple-500"
+                        >
+                        <div
+                            v-for="url in artist.socialNetworks.instagram"
+                            :key="url"
+                            class="flex items-center gap-2"
+                        >
+                            <Instagram class="w-6 h-6 inline-block fill-current" />
+                            <a
+                            :href="url"
                             target="_blank"
                             rel="noopener noreferrer"
                             class="underline hover:text-white"
-                        >
-                            @{{ getInstagramUsername(artist.socialNetworks.instagram) }}
-                        </a>
+                            >
+                            @{{ getInstagramUsername(url) }}
+                            </a>
+                        </div>
                         </div>
 
                     </div>
