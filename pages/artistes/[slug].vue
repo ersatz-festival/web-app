@@ -29,7 +29,7 @@
                         </div>
 
 
-                        <p class="text-lg lg:text-2xl text-justify whitespace-pre-line">
+                        <p class="text-lg lg:text-2xl text-left whitespace-pre-line">
                             {{ artist.description }}
                         </p>
 
