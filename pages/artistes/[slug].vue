@@ -33,17 +33,19 @@
                             {{ artist.description }}
                         </p>
 
-                    </div>
-                    <!--div class="flex justify-between items-center space-y-4">
+                        <div v-if="artist.socialNetworks?.instagram" class="mt-6 flex items-center gap-2 text-xl">
+                        <Instagram class="w-6 h-6 inline-block fill-current" />
                         <a
-                            v-for="(url, network) in artist.socialNetworks"
-                            :key="network"
-                            :href="url"
+                            :href="artist.socialNetworks.instagram"
                             target="_blank"
+                            rel="noopener noreferrer"
+                            class="underline hover:text-white"
                         >
-                            <component :is="getSocialIcon(network)" class="w-8 h-8 inline-block" />
+                            @{{ getInstagramUsername(artist.socialNetworks.instagram) }}
                         </a>
-                    </div-->
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </section>
@@ -55,6 +57,8 @@
 </template>
 
 <script setup lang="ts">
+import Instagram from '~/components/icons/Instagram.vue';
+
 import { type Artist } from '~/interfaces/artist';
 // import Instagram from '~/components/icons/Instagram.vue';
 
@@ -62,10 +66,12 @@ const artist = ref<Artist | undefined>(
     useArtistsStore().getArtistBySlug(useRoute().params.slug as string)
 );
 
-// const getSocialIcon = (network: string) => {
-//     const icons: Record<string, any> = {
-//         instagram: Instagram,
-//     };
-//     return icons[network] || null;
-// };
+const getInstagramUsername = (url: string): string => {
+  try {
+    const parts = new URL(url).pathname.split('/');
+    return parts.filter(Boolean).pop() || '';
+  } catch {
+    return '';
+  }
+};
 </script>
