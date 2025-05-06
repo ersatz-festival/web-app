@@ -1,3 +1,3 @@
 export default defineNuxtRouteMiddleware(() => {
-    return navigateTo('/artistes');
+    return navigateTo('/programme');
 });

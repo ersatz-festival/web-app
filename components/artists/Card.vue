@@ -1,6 +1,6 @@
 <template>
     <div class="rounded-lg shadow text-purple-500 bg-gray-50 hover:bg-gray-200 hover:shadow-lg duration-300">
-        <NuxtLink :to="`/artistes/${artist.slug}`">
+        <NuxtLink :to="`/programme/${artist.slug}`">
             <img
                 :src="artist.pictureCover"
                 :alt="artist.name"
