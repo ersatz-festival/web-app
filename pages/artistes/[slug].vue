@@ -54,6 +54,21 @@
                             </a>
                         </div>
                         </div>
+                        <!-- Lien Spotify -->
+                        <div
+                        v-if="artist.socialNetworks?.spotify"
+                        class="flex items-center gap-2 text-xl text-purple-500 mt-2"
+                        >
+                        <Spotify class="w-6 h-6 inline-block fill-current" />
+                        <a
+                            :href="artist.socialNetworks.spotify"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="underline hover:text-white"
+                        >
+                            {{ artist.name }}
+                        </a>
+                        </div>
 
                     </div>
                 </div>
@@ -68,6 +83,8 @@
 
 <script setup lang="ts">
 import Instagram from '~/components/icons/Instagram.vue';
+import Spotify from '~/components/icons/Spotify.vue';
+
 
 import { type Artist } from '~/interfaces/artist';
 // import Instagram from '~/components/icons/Instagram.vue';
