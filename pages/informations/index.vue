@@ -12,7 +12,7 @@
                 
                 <div class="mt-4 grid grid-cols-6 gap-4">
                     <p class="col-span-6 sm:col-span-6 text-xl md:text-2xl">
-                        Ersatz est un festival biannuel de musique et d’art de rue, fondé en 2020. En 2025, il vivra sa quatrième édition.
+                        Ersatz est un festival biannuel de musique et d’art de rue, fondé en 2020. En 2025, il vivra sa quatrième édition du <strong>22 au 24 août</strong>.
                     </p>
                 </div>
             </section>

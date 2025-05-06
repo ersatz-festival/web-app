@@ -1,30 +1,30 @@
 <template>
-  <div class="text-pink-500 bg-purple-500 container mx-auto p-6">
-    <LayoutTitle title="Historique" class="mb-6" />
-    <div class="flex flex-wrap justify-center gap-8">
-      <div
-        v-for="edition in editions"
-        :key="edition.year"
-        class="w-full max-w-xs"
-      >
-        <h2 class="text-2xl mb-1 text-center">{{ edition.year }}</h2>
-        <p class="text-sm text-center text-gray-300 mb-2">{{ edition.date }}</p>
-        <div class="text-sm text-pink-500 text-center">
-          <template v-if="edition.artists.length">
-            <template v-for="(artist, idx) in edition.artists" :key="artist">
-              <span>{{ artist }}</span>
-              <span v-if="idx < edition.artists.length - 1" class="mx-1">·</span>
+  <div class="text-pink-500 bg-purple-500">
+      <LayoutTitle title="Historique" class="mb-6" />
+
+      <div class="flex flex-wrap justify-center gap-8">
+        <div
+          v-for="edition in editions"
+          :key="edition.year"
+          class="w-full max-w-xs"
+        >
+          <h2 class="text-2xl mb-1 text-center">{{ edition.year }}</h2>
+          <p class="text-sm text-center text-gray-300 mb-2">{{ edition.date }}</p>
+          <div class="text-sm text-pink-500 text-center">
+            <template v-if="edition.artists.length">
+              <template v-for="(artist, idx) in edition.artists" :key="artist">
+                <span>{{ artist }}</span>
+                <span v-if="idx < edition.artists.length - 1" class="mx-1">·</span>
+              </template>
             </template>
-          </template>
-          <span v-else class="italic">Artistes non renseignés</span>
+            <span v-else class="italic">Artistes non renseignés</span>
+          </div>
         </div>
       </div>
-    </div>
+      <div class="h-[100px]"></div>
+
   </div>
 </template>
-
-
-
 
 <script setup>
 const editions = [
@@ -56,18 +56,35 @@ const editions = [
     ]
   },
   {
-    year: 2021,
+        year: 2021,
     date: '27–29 août',
-    artists: []
+    artists: [
+      'AL TOQUE MESTIZO & SERGIO VALDEOS',
+      'BAD PICTURE',
+      'BIFIDUS.JPG & TÉOLEFURIEUX & UNTERSCHRIFT',
+      'COLIN JEAN',
+      'DUO PARASOL',
+      'FELIX RABIN',
+      'FICHIER IMPORTANT',
+      'GIPSY TONIC',
+      'GOFEFO KONATÉ BAND',
+      'HAZE',
+      'JURIGOZ',
+      'JUSTE ICI',
+      'KÉROSÈNE',
+      'LA CLINIQUE DU DR JEDD',
+      'LAURA PEREZ',
+      'LOS AZULEJOS',
+      'NAMO',
+      'PSYCHO WEAZEL',
+      'SABBIA NELLA FIGA',
+      'TRIO EPICURE'
+      ]
   },
   {
     year: 2020,
     date: '20–22 août',
-    artists: []
+    artists: ["édition privée :)"]
   }
 ];
 </script>
-
-<style scoped>
-/* Si besoin, tu peux ajuster la responsivité ou le style ici */
-</style>

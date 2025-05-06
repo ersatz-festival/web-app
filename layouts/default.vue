@@ -2,7 +2,7 @@
   <header class="fixed top-0 inset-x-0 text-pink-500 bg-purple-500 shadow-md z-50">
     <div class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
       <!-- Logo ou nom si tu veux en ajouter -->
-      <div class="text-lg font-bold">Ersatz</div>
+      <div class="text-lg font-bold"><a href="/">Ersatz</a></div>
 
       <!-- Bouton hamburger (mobile) -->
       <button
@@ -76,8 +76,16 @@
         <a href="mailto:info@ersatzfestival.ch" class="hover:text-gray-50 duration-200">
           info@ersatzfestival.ch
         </a>
-        <a href="tel:+41121221212" class="hover:text-gray-50 duration-200">
-          +41 (0) 12 122 12 12
+      </div>
+      <div class="flex items-center gap-2 text-xl text-purple-500">
+        <Instagram class="w-6 h-6 inline-block fill-current" />
+        <a
+          href="https://www.instagram.com/ersatz.festival"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="underline hover:text-white"
+        >
+          @ersatz.festival
         </a>
       </div>
     </section>
@@ -85,6 +93,8 @@
 </template>
 
 <script setup lang="ts">
+import Instagram from '~/components/icons/Instagram.vue';
+
 import { ref } from 'vue';
 
 const route = useRoute();
