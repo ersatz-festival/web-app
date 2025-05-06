@@ -11,7 +11,8 @@
         "socialNetworks": {
             "instagram": [
                 "https://www.instagram.com/softlanderband/"
-            ]
+            ],
+            "spotify" : "https://open.spotify.com/intl-fr/artist/1e9jsGUOvtzJHyTdKZQ11g"
         }
     },
     {
@@ -26,7 +27,8 @@
         "socialNetworks": {
             "instagram": [
                 "https://www.instagram.com/batbaitband/"
-            ]
+            ],
+            "spotify" : "https://open.spotify.com/intl-fr/artist/1PGFrlFMjm2RIi2ndQ0lHG"
         }
     },
     {
@@ -41,7 +43,8 @@
         "socialNetworks": {
             "instagram": [
                 "https://www.instagram.com/weareredmoon/"
-            ]
+            ],
+            "spotify": "https://open.spotify.com/intl-fr/artist/1tRFUNiUD1F6JEUTa2aQAo"
         }
     },
     {
@@ -56,7 +59,8 @@
         "socialNetworks": {
             "instagram": [
                 "https://www.instagram.com/tomorrowsghost.band/"
-            ]
+            ],
+            "spotify": "https://open.spotify.com/intl-fr/artist/6zoKupq8FXHSnFnfPt8Lkb"
         }
     },
     {
@@ -71,7 +75,8 @@
         "socialNetworks": {
             "instagram": [
                 "https://www.instagram.com/no.nante/"
-            ]
+            ],
+            "spotify": "https://open.spotify.com/intl-fr/artist/6BsmUIZhJySlcQykccTxka"
         }
     },
     {
@@ -86,7 +91,8 @@
         "socialNetworks": {
             "instagram": [
                 "https://www.instagram.com/_orphia"
-            ]
+            ],
+            "spotify": "https://open.spotify.com/intl-fr/artist/0CHfW6MGVxHRVL3A8UUO1U"
         }
     },
     {
@@ -101,7 +107,8 @@
         "socialNetworks": {
             "instagram": [
                 ""
-            ]
+            ],
+            "spotify":"https://open.spotify.com/intl-fr/artist/0omSVHBVpwAO7b5A0KY8Ez"
         },
         "erste": true
     },
@@ -117,7 +124,8 @@
         "socialNetworks": {
             "instagram": [
                 "https://www.instagram.com/_hantebius_/"
-            ]
+            ],
+            "spotify": "https://open.spotify.com/intl-fr/artist/1orK4RW5FDZyyLQeWIOhQh"
         },
         "erste": true
     },
@@ -148,7 +156,8 @@
         "socialNetworks": {
             "instagram": [
                 "https://www.instagram.com/pug_impact/"
-            ]
+            ],
+            "spotify": "https://open.spotify.com/intl-fr/artist/2vlWKNxLbtnNKUf0p2JH88"
         }
     },
     {
@@ -163,7 +172,8 @@
         "socialNetworks": {
             "instagram": [
                 "https://www.instagram.com/dibby.officiel"
-            ]
+            ],
+            "spotify": "https://open.spotify.com/intl-fr/artist/2nsPmEKuv4TDmMVK1qhLaX"
         }
     },
     {
@@ -193,7 +203,8 @@
         "socialNetworks": {
             "instagram": [
                 "https://www.instagram.com/barbicop.maddie/"
-            ]
+            ],
+            "spotify": "https://open.spotify.com/intl-fr/artist/3ZUBFjhQCDfQoFcaj965b9"
         }
     },
     {
@@ -207,7 +218,8 @@
         "slug": "pho3-b2b-13r",
         "socialNetworks": {
             "instagram": [
-                ""
+                "https://www.instagram.com/pho3concept/",
+                "https://www.instagram.com/13r13r13r13r/"
             ]
         }
     },
@@ -223,7 +235,8 @@
         "socialNetworks": {
             "instagram": [
                 "https://www.instagram.com/esaia.eaz"
-            ]
+            ],
+            "spotify": "https://open.spotify.com/intl-fr/artist/2X0v1x3q4a5j7c6g9k8m2G"
         }
     },
     {
@@ -254,7 +267,8 @@
             "instagram": [
                 "https://www.instagram.com/roxo_",
                 "https://www.instagram.com/psychoweazel"
-            ]
+            ],
+            "spotify": "https://open.spotify.com/intl-fr/artist/0jPLiTRTpRgGobZdrtxXWx"
         }
     },
     {
@@ -286,7 +300,8 @@
         "socialNetworks": {
             "instagram": [
                 "https://www.instagram.com/eggs_and_tiaras/"
-            ]
+            ],
+            "spotify": "https://open.spotify.com/intl-fr/artist/1wLCzyqTut4tZz2TfuJOHi"
         }
     }
 ]
