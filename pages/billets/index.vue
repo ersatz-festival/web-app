@@ -1,7 +1,7 @@
 <template>
     <div class="text-pink-500 bg-purple-500">
 
-        <LayoutTitle title="Billeterie" />
+        <LayoutTitle title="Billetterie" />
 
         <section class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
 
