@@ -178,17 +178,19 @@
     },
     {
         "day": "Samedi",
-        "description": "",
-        "genre": "",
-        "name": "Sérotonine",
-        "pictureCover": "",
-        "pictureProfile": "",
+        "description": "Sérotonine parce que ça fait du bien ! Trois personnes d’origines et d’horizons très différents se retrouvent dans le local de théories du stade de foot qu’ils occupent depuis 7 ans à Bienne. Là où l’on faisait les stratégies de match sur un vieux tableau noir assis sur des chaises comme dans une classe d’école qui pue la transpiration, le trio Acid rave et post pop s’est installé ! Maintenant, ça pue la clope et la vieille binche, mais ça reste quand même bien sport !",
+        "genre": "Live Acid Techno",
+        "name": "Serotonine",
+        "pictureCover": "/_nuxt/assets/img/serotonine-1.png",
+        "pictureProfile": "/_nuxt/assets/img/serotonine-2.jpg",
         "public": true,
         "slug": "serotonine",
         "socialNetworks": {
             "instagram": [
-                ""
-            ]
+                "https://www.instagram.com/serotonine_acid/"
+            ],
+            "spotify": "https://open.spotify.com/intl-fr/artist/5JJGbB2Jo4ulSF9q7ySSey"
+
         }
     },
     {
