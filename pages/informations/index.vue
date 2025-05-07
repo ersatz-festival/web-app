@@ -44,7 +44,7 @@
                         leave-to-class="transform scale-95 opacity-0"
                     >
                         <DisclosurePanel>
-                            <p class="pb-2 text-xl md:text-2xl">
+                            <p class="pb-2 text-xl md:text-2xl whitespace-pre-line">
                                 {{ info.text }}
                             </p>
                         </DisclosurePanel>
@@ -75,19 +75,27 @@ const informations = [
 },
 {
     title: 'Venir en transports publics (c\'est mieux !!)',
-    text: 'Les lignes R13, R16, S20 et S21 permettent de venir facilement en transport au festival. Selon les lignes, il est nécéssaire de descendre à St-Blaise ou à Marin-Epagnier, puis de marcher une quinzaine de minutes. Se référer aux informations des CFF pour plus de détail.',
+    text: 'Les lignes R13, R16, S20 et S21 permettent de venir facilement en transport au festival. Selon les lignes, il est nécéssaire de descendre à St-Blaise ou à Marin-Epagnier, puis de marcher une quinzaine de minutes. \nSe référer aux informations des CFF pour plus de détail.',
 },
 {
     title: 'Venir en voiture (c\'est moins bien !!)',
     text: 'Des informations seront annoncées prochainement concernant les parkings à disposition du public.',
 },
 {
-    title: 'Charte Aretha',
-    text: 'Le festival s\'engage depuis toujours à proposer un environnement safer, et adhère à la charte Aretha.',
+    title: 'Horaires',
+    text: 'Le festival commence le vendredi 22 août à 18h et se termine le dimanche 24 août à 22h30.\nVendredi : 18h - 02h30\nSamedi : 16h30 - 03h30\nDimanche : 15h30 - 22h30',
 },
 {
     title: 'Dormir sur place',
     text: 'Nouveau en 2025 : Il sera possible de planter sa tente et de dormir sur place le vendredi et le samedi soir. \nUne petite restauration sera également disponible.',
+},
+{
+    title: 'Charte Aretha',
+    text: 'Le festival s\'engage depuis toujours à proposer un environnement safer, et adhère à la charte Aretha.\nSur place, une équipe de bénévoles spécialement formé.e.s, appelée les « Bienveillant.e.s », veille à ta sécurité, et est là pour t\'écouter et t\'aider en cas de besoin. N\'éhiste pas à les solliciter !',
+},
+{
+    title: 'Devenir bénévole',
+    text: 'Merci pour ton implication !! Nous communiquerons bientôt les informations pour devenir bénévole au festival.'
 }
 ];
 </script>

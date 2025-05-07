@@ -86,7 +86,7 @@ const editions = [
   },
   {
     year: 2020,
-    date: '20–22 août',
+    date: '18-19 juillet',
     artists: ["édition privée :)"]
   }
 ];
