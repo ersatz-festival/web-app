@@ -1,10 +1,8 @@
 <template>
     <div class="text-pink-500 bg-purple-500">
-
         <LayoutTitle title="Billetterie" />
 
         <section class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-
             <LayoutSubTitle title="Prix" />
 
             <table class="w-full text-lg sm:text-xl md:text-2xl">
@@ -16,17 +14,11 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr
-                        v-for="(price, index) in pricesPerDay"
-                        :key="index"
-                        class="border-b border-pink-500"
-                    >
+                    <tr v-for="(price, index) in pricesPerDay" :key="index" class="border-b border-pink-500">
                         <td class="text-left py-2">
                             {{ price.name }}
                         </td>
-                        <td class="text-right py-2">
-                            CHF {{ price.dayPrice }}.-
-                        </td>
+                        <td class="text-right py-2">CHF {{ price.dayPrice }}.-</td>
                         <td class="text-right py-2">
                             {{ price.passPrice ? 'CHF ' + price.passPrice + '.-' : '-' }}
                         </td>
@@ -61,12 +53,10 @@ const pricesPerDay = [
     {
         name: 'Sur place',
         dayPrice: 25,
-        
     },
     {
         name: 'Camping',
         dayPrice: 3,
-        
     },
 ];
 </script>

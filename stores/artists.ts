@@ -4,7 +4,6 @@ import type { Artist } from '~/interfaces/artist';
 import artistsData from '~/assets/data/artists.json';
 
 export const useArtistsStore = defineStore('artists', () => {
-    
     /// STATE ///
 
     const artists = ref<Artist[]>([]);

@@ -1,19 +1,14 @@
-import tailwindcss from "@tailwindcss/vite";
+import tailwindcss from '@tailwindcss/vite';
 import convertImages from './tools/convert-images';
 
 export default defineNuxtConfig({
     ssr: false,
     compatibilityDate: '2024-11-01',
     devtools: { enabled: true },
-    css: [
-        '~/assets/css/fonts.css',
-        '~/assets/css/main.css',
-    ],
+    css: ['~/assets/css/fonts.css', '~/assets/css/main.css'],
     modules: ['@pinia/nuxt'],
     vite: {
-        plugins: [
-            tailwindcss(),
-        ],
+        plugins: [tailwindcss()],
     },
     hooks: {
         'build:before': async () => {
