@@ -52,14 +52,17 @@
                         </div>
 
                         <div v-if="artist.clip" class="mt-6">
-                            <iframe
-                                :src="getYoutubeEmbedUrl(artist.clip)"
-                                frameborder="0"
+                            <iframe :src="getYoutubeEmbedUrl(artist.clip)" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen
-                                class="w-full h-64 md:h-96 rounded-lg"
-                            ></iframe>
+                                allowfullscreen class="w-full h-64 md:h-96 rounded-lg"></iframe>
                         </div>
+
+
+                        <div v-for="(url, idx) in artist.soundcloud" :key="idx">
+                            <iframe :src="getSoundcloudEmbedUrl(url)" frameborder="no" scrolling="no" allow="autoplay"
+                                class="w-full h-24 md:h-32 rounded-lg"></iframe>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -93,12 +96,17 @@ const getInstagramUsername = (url: string): string => {
 };
 
 const getYoutubeEmbedUrl = (url: string): string => {
-  try {
-    const videoIdMatch = url.match(/[\?&]v=([^&]+)/);
-    const id = videoIdMatch ? videoIdMatch[1] : url.split('/').pop();
-    return `https://www.youtube.com/embed/${id}`;
-  } catch {
-    return url;
-  }
+    try {
+        const videoIdMatch = url.match(/[\?&]v=([^&]+)/);
+        const id = videoIdMatch ? videoIdMatch[1] : url.split('/').pop();
+        return `https://www.youtube.com/embed/${id}`;
+    } catch {
+        return url;
+    }
+};
+
+const getSoundcloudEmbedUrl = (url: string): string => {
+    const encoded = encodeURIComponent(url);
+    return `https://w.soundcloud.com/player/?url=${encoded}`;
 };
 </script>
