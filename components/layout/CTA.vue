@@ -24,12 +24,15 @@
   
   // Tableau de phrases
   const phrases = [
-    'Choppe ton billet !',
-    'Prends ton ticket !',
-    'Oublie pas d\'acheter ton sésame !',
+    'Chope ton billet !',
+    'Achète ton ticket !',
+    'Oublie pas de prendre ton sésame !',
     'Prends ta préloc !',
-    'Choppe ta place !',
+    'Assure ta place !',
     'Réserve ton entrée !',
+    'T\'as ton billet ?',
+    'Say no to fomo, get your ticket',
+    'Les billets Early Bird sont là !',
   ];
   
   // Sélection aléatoire d'une phrase au chargement
