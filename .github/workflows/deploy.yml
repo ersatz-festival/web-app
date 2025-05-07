@@ -10,12 +10,20 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v4
+
             - run: corepack enable
+
             - uses: actions/setup-node@v4
               with:
                   node-version: '22.x'
+
             - run: npm install
+
+            - name: Lint Code
+              run: npm run lint
+
             - run: npx nuxt build --preset github_pages
+
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v3
               with:

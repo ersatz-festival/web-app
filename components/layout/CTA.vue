@@ -1,7 +1,7 @@
 <template>
     <div class="flex justify-center items-center py-16">
         <a href="https://www.petzi.ch/fr/events/59445/" target="_blank" :class="buttonClasses">
-            <span class="text-3xl sm:text-4xl md:text-5xl uppercase">
+            <span class="text-xl sm:text-4xl md:text-5xl uppercase">
                 {{ phrase }}
             </span>
         </a>
@@ -9,6 +9,8 @@
 </template>
 
 <script setup lang="ts">
+import { computed, ref } from 'vue';
+
 const props = defineProps({
     inverted: {
         type: Boolean,

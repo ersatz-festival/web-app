@@ -38,25 +38,20 @@
 </template>
 
 <script setup lang="ts">
+import { computed, ref } from 'vue';
 import { useArtistsStore } from '~/stores/artists';
 
 const sortBy = ['name', 'day'];
 const sort = ref(sortBy[0]);
 
-const daysFilters = [
-    'Tous',
-    'Vendredi',
-    'Samedi',
-    'Dimanche',
-];
+const daysFilters = ['Tous', 'Vendredi', 'Samedi', 'Dimanche'];
 
 const filterDay = ref(daysFilters[0]);
 
 const allArtists = useArtistsStore().publicArtists;
 
 const sortedArtists = computed(() => {
-    const filtered = filterDay.value !== daysFilters[0] ?
-        allArtists.filter((artist) => artist.day === filterDay.value) : allArtists;
+    const filtered = filterDay.value !== daysFilters[0] ? allArtists.filter((artist) => artist.day === filterDay.value) : allArtists;
 
     return sort.value === 'name'
         ? filtered.sort((a, b) => a.name.localeCompare(b.name))

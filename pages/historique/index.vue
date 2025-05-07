@@ -3,19 +3,12 @@
         <LayoutTitle title="Historique" class="mb-6" />
 
         <div class="flex flex-wrap justify-center gap-8 pb-24">
-            <div
-                v-for="edition in editions"
-                :key="edition.year"
-                class="w-full max-w-xs"
-            >
+            <div v-for="edition in editions" :key="edition.year" class="w-full max-w-xs">
                 <h2 class="text-2xl mb-1 text-center">{{ edition.year }}</h2>
                 <p class="text-sm text-center text-gray-300 mb-2">{{ edition.date }}</p>
                 <div class="text-sm text-pink-500 text-center">
                     <template v-if="edition.artists.length">
-                        <template
-                            v-for="(artist, idx) in edition.artists"
-                            :key="artist"
-                        >
+                        <template v-for="(artist, idx) in edition.artists" :key="artist">
                             <span>{{ artist }}</span>
                             <span v-if="idx < edition.artists.length - 1" class="mx-1">·</span>
                         </template>

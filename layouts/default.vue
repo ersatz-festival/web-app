@@ -2,7 +2,7 @@
     <header class="fixed top-0 inset-x-0 text-pink-500 bg-purple-500 shadow-md z-50">
         <div class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
             <div class="text-lg font-bold">
-                <NuxtLink to="/"> Ersatz </NuxtLink>
+                <NuxtLink to="/" class="hover:text-white duration-200"> Ersatz </NuxtLink>
             </div>
 
             <button @click="isMenuOpen = !isMenuOpen" class="lg:hidden focus:outline-none" aria-label="Menu">
@@ -83,16 +83,17 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     class="underline hover:text-white duration-200"
-                    >
-                        @ersatz.festival
-                    </a
                 >
+                    @ersatz.festival
+                </a>
             </div>
         </section>
     </footer>
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue';
+import { useRoute } from 'vue-router';
 import Instagram from '~/components/icons/Instagram.vue';
 
 const route = useRoute();
