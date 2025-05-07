@@ -4,15 +4,11 @@
         <section class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
                 <div class="col-span-1 lg:col-span-4">
-                    <img
-                        :src="artist.pictureProfile"
-                        :alt="artist.name"
-                        class="w-full lg:w-96 ld:h-96 rounded"
-                    />
+                    <img :src="artist.pictureProfile" :alt="artist.name" class="w-full lg:w-96 ld:h-96 rounded" />
                 </div>
                 <div class="col-span-1 lg:col-span-8">
                     <div class="flex flex-col space-y-4">
-                    
+
                         <LayoutTitle :title="artist.name" color="purple-500" no-margin />
                         <span v-if="artist.erste" class="text-sm align-top mr-1">Gagnant de l'Erste 2025</span>
                         <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
@@ -33,41 +29,26 @@
                             {{ artist.description }}
                         </p>
 
-                        <!-- Liens Instagram -->
-                        <div
-                        v-if="Array.isArray(artist.socialNetworks?.instagram)"
-                        class="mt-6 flex flex-col gap-2 text-xl text-purple-500"
-                        >
-                        <div
-                            v-for="url in artist.socialNetworks.instagram"
-                            :key="url"
-                            class="flex items-center gap-2"
-                        >
-                            <Instagram class="w-6 h-6 inline-block fill-current" />
-                            <a
-                            :href="url"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="underline hover:text-white"
-                            >
-                            @{{ getInstagramUsername(url) }}
-                            </a>
-                        </div>
-                        </div>
-                        <!-- Lien Spotify -->
-                        <div
-                        v-if="artist.socialNetworks?.spotify"
-                        class="flex items-center gap-2 text-xl text-purple-500 mt-2"
-                        >
-                        <Spotify class="w-6 h-6 inline-block fill-current" />
-                        <a
-                            :href="artist.socialNetworks.spotify"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="underline hover:text-white"
-                        >
-                            {{ artist.name }}
-                        </a>
+                        <!-- Conteneur global des réseaux sociaux -->
+                        <div class="mt-6 flex flex-col gap-2 text-xl text-purple-500">
+                            <!-- Liens Instagram -->
+                            <div v-for="url in artist.socialNetworks.instagram" :key="url"
+                                class="flex items-center gap-2">
+                                <Instagram class="w-6 h-6 inline-block fill-current" />
+                                <a :href="url" target="_blank" rel="noopener noreferrer"
+                                    class="underline hover:text-white">
+                                    @{{ getInstagramUsername(url) }}
+                                </a>
+                            </div>
+
+                            <!-- Lien Spotify -->
+                            <div v-if="artist.socialNetworks?.spotify" class="flex items-center gap-2">
+                                <Spotify class="w-6 h-6 inline-block fill-current" />
+                                <a :href="artist.socialNetworks.spotify" target="_blank" rel="noopener noreferrer"
+                                    class="underline hover:text-white">
+                                    {{ artist.name }}
+                                </a>
+                            </div>
                         </div>
 
                     </div>
@@ -94,11 +75,11 @@ const artist = ref<Artist | undefined>(
 );
 
 const getInstagramUsername = (url: string): string => {
-  try {
-    const parts = new URL(url).pathname.split('/');
-    return parts.filter(Boolean).pop() || '';
-  } catch {
-    return '';
-  }
+    try {
+        const parts = new URL(url).pathname.split('/');
+        return parts.filter(Boolean).pop() || '';
+    } catch {
+        return '';
+    }
 };
 </script>
