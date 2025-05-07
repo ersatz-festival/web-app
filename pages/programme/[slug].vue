@@ -51,6 +51,15 @@
                             </div>
                         </div>
 
+                        <div v-if="artist.clip" class="mt-6">
+                            <iframe
+                                :src="getYoutubeEmbedUrl(artist.clip)"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                                class="w-full h-64 md:h-96 rounded-lg"
+                            ></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -81,5 +90,15 @@ const getInstagramUsername = (url: string): string => {
     } catch {
         return '';
     }
+};
+
+const getYoutubeEmbedUrl = (url: string): string => {
+  try {
+    const videoIdMatch = url.match(/[\?&]v=([^&]+)/);
+    const id = videoIdMatch ? videoIdMatch[1] : url.split('/').pop();
+    return `https://www.youtube.com/embed/${id}`;
+  } catch {
+    return url;
+  }
 };
 </script>

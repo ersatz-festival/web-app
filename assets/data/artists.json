@@ -13,7 +13,8 @@
                 "https://www.instagram.com/softlanderband/"
             ],
             "spotify" : "https://open.spotify.com/intl-fr/artist/1e9jsGUOvtzJHyTdKZQ11g"
-        }
+        },
+        "clip": "https://www.youtube.com/watch?v=47i7QUDADNc"
     },
     {
         "day": "Vendredi",
@@ -29,7 +30,8 @@
                 "https://www.instagram.com/batbaitband/"
             ],
             "spotify" : "https://open.spotify.com/intl-fr/artist/1PGFrlFMjm2RIi2ndQ0lHG"
-        }
+        }, 
+        "clip": "https://www.youtube.com/watch?v=9OIv9FrL51Y"
     },
     {
         "day": "Vendredi",
@@ -61,7 +63,8 @@
                 "https://www.instagram.com/tomorrowsghost.band/"
             ],
             "spotify": "https://open.spotify.com/intl-fr/artist/6zoKupq8FXHSnFnfPt8Lkb"
-        }
+        },
+        "clip": "https://www.youtube.com/watch?v=tM9jDJ6PVwg"
     },
     {
         "day": "Vendredi",
@@ -77,7 +80,8 @@
                 "https://www.instagram.com/no.nante/"
             ],
             "spotify": "https://open.spotify.com/intl-fr/artist/6BsmUIZhJySlcQykccTxka"
-        }
+        },
+        "clip": "https://www.youtube.com/watch?v=UB8OCnt7mz0"
     },
     {
         "day": "Vendredi",
@@ -110,7 +114,8 @@
             ],
             "spotify":"https://open.spotify.com/intl-fr/artist/0omSVHBVpwAO7b5A0KY8Ez"
         },
-        "erste": true
+        "erste": true,
+        "clip": "https://www.youtube.com/watch?v=j9x6n5qyYGM"
     },
     {
         "day": "Samedi",
@@ -127,7 +132,8 @@
             ],
             "spotify": "https://open.spotify.com/intl-fr/artist/1orK4RW5FDZyyLQeWIOhQh"
         },
-        "erste": true
+        "erste": true,
+        "clip": "https://www.youtube.com/watch?v=uU5WRtWq100"
     },
     {
         "day": "Samedi",
@@ -142,7 +148,8 @@
             "instagram": [
                 "https://www.instagram.com/elytinaa/"
             ]
-        }
+        },
+        "clip": "https://www.youtube.com/watch?v=tXTyw1TMbUg"
     },
     {
         "day": "Samedi",
@@ -158,7 +165,8 @@
                 "https://www.instagram.com/pug_impact/"
             ],
             "spotify": "https://open.spotify.com/intl-fr/artist/2vlWKNxLbtnNKUf0p2JH88"
-        }
+        },
+        "clip": "https://www.youtube.com/watch?v=pT2OYiAoJbU"
     },
     {
         "day": "Samedi",
@@ -174,7 +182,8 @@
                 "https://www.instagram.com/dibby.officiel"
             ],
             "spotify": "https://open.spotify.com/intl-fr/artist/2nsPmEKuv4TDmMVK1qhLaX"
-        }
+        },
+        "clip": "https://www.youtube.com/watch?v=0pI_9tl0hr8"
     },
     {
         "day": "Samedi",
@@ -191,7 +200,8 @@
             ],
             "spotify": "https://open.spotify.com/intl-fr/artist/5JJGbB2Jo4ulSF9q7ySSey"
 
-        }
+        },
+        "clip": "https://www.youtube.com/watch?v=1IrZWBlw9ZQ"
     },
     {
         "day": "Samedi",
@@ -207,7 +217,8 @@
                 "https://www.instagram.com/barbicop.maddie/"
             ],
             "spotify": "https://open.spotify.com/intl-fr/artist/3ZUBFjhQCDfQoFcaj965b9"
-        }
+        },
+        "clip": "https://www.youtube.com/watch?v=CS5ZmUoEuZ0"
     },
     {
         "day": "Samedi",
@@ -240,7 +251,8 @@
                 "https://www.instagram.com/esaia.eaz"
             ],
             "spotify": "https://open.spotify.com/intl-fr/artist/2X0v1x3q4a5j7c6g9k8m2G"
-        }
+        },
+        "clip": "https://www.youtube.com/watch?v=e3ZIeYhiwig"
     },
     {
         "day": "Dimanche",
@@ -272,7 +284,8 @@
                 "https://www.instagram.com/psychoweazel"
             ],
             "spotify": "https://open.spotify.com/intl-fr/artist/0jPLiTRTpRgGobZdrtxXWx"
-        }
+        },
+        "clip": "https://www.youtube.com/watch?v=q6dO1EBoRSE"
     },
     {
         "day": "Dimanche",
@@ -289,7 +302,8 @@
             ],
             "spotify": "https://open.spotify.com/intl-fr/artist/0km8lKLOPSLaE11Ztn8vlX"
             
-        }
+        },
+        "clip": "https://www.youtube.com/watch?v=Q-_DQ1foeOM"
     },
     {
         "day": "Dimanche",
@@ -305,6 +319,7 @@
                 "https://www.instagram.com/eggs_and_tiaras/"
             ],
             "spotify": "https://open.spotify.com/intl-fr/artist/1wLCzyqTut4tZz2TfuJOHi"
-        }
+        },
+        "clip": "https://www.youtube.com/watch?v=IzFdouQM7_E"
     }
 ]
