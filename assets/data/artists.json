@@ -1,41 +1,296 @@
 [
     {
         "day": "Vendredi",
-        "description": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.",
-        "genre": "Electro",
-        "name": "Daft Punk",
-        "pictureCover": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daft_Punk_in_2013_2.jpg/1920px-Daft_Punk_in_2013_2.jpg",
-        "pictureProfile": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daft_Punk_in_2013_2.jpg/1920px-Daft_Punk_in_2013_2.jpg",
+        "description": "Professional Ghosts est le deuxième album de Softlander. Le quatuor originaire de Berne et de Zurich joue des chansons pop rêveuses et soigneusement construites. \nAprès l'esthétique aux couleurs néons de leur premier disque autoproduit \"Get On Board !\", Softlander emmènent à présent leurs auditeur·ice·s dans des paysages luxuriants, peints au coucher du soleil. Les grooves, extraits de la machine à rêver, ont l'intention de déplacer votre mobilier émotionnel. \nC’est une musique faite de bruns et de jaunes délavés, rappelant les couvertures beiges des pochettes de disques des années 70, s'inspirant de ces sons du passé et les poussant dans un présent incertain. C'est un disque qui parle de souvenirs, de rêves mais aussi de fantômes. Comme le suggère le nom de l’album, elle est opérée par des techniciens invisibles : \"They let the sliders rise and the lights are bleeding through. They are professional ghosts, they are spirits on demand and they are getting it done, oh yeah.\"",
+        "genre": "Dream-Pop",
+        "name": "Softlander",
+        "pictureCover": "/_nuxt/assets/img/softlander-1.jpeg",
+        "pictureProfile": "/_nuxt/assets/img/softlander-2.jpeg",
         "public": true,
-        "slug": "daft-punk",
+        "slug": "softlander",
         "socialNetworks": {
-            "instagram": "https://instagram.com"
+            "instagram": ["https://www.instagram.com/softlanderband/"],
+            "spotify": "https://open.spotify.com/intl-fr/artist/1e9jsGUOvtzJHyTdKZQ11g"
+        },
+        "clip": "https://www.youtube.com/watch?v=47i7QUDADNc"
+    },
+    {
+        "day": "Vendredi",
+        "description": "Batbait fait une musique qui va bien au-delà des guitares saturées et des rythmes rapides. Leur son est riche en couches : profond, puissant et vibrant d’intensité. Lorsqu’il y a des problèmes avec le patriarcat, Batbait résonne comme une réponse.\nBatbait joue sa musique à sa manière. Iels ne suivent pas les règles.\n“DIY” signifie qu’iels font tout elles-mêmes. Les quatre musicien·ne·s ont leur propre langage musical. Iels mélangent différents effets comme la distorsion et l’écho avec des rythmes singuliers. Musique, paroles et esthétique s’assemblent pour créer leur art. Iels mettent l’accent sur la liberté et l’expression de soi.\nBatbait montre que le rock peut être bruyant et enragé, mais aussi doux et réfléchi. Leur son est unique. Batbait suit sa propre voie. Après leur premier album Dirty Clothes, de nouveaux morceaux arrivent bientôt.",
+        "genre": "Rock, Garage Rock, Indie",
+        "name": "Batbait",
+        "pictureCover": "/_nuxt/assets/img/batbait-1.jpg",
+        "pictureProfile": "/_nuxt/assets/img/batbait-2.jpg",
+        "public": true,
+        "slug": "batbait",
+        "socialNetworks": {
+            "instagram": ["https://www.instagram.com/batbaitband/"],
+            "spotify": "https://open.spotify.com/intl-fr/artist/1PGFrlFMjm2RIi2ndQ0lHG"
+        },
+        "clip": "https://www.youtube.com/watch?v=9OIv9FrL51Y"
+    },
+    {
+        "day": "Vendredi",
+        "description": "Alliant rock brut et sonorités électroniques modernes, REDMOON crée un mur de son puissant et mélodique. Leur musique oscille entre intensité et harmonies pop accrocheuses. Il en résulte un univers sonore résolument moderne.\nIls proposent un univers à la croisée des chemins entre progrès technologique, héritage industriel et sensibilité existentielle. Le groupe est à l'image de son époque : dynamique et électrique.",
+        "genre": "Hybrid Rock",
+        "name": "REDMOON",
+        "pictureCover": "/_nuxt/assets/img/redmoon-1.jpg",
+        "pictureProfile": "/_nuxt/assets/img/redmoon-1.jpg",
+        "public": true,
+        "slug": "redmoon",
+        "socialNetworks": {
+            "instagram": ["https://www.instagram.com/weareredmoon/"],
+            "spotify": "https://open.spotify.com/intl-fr/artist/1tRFUNiUD1F6JEUTa2aQAo"
         }
+    },
+    {
+        "day": "Vendredi",
+        "description": "À l’écoute de leur premier album, on s’imagine dans une cave londonienne poisseuse au milieu des années quatre-vingts : TOMORROW’S GHOST délivrent un post-punk crasseux et désenchanté – rock minimaliste, riffs de guitares distordus et vitupérations vocales désabusées.\nLeur musique se déguste en live lors de prestations du plus bel effet, au cours desquelles le duo originel se mue en trio.",
+        "genre": "Dark Wave",
+        "name": "TOMORROW’S GHOST",
+        "pictureCover": "/_nuxt/assets/img/tg-1.jpg",
+        "pictureProfile": "/_nuxt/assets/img/tg-2.jpg",
+        "public": true,
+        "slug": "tomorrow-s-ghost",
+        "socialNetworks": {
+            "instagram": ["https://www.instagram.com/tomorrowsghost.band/"],
+            "spotify": "https://open.spotify.com/intl-fr/artist/6zoKupq8FXHSnFnfPt8Lkb"
+        },
+        "clip": "https://www.youtube.com/watch?v=tM9jDJ6PVwg"
+    },
+    {
+        "day": "Vendredi",
+        "description": "NONANTE est un quatuor post-punk/new wave, formé de musiciens (Nicolas, Adrien, Sebastian et Philippe) adeptes de boucles percutantes et de guitares flottantes.\nÀ la recherche de frissons, ils tricotent et triturent des sons intemporels jusqu’à obtenir une mixture à la frontière entre le garage punk et la techno.\nInspirés à la fois par la pop et le rock psychédélique ainsi que par la musique électronique et le krautrock, NONANTE zigzague sans cesse entre nappes mélodiques et sursauts synthétiques.",
+        "genre": "Post-Punk, New Wave",
+        "name": "NONANTE",
+        "pictureCover": "/_nuxt/assets/img/nonante-1.jpg",
+        "pictureProfile": "/_nuxt/assets/img/nonante-2.jpg",
+        "public": true,
+        "slug": "nonante",
+        "socialNetworks": {
+            "instagram": ["https://www.instagram.com/no.nante/"],
+            "spotify": "https://open.spotify.com/intl-fr/artist/6BsmUIZhJySlcQykccTxka"
+        },
+        "clip": "https://www.youtube.com/watch?v=UB8OCnt7mz0"
+    },
+    {
+        "day": "Vendredi",
+        "description": "S’inspirant des années Krautrock, Orphia façonne un son froid et synthétique, empreint d’une nouvelle forme de nostalgie. \nDerrière ses machines, il tisse une musique live qui mêle soigneusement cold wave, électro et EBM, le tout porté par des paroles poignantes et minimalistes.",
+        "genre": "Synth, Cold Wave, Electro, Pop",
+        "name": "Orphia",
+        "pictureCover": "/_nuxt/assets/img/orphia-1.jpg",
+        "pictureProfile": "/_nuxt/assets/img/orphia-2.jpg",
+        "public": true,
+        "slug": "orphia",
+        "socialNetworks": {
+            "instagram": ["https://www.instagram.com/_orphia"],
+            "spotify": "https://open.spotify.com/intl-fr/artist/0CHfW6MGVxHRVL3A8UUO1U"
+        },
+        "soundcloud": [
+            "https://soundcloud.com/orphiaa/laventure-des-gens-modernes?si=fe89f573e0594e108dabd51a111900c7&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+        ]
     },
     {
         "day": "Samedi",
-        "description": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.",
-        "genre": "Rock",
-        "name": "Daft Punk",
-        "pictureCover": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daft_Punk_in_2013_2.jpg/1920px-Daft_Punk_in_2013_2.jpg",
-        "pictureProfile": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daft_Punk_in_2013_2.jpg/1920px-Daft_Punk_in_2013_2.jpg",
+        "description": "COUP DE COEUR, c’est comme écouter la radio dans un monde cyberpunk. Des 808 brutes, des textures électroniques et des vocals trap.\nLes prods sont faites maison. Le son est digital, intense et sombre.",
+        "genre": "Hyper-Pop, Rap",
+        "name": "COUP DE COEUR",
+        "pictureCover": "/_nuxt/assets/img/cdc-1.png",
+        "pictureProfile": "/_nuxt/assets/img/cdc-2.jpg",
         "public": true,
-        "slug": "daft-punk",
+        "slug": "coup-de-coeur",
         "socialNetworks": {
-            "instagram": "https://instagram.com"
-        }
+            "instagram": ["https://www.instagram.com/coupdecoeur_ill/"],
+            "spotify": "https://open.spotify.com/intl-fr/artist/0omSVHBVpwAO7b5A0KY8Ez"
+        },
+        "erste": true,
+        "clip": "https://www.youtube.com/watch?v=j9x6n5qyYGM"
+    },
+    {
+        "day": "Samedi",
+        "description": "Hantébius est un projet artistique qui explore les frontières du rock et de la musique électronique à travers des chansons brutes et des textes profondément personnels.\nSur scène, c’est un voyage émotionnel intense où se tisse une véritable complicité avec le public.",
+        "genre": "Rock, Electro",
+        "name": "Hantébius",
+        "pictureCover": "/_nuxt/assets/img/hantebius-1.JPG",
+        "pictureProfile": "/_nuxt/assets/img/hantebius-2.JPG",
+        "public": true,
+        "slug": "hantebius",
+        "socialNetworks": {
+            "instagram": ["https://www.instagram.com/_hantebius_/"],
+            "spotify": "https://open.spotify.com/intl-fr/artist/1orK4RW5FDZyyLQeWIOhQh"
+        },
+        "erste": true,
+        "clip": "https://www.youtube.com/watch?v=uU5WRtWq100"
+    },
+    {
+        "day": "Samedi",
+        "description": "Je m’appelle Ely Tina, j’ai 19 ans et je viens de Bienne. J’écris et chante depuis mes 12 ans et je fais du piano depuis que j’ai 6 ans. Depuis 2021 je fais des concerts où je présente mes compositions de chant et je m’accompagne au piano. Depuis 2023 je suis la plupart du temps accompagnée de mes deux musiciens : Simon Zbinden à la basse et la guitare, et Adrien Kobel à la batterie. J’ai participé au concours de Dimension Jeunes Talents et j’ai donc eu l’occasion de jouer sur la scène de la Marée à Festi’neuch 2023.",
+        "genre": "RnB, Soul, Jazz, Pop, Neo RnB",
+        "name": "Ely Tina",
+        "pictureCover": "/_nuxt/assets/img/elytina-1.jpg",
+        "pictureProfile": "/_nuxt/assets/img/elytina-2.jpg",
+        "public": true,
+        "slug": "ely-tina",
+        "socialNetworks": {
+            "instagram": ["https://www.instagram.com/elytinaa/"]
+        },
+        "clip": "https://www.youtube.com/watch?v=tXTyw1TMbUg"
+    },
+    {
+        "day": "Samedi",
+        "description": "Doux mélange de voix pailletées, de rythmiques numérisées et de guitare électrifiée, Pug Impact est un groupe neuchâtelois qui compose en explorant et en s'amusant.\nLes inspirations sont multiples, allant de l'électro planante à l'indie rock, le tout saupoudré de styles non définis à savourer où que vous soyez. En résumé, Pug Impact, c'est de l'amitié musicale à partager, toujours spontanée, et surtout, qui vient du cœur.\nLes paroles sont nourries par les questionnements et expériences de vie des trois membres du groupe. Par l’alliance de textes mélancoliques et de mélodies enjouées, Pug Impact illustre le grand huit de la vie à sa manière.",
+        "genre": "Indie Rock Electro",
+        "name": "Pug Impact",
+        "pictureCover": "/_nuxt/assets/img/pugimpact-1.jpg",
+        "pictureProfile": "/_nuxt/assets/img/pugimpact-2.jpg",
+        "public": true,
+        "slug": "pug-impact",
+        "socialNetworks": {
+            "instagram": ["https://www.instagram.com/pug_impact/"],
+            "spotify": "https://open.spotify.com/intl-fr/artist/2vlWKNxLbtnNKUf0p2JH88"
+        },
+        "clip": "https://www.youtube.com/watch?v=pT2OYiAoJbU"
+    },
+    {
+        "day": "Samedi",
+        "description": "Dibby, l’éclair de la scène rap queer, renversant les codes d’un genre qui a besoin de renouveau. À 29 ans, il est auteur, beatmaker, interprète, créateur de vêtements.\nCe personnage aux multiples talents nous fait voyager dans son univers transcendant, euphorisant et inclusif, au son des synthétiseurs futuristes et de basses saturées, mêlées à des punchlines fortes, des textes crus, militants et des storytellings dans lesquels il ose mettre en écriture les aspects les plus vulnérables de sa vie.\nUne véritable bête de scène, son univers prend une tournure plus intense et rock face au public. Accompagné d’un batteur, d’un guitariste et de 7 danseur.euse.xs et de son style excentrique. Ses shows sont percutants et son aisance à mettre le public dans sa poche promet à chaque fois une expérience mémorable.\n2025 est l’année du renouveau : un nouvel album “HARDCOEUR” attendu, Dibby, ses musiciens (Dim the Drummer & Alex Merlin) et ses danseur.euse.xs sont prêt.e.xs à casser les codes habituels du rap, pour marquer de pied ferme l’arrivée d’une nouvelle ère innovante, et queer.",
+        "genre": "",
+        "name": "Dibby",
+        "pictureCover": "",
+        "pictureProfile": "",
+        "public": true,
+        "slug": "dibby",
+        "socialNetworks": {
+            "instagram": ["https://www.instagram.com/dibby.officiel"],
+            "spotify": "https://open.spotify.com/intl-fr/artist/2nsPmEKuv4TDmMVK1qhLaX"
+        },
+        "clip": "https://www.youtube.com/watch?v=0pI_9tl0hr8"
+    },
+    {
+        "day": "Samedi",
+        "description": "Sérotonine parce que ça fait du bien ! Trois personnes d’origines et d’horizons très différents se retrouvent dans le local de théories du stade de foot qu’ils occupent depuis 7 ans à Bienne. Là où l’on faisait les stratégies de match sur un vieux tableau noir assis sur des chaises comme dans une classe d’école qui pue la transpiration, le trio Acid rave et post pop s’est installé ! Maintenant, ça pue la clope et la vieille binche, mais ça reste quand même bien sport !",
+        "genre": "Live Acid Techno",
+        "name": "Serotonine",
+        "pictureCover": "/_nuxt/assets/img/serotonine-1.png",
+        "pictureProfile": "/_nuxt/assets/img/serotonine-2.jpg",
+        "public": true,
+        "slug": "serotonine",
+        "socialNetworks": {
+            "instagram": ["https://www.instagram.com/serotonine_acid/"],
+            "spotify": "https://open.spotify.com/intl-fr/artist/5JJGbB2Jo4ulSF9q7ySSey"
+        },
+        "clip": "https://www.youtube.com/watch?v=1IrZWBlw9ZQ"
+    },
+    {
+        "day": "Samedi",
+        "description": "Barbicop est le projet solo de Madeleine Sandri, musicienne suisse de 24 ans. Son univers mêle une pop entraînante mais étrange à une esthétique colorée et décalée, tissant satire et échantillons vocaux troublants dans une exploration ludique des personnages, identités et images numériques.\nAprès son deuxième EP Barbicopium, Barbicop monte sur scène fin 2024, proposant un live rafraîchissant, soigneusement conçu, à la fois humoristique et puissant à travers l’Europe. Ayant partagé la scène avec des artistes comme Irène Drésel aux Docks et BODEGA au Fri-Son, elle s’est produite sur certaines des plus grandes scènes suisses. Sa pop décalée et non conventionnelle, sa personnalité marquée et son talent pour créer des univers — combinés à la complicité unique qu’elle partage sur scène avec son frère lumberGucci (batteur) — laissent le public touché et captivé.",
+        "genre": "Hyper-Pop, Lo-fi Pop",
+        "name": "Barbicop",
+        "pictureCover": "/_nuxt/assets/img/barbicop-1.jpg",
+        "pictureProfile": "/_nuxt/assets/img/barbicop-2.jpg",
+        "public": true,
+        "slug": "barbicop",
+        "socialNetworks": {
+            "instagram": ["https://www.instagram.com/barbicop.maddie/"],
+            "spotify": "https://open.spotify.com/intl-fr/artist/3ZUBFjhQCDfQoFcaj965b9"
+        },
+        "clip": "https://www.youtube.com/watch?v=CS5ZmUoEuZ0"
+    },
+    {
+        "day": "Samedi",
+        "description": "Amis devant comme derrière les platines, Jacques et Malo - alias Pho3 et 13R - aiment varier les sonorités, créant une symbiose de techno électrique et hypnotique.\nActifs sur la scène underground suisse romande, notamment par le biais de leur collectif PARANOISE, ils clôtureront la deuxième soirée de Ersatz avec un set percutant et énergique.",
+        "genre": "Techno",
+        "name": "Pho3 b2b 13R",
+        "pictureCover": "",
+        "pictureProfile": "",
+        "public": true,
+        "slug": "pho3-b2b-13r",
+        "socialNetworks": {
+            "instagram": [
+                "https://www.instagram.com/pho3concept/",
+                "https://www.instagram.com/13r13r13r13r/",
+                "https://www.instagram.com/paranoise.system/"
+            ]
+        },
+        "soundcloud": [
+            "https://soundcloud.com/ph03concept/color-1?si=31175fad77ef4127a426dcfa1dfe9c52&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+            "https://soundcloud.com/introspectiverecordsmusic/13r-isguest014"
+        ]
     },
     {
         "day": "Dimanche",
-        "description": "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.",
-        "genre": "Hip-Hop",
-        "name": "Daft Punk",
-        "pictureCover": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daft_Punk_in_2013_2.jpg/1920px-Daft_Punk_in_2013_2.jpg",
-        "pictureProfile": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daft_Punk_in_2013_2.jpg/1920px-Daft_Punk_in_2013_2.jpg",
+        "description": "Nappes de brouillard, synthétiseurs gazeux, percussions solides, basses liquides, l’univers du premier album de ESAÏA est un appel à la rêverie, les pieds solidement ancrés dans la culture sound system.\nConçu comme un voyage initiatique au cours duquel le Berghain aurait posé ses valises à Kingston, MINDSCAPES plonge l’auditeur dans un clair-obscur cinématographique tapissé d’infrabasses.\nPropulsée par un besoin crucial d’hybridation et d’expérimentation à l’image des pionniers du dub, ESAÏA repousse les limites du genre pour se les réapproprier. Conçu comme un objet organique, la musique d’ESAÏA vibre avec les visuels de MADAME IPSUM, luminescences propices à l’éveil de nos synapses.",
+        "genre": "Dub, Reggae",
+        "name": "Esaïa",
+        "pictureCover": "/_nuxt/assets/img/esaia-1.jpg",
+        "pictureProfile": "/_nuxt/assets/img/esaia-2.jpg",
         "public": true,
-        "slug": "daft-punk",
+        "slug": "esaia",
         "socialNetworks": {
-            "instagram": "https://instagram.com"
-        }
+            "instagram": ["https://www.instagram.com/esaia.eaz"],
+            "spotify": "https://open.spotify.com/intl-fr/artist/2X0v1x3q4a5j7c6g9k8m2G"
+        },
+        "clip": "https://www.youtube.com/watch?v=e3ZIeYhiwig"
+    },
+    {
+        "day": "Dimanche",
+        "description": "Zadkiel est un DJ suisse-paraguayen, membre du collectif neuchâtelois Retroblast, aussi connu sous le nom d’artiste HZJM. C’est à partir de 2023, qu’iel enchaîne avec le SAS à Delémont, La Case à Chocs à Neuchâtel, la Coupole à Bienne et Festi’Neuch, où iel partagera des line-up avec: The Lady Machine, MCR-T, Miss Bashful x DBBD et Shoki287. \nC’est avec fluidité qu’iel jongle entre les styles, en passant par de la techno, à du breakbeat ou de la house. Pour Ersatz Festival, Zadkiel prépare une track selection housy pleine de groove et de bonne humeur pour vous faire danser. \nPassionné.x par la club culture, iel cherche à découvrir et à faire découvrir. Dans ses inspirations on y retrouve un panel d’artistes variés tels que: Rosa Terenzi, Sally C, L.P. Rhythm, Shonky, Ignition Technician et plus encore.",
+        "genre": "Progressive House, Hip House",
+        "name": "Zadkiel",
+        "pictureCover": "/_nuxt/assets/img/zadkiel-1.jpg",
+        "pictureProfile": "/_nuxt/assets/img/zadkiel-2.jpg",
+        "public": true,
+        "slug": "zadkiel",
+        "socialNetworks": {
+            "instagram": ["https://www.instagram.com/hzjm.7"]
+        },
+        "soundcloud": [
+            "https://soundcloud.com/zadkiel-hzjm/hzjm7-le-phare-festineuch-13062024?si=09e7fd0c502e4a8abf57599cd2f0eb2c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+        ]
+    },
+    {
+        "day": "Dimanche",
+        "description": "Roxo est un passionné de musique électronique, un explorateur sonore et un dénicheur de pépites musicales qui aime partager ces trouvailles.\nEn tant que moitié du duo Psycho Weazel, il vous invite à plonger dans un univers en constante évolution, où les frontières entre Trance, House, Breakbeat et Hypnotic Groove s’estompent pour créer une expérience immersive unique.\nChaque set de Roxo est une invitation à découvrir des sonorités inédites aux rythmes envoûtants, tout en restant fidèle à l’esprit du partage. Laissez-vous captiver par ses mixs audacieux et sa passion contagieuse. Roxo est là pour vous surprendre à chaque instant.",
+        "genre": "Trance, House, Hypnotic Groove",
+        "name": "Roxo",
+        "pictureCover": "/_nuxt/assets/img/roxo-1.jpg",
+        "pictureProfile": "/_nuxt/assets/img/roxo-2.jpg",
+        "public": true,
+        "slug": "roxo",
+        "socialNetworks": {
+            "instagram": ["https://www.instagram.com/roxo_", "https://www.instagram.com/psychoweazel"],
+            "spotify": "https://open.spotify.com/intl-fr/artist/0jPLiTRTpRgGobZdrtxXWx"
+        },
+        "clip": "https://www.youtube.com/watch?v=q6dO1EBoRSE"
+    },
+    {
+        "day": "Dimanche",
+        "description": "Isia dessine un univers musical riche et audacieux, où des sonorités R&B se mêlent à des atmosphères mystérieuses et aériennes et au trip-hop. \nPortée par des influences variées et une sensibilité unique, elle enchante avec des chansons interprétées en français, anglais et portugais du Brésil, révélant toute la profondeur de son art. Sur scène, Isia livre des performances intenses et captivantes, créant une alchimie rare avec son public, entre émotion brute et élégance.",
+        "genre": "RnB Alternatif, Neo-Soul, Trip-Hop",
+        "name": "Isia",
+        "pictureCover": "/_nuxt/assets/img/isia-1.jpeg",
+        "pictureProfile": "/_nuxt/assets/img/isia-2.jpeg",
+        "public": true,
+        "slug": "isia",
+        "socialNetworks": {
+            "instagram": ["https://www.instagram.com/isiamend"],
+            "spotify": "https://open.spotify.com/intl-fr/artist/0km8lKLOPSLaE11Ztn8vlX"
+        },
+        "clip": "https://www.youtube.com/watch?v=Q-_DQ1foeOM"
+    },
+    {
+        "day": "Dimanche",
+        "description": "Une émotion qui s’inscrit dans un sentiment excessif. Frôle le mystique et réinvente le sombre avec des histoires joyeusement funestes.\nDes kicks vitaminés et des synthétiseurs sauvages entourent des voix fines. Les paroles chantées en allemand, français et anglais évoquent des histoires quotidiennes dérivant dans les eaux profondes de l’absurde.\nC'est ainsi que l'on peut décrire la musique de Mara Meier et Laetitia Khiara. Un duo d'électro-clashpop de Zürich et Neuchâtel fondé en 2021.\neggs and tiaras fait partie de la sélection 2023-2024 du programme d’encadrement pour artistes Embrayage de la Case à Chocs, à Neuchâtel.",
+        "genre": "Electro Clashpop",
+        "name": "eggs and tiaras",
+        "pictureCover": "/_nuxt/assets/img/eat-1.jpg",
+        "pictureProfile": "/_nuxt/assets/img/eat-2.jpg",
+        "public": true,
+        "slug": "eggs-and-tiaras",
+        "socialNetworks": {
+            "instagram": ["https://www.instagram.com/eggs_and_tiaras/"],
+            "spotify": "https://open.spotify.com/intl-fr/artist/1wLCzyqTut4tZz2TfuJOHi"
+        },
+        "clip": "https://www.youtube.com/watch?v=IzFdouQM7_E"
     }
 ]

@@ -1,24 +1,39 @@
 <template>
     <div class="flex justify-center items-center py-16">
-        <a
-            href=""
-            target="_blank"
-            :class="buttonClasses"
-        >
-            <span class="text-xl sm:text-4xl md:text-5xl font-semibold uppercase">
-                Acheter sur Petzi
+        <a href="https://www.petzi.ch/fr/events/59445/" target="_blank" :class="buttonClasses">
+            <span class="text-xl sm:text-4xl md:text-5xl uppercase">
+                {{ phrase }}
             </span>
         </a>
     </div>
 </template>
 
 <script setup lang="ts">
+import { computed, ref } from 'vue';
+
 const props = defineProps({
     inverted: {
         type: Boolean,
         default: false,
     },
 });
+
+// Possible random phrases
+const phrases = [
+    'Chope ton billet !',
+    'Achète ton ticket !',
+    'Oublie pas de prendre ton sésame !',
+    'Prends ta préloc !',
+    'Assure ta place !',
+    'Réserve ton entrée !',
+    "T'as ton billet ?",
+    'Say no to fomo, get your ticket',
+    'Les billets Early Bird sont là !',
+];
+
+// Random selection of a phrase when loading
+const randomIndex = ref(Math.floor(Math.random() * phrases.length));
+const phrase = computed(() => phrases[randomIndex.value]);
 
 const buttonClasses = computed(() =>
     props.inverted
