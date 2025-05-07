@@ -97,7 +97,7 @@
     },
     {
         "day": "Samedi",
-        "description": "",
+        "description": "COUP DE COEUR, c’est comme écouter la radio dans un monde cyberpunk. Des 808 brutes, des textures électroniques et des vocals trap.\nLes prods sont faites maison. Le son est digital, intense et sombre.",
         "genre": "Hyper-Pop, Rap",
         "name": "COUP DE COEUR",
         "pictureCover": "/_nuxt/assets/img/cdc-1.png",
@@ -106,7 +106,7 @@
         "slug": "coup-de-coeur",
         "socialNetworks": {
             "instagram": [
-                ""
+                "https://www.instagram.com/coupdecoeur_ill/"
             ],
             "spotify":"https://open.spotify.com/intl-fr/artist/0omSVHBVpwAO7b5A0KY8Ez"
         },
