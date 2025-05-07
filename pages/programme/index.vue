@@ -1,6 +1,6 @@
 <template>
     <div class="text-pink-500 bg-purple-500">
-        <img src="/public/img/ersatz-cover-processed.png" alt="Ersatz" class="w-full object-cover align-top bg-transparent" />
+        <img src="/img/ersatz-cover.png" alt="Ersatz Cover" class="w-full object-cover align-top bg-transparent" />
 
         <LayoutTitle title="Programme" />
 

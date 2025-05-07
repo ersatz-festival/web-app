@@ -1,5 +1,5 @@
 import tailwindcss from '@tailwindcss/vite';
-import convertImages from './tools/convert-images';
+import minifyImages from './tools/minify-images';
 
 export default defineNuxtConfig({
     ssr: false,
@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     },
     hooks: {
         'build:before': async () => {
-            await convertImages();
+            await minifyImages();
         },
     },
 });
