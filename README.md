@@ -48,6 +48,20 @@ yarn dev
 bun run dev
 ```
 
+## Lint and format
+
+You must use the following commands to clean your code:
+
+```bash
+# Lint and try to fix some errors automatically
+npm run lintfix
+
+# Format your code
+npm run format
+```
+
+Note that you won't be able to merge your code if the linter does not pass.
+
 ## Production
 
 Build the application for production:

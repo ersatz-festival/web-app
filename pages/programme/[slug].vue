@@ -4,7 +4,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
                 <!-- Artist picture -->
                 <div class="col-span-1 lg:col-span-4">
-                    <img :src="artist.pictureProfile" :alt="artist.name" class="w-full lg:w-96 ld:h-96 rounded" />
+                    <img :src="`/img/${artist.pictureProfile}`" :alt="artist.name" class="w-full lg:w-96 ld:h-96 rounded" />
                 </div>
 
                 <!-- Artist info -->
