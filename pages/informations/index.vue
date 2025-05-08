@@ -63,7 +63,30 @@
 import { useHead } from '#imports';
 
 useHead({
-  title: 'Informations – Ersatz Festival',
+    title: 'Informations – Ersatz Festival',
+    meta: [
+        {
+            name: 'description',
+            content:
+                'Toutes les informations pratiques pour Ersatz Festival 2025 à St-Blaise : accès, horaires, transports, camping et  bénévolat.',
+        },
+        {
+            property: 'og:title',
+            content: 'Informations – Ersatz Festival',
+        },
+        {
+            property: 'og:description',
+            content: 'Prépare ta venue à Ersatz Festival 2025 à St-Blaise : horaires, accès, transports, camping et bénévolat.',
+        },
+        {
+            property: 'og:image',
+            content: 'https://ersatzfestival.ch/img/ersatz-cover.png',
+        },
+        {
+            property: 'og:url',
+            content: 'https://ersatzfestival.ch/informations',
+        },
+    ],
 });
 
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue';

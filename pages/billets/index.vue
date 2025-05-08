@@ -37,7 +37,29 @@
 import { useHead } from '#imports';
 
 useHead({
-  title: 'Billets – Ersatz Festival',
+    title: 'Billets – Ersatz Festival',
+    meta: [
+        {
+            name: 'description',
+            content: 'Infos sur les billets du Ersatz Festival 2025.',
+        },
+        {
+            property: 'og:title',
+            content: 'Billets – Ersatz Festival',
+        },
+        {
+            property: 'og:description',
+            content: 'Tous les prix pour accéder au Ersatz Festival 2025 à St-Blaise..',
+        },
+        {
+            property: 'og:image',
+            content: 'https://ersatzfestival.ch/img/ersatz-cover.png',
+        },
+        {
+            property: 'og:url',
+            content: 'https://ersatzfestival.ch/billets',
+        },
+    ],
 });
 
 const pricesPerDay = [

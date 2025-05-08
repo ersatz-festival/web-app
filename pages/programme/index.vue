@@ -7,11 +7,16 @@
         <!-- Filters section -->
         <section class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 space-y-4">
             <div class="flex items-center space-x-2 overflow-x-auto whitespace-nowrap px-1 scrollbar-hide">
-                <button v-for="(btn, index) in daysFilters" :key="index"
-                    class="w-32 px-6 py-3 text-lg rounded-lg shadow duration-200 cursor-pointer" :class="{
+                <button
+                    v-for="(btn, index) in daysFilters"
+                    :key="index"
+                    class="w-32 px-6 py-3 text-lg rounded-lg shadow duration-200 cursor-pointer"
+                    :class="{
                         'bg-pink-500 text-white': filterDay === btn,
                         'text-purple-500 bg-gray-50 hover:bg-gray-100 hover:shadow-lg': filterDay !== btn,
-                    }" @click="filterDay = btn">
+                    }"
+                    @click="filterDay = btn"
+                >
                     {{ btn }}
                 </button>
             </div>
@@ -37,6 +42,29 @@ import { useHead } from '#imports';
 
 useHead({
     title: 'Programme – Ersatz Festival',
+    meta: [
+        {
+            name: 'description',
+            content:
+                'Découvre le programme complet de Ersatz Festival 2025 : tous les artistes et les jours de passage du 22 au 24 août à St-Blaise.',
+        },
+        {
+            property: 'og:title',
+            content: 'Programme – Ersatz Festival',
+        },
+        {
+            property: 'og:description',
+            content: 'Consulte le programme officiel de Ersatz Festival 2025 avec tous les concerts jour par jour.',
+        },
+        {
+            property: 'og:image',
+            content: 'https://ersatzfestival.ch/img/ersatz-cover.png',
+        },
+        {
+            property: 'og:url',
+            content: 'https://ersatzfestival.ch/programme',
+        },
+    ],
 });
 
 import { computed, ref } from 'vue';
