@@ -25,6 +25,10 @@
                     </tr>
                 </tbody>
             </table>
+            <p class="mt-4 text-xl md:text-2xl">
+                Nous proposons un prix normal, et un prix de soutien — un peu plus élevé — pour les coeurs généreux qui veulent donner un
+                coup de pouce à notre petit festival (et gagner notre amour éternel) !
+            </p>
         </section>
 
         <section class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
@@ -34,6 +38,34 @@
 </template>
 
 <script setup lang="ts">
+import { useHead } from '#imports';
+
+useHead({
+    title: 'Billets – Ersatz Festival',
+    meta: [
+        {
+            name: 'description',
+            content: 'Infos sur les billets du Ersatz Festival 2025.',
+        },
+        {
+            property: 'og:title',
+            content: 'Billets – Ersatz Festival',
+        },
+        {
+            property: 'og:description',
+            content: 'Tous les prix pour accéder au Ersatz Festival 2025 à St-Blaise..',
+        },
+        {
+            property: 'og:image',
+            content: 'https://ersatzfestival.ch/img/ersatz-cover.png',
+        },
+        {
+            property: 'og:url',
+            content: 'https://ersatzfestival.ch/billets',
+        },
+    ],
+});
+
 const pricesPerDay = [
     {
         name: 'Early-bird',

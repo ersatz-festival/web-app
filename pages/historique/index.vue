@@ -25,6 +25,34 @@
 </template>
 
 <script setup>
+import { useHead } from '#imports';
+
+useHead({
+    title: 'Historique – Ersatz Festival',
+    meta: [
+        {
+            name: 'description',
+            content: 'Retour sur les éditions précédentes de Ersatz Festival depuis 2020 : artistes invités et dates de chaque édition.',
+        },
+        {
+            property: 'og:title',
+            content: 'Historique – Ersatz Festival',
+        },
+        {
+            property: 'og:description',
+            content: 'Parcours les programmations des éditions passées de Ersatz Festival, de 2020 à 2023.',
+        },
+        {
+            property: 'og:image',
+            content: 'https://ersatzfestival.ch/img/ersatz-cover.png',
+        },
+        {
+            property: 'og:url',
+            content: 'https://ersatzfestival.ch/historique',
+        },
+    ],
+});
+
 const editions = [
     {
         year: 2023,

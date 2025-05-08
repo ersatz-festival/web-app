@@ -111,8 +111,8 @@
         "description": "Hantébius est un projet artistique qui explore les frontières du rock et de la musique électronique à travers des chansons brutes et des textes profondément personnels.\nSur scène, c’est un voyage émotionnel intense où se tisse une véritable complicité avec le public.",
         "genre": "Rock, Electro",
         "name": "Hantébius",
-        "pictureCover": "hantebius-1.JPG",
-        "pictureProfile": "hantebius-2.JPG",
+        "pictureCover": "hantebius-1.jpg",
+        "pictureProfile": "hantebius-2.jpg",
         "public": true,
         "slug": "hantebius",
         "socialNetworks": {
@@ -124,7 +124,7 @@
     },
     {
         "day": "Samedi",
-        "description": "Je m’appelle Ely Tina, j’ai 19 ans et je viens de Bienne. J’écris et chante depuis mes 12 ans et je fais du piano depuis que j’ai 6 ans. Depuis 2021 je fais des concerts où je présente mes compositions de chant et je m’accompagne au piano. Depuis 2023 je suis la plupart du temps accompagnée de mes deux musiciens : Simon Zbinden à la basse et la guitare, et Adrien Kobel à la batterie. J’ai participé au concours de Dimension Jeunes Talents et j’ai donc eu l’occasion de jouer sur la scène de la Marée à Festi’neuch 2023.",
+        "description": "Ely Tina a 19 ans et vient de Bienne. Elle écrit et chante depuis ses 12 ans et fait du piano depuis qu’elle a 6 ans. Depuis 2021, elle fait des concerts où elle présente ses compositions de chant et elle s’accompagne au piano. Depuis 2023, elle est la plupart du temps accompagnée de ses deux musiciens : Simon Zbinden à la basse et la guitare, et Adrien Kobel à la batterie. Elle a participé au concours de Dimension Jeunes Talents et a donc eu l’occasion de jouer sur la scène de la Marée à Festi’neuch 2023.",
         "genre": "RnB, Soul, Jazz, Pop, Neo RnB",
         "name": "Ely Tina",
         "pictureCover": "elytina-1.jpg",
@@ -138,7 +138,7 @@
     },
     {
         "day": "Samedi",
-        "description": "Doux mélange de voix pailletées, de rythmiques numérisées et de guitare électrifiée, Pug Impact est un groupe neuchâtelois qui compose en explorant et en s'amusant.\nLes inspirations sont multiples, allant de l'électro planante à l'indie rock, le tout saupoudré de styles non définis à savourer où que vous soyez. En résumé, Pug Impact, c'est de l'amitié musicale à partager, toujours spontanée, et surtout, qui vient du cœur.\nLes paroles sont nourries par les questionnements et expériences de vie des trois membres du groupe. Par l’alliance de textes mélancoliques et de mélodies enjouées, Pug Impact illustre le grand huit de la vie à sa manière.",
+        "description": "Doux mélange de voix pailletées, de rythmiques numérisées et de guitare électrifiée, Pug Impact est un groupe neuchâtelois qui compose en explorant et en s'amusant.\nLes inspirations sont multiples, allant de l'électro planante à l'indie rock, le tout saupoudré de styles non définis à savourer où que vous soyez. En résumé, Pug Impact, c'est de l'amitié musicale à partager, toujours spontanée, et surtout, qui vient du coeur.\nLes paroles sont nourries par les questionnements et expériences de vie des trois membres du groupe. Par l’alliance de textes mélancoliques et de mélodies enjouées, Pug Impact illustre le grand huit de la vie à sa manière.",
         "genre": "Indie Rock Electro",
         "name": "Pug Impact",
         "pictureCover": "pugimpact-1.jpg",
@@ -156,8 +156,8 @@
         "description": "Dibby, l’éclair de la scène rap queer, renversant les codes d’un genre qui a besoin de renouveau. À 29 ans, il est auteur, beatmaker, interprète, créateur de vêtements.\nCe personnage aux multiples talents nous fait voyager dans son univers transcendant, euphorisant et inclusif, au son des synthétiseurs futuristes et de basses saturées, mêlées à des punchlines fortes, des textes crus, militants et des storytellings dans lesquels il ose mettre en écriture les aspects les plus vulnérables de sa vie.\nUne véritable bête de scène, son univers prend une tournure plus intense et rock face au public. Accompagné d’un batteur, d’un guitariste et de 7 danseur.euse.xs et de son style excentrique. Ses shows sont percutants et son aisance à mettre le public dans sa poche promet à chaque fois une expérience mémorable.\n2025 est l’année du renouveau : un nouvel album “HARDCOEUR” attendu, Dibby, ses musiciens (Dim the Drummer & Alex Merlin) et ses danseur.euse.xs sont prêt.e.xs à casser les codes habituels du rap, pour marquer de pied ferme l’arrivée d’une nouvelle ère innovante, et queer.",
         "genre": "",
         "name": "Dibby",
-        "pictureCover": "",
-        "pictureProfile": "",
+        "pictureCover": "dibby-1.jpg",
+        "pictureProfile": "dibby-2.jpg",
         "public": true,
         "slug": "dibby",
         "socialNetworks": {
@@ -201,8 +201,8 @@
         "description": "Amis devant comme derrière les platines, Jacques et Malo - alias Pho3 et 13R - aiment varier les sonorités, créant une symbiose de techno électrique et hypnotique.\nActifs sur la scène underground suisse romande, notamment par le biais de leur collectif PARANOISE, ils clôtureront la deuxième soirée de Ersatz avec un set percutant et énergique.",
         "genre": "Techno",
         "name": "Pho3 b2b 13R",
-        "pictureCover": "",
-        "pictureProfile": "",
+        "pictureCover": "pho313r-1.jpeg",
+        "pictureProfile": "pho313r-2.jpeg",
         "public": true,
         "slug": "pho3-b2b-13r",
         "socialNetworks": {
@@ -219,7 +219,7 @@
     },
     {
         "day": "Dimanche",
-        "description": "Nappes de brouillard, synthétiseurs gazeux, percussions solides, basses liquides, l’univers du premier album de ESAÏA est un appel à la rêverie, les pieds solidement ancrés dans la culture sound system.\nConçu comme un voyage initiatique au cours duquel le Berghain aurait posé ses valises à Kingston, MINDSCAPES plonge l’auditeur dans un clair-obscur cinématographique tapissé d’infrabasses.\nPropulsée par un besoin crucial d’hybridation et d’expérimentation à l’image des pionniers du dub, ESAÏA repousse les limites du genre pour se les réapproprier. Conçu comme un objet organique, la musique d’ESAÏA vibre avec les visuels de MADAME IPSUM, luminescences propices à l’éveil de nos synapses.",
+        "description": "Nappes de brouillard, synthétiseurs gazeux, percussions solides, basses liquides, l’univers du premier album de ESAÏA est un appel à la rêverie, les pieds solidement ancrés dans la culture sound system.\nConçu comme un voyage initiatique au cours duquel le Berghain aurait posé ses valises à Kingston, MINDSCAPES plonge l’auditeurice dans un clair-obscur cinématographique tapissé d’infrabasses.\nPropulsée par un besoin crucial d’hybridation et d’expérimentation à l’image des pionniers du dub, ESAÏA repousse les limites du genre pour se les réapproprier. Conçu comme un objet organique, la musique d’ESAÏA vibre avec les visuels de MADAME IPSUM, luminescences propices à l’éveil de nos synapses.",
         "genre": "Dub, Reggae",
         "name": "Esaïa",
         "pictureCover": "esaia-1.jpg",
@@ -228,7 +228,7 @@
         "slug": "esaia",
         "socialNetworks": {
             "instagram": ["https://www.instagram.com/esaia.eaz"],
-            "spotify": "https://open.spotify.com/intl-fr/artist/2X0v1x3q4a5j7c6g9k8m2G"
+            "spotify": "https://open.spotify.com/intl-fr/artist/0WnZZIIgtyE3Qdfzfhje70"
         },
         "clip": "https://www.youtube.com/watch?v=e3ZIeYhiwig"
     },

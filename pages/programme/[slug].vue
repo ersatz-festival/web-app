@@ -91,22 +91,52 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
+import { useHead } from '#imports';
+import { computed, watchEffect } from 'vue';
 import { useRoute } from 'vue-router';
 import InstagramIcon from '~/components/icons/Instagram.vue';
 import SpotifyIcon from '~/components/icons/Spotify.vue';
 import { type Artist } from '~/interfaces/artist';
 import { useArtistsStore } from '~/stores/artists';
 
-const artist = ref<Artist | undefined>(useArtistsStore().getArtistBySlug(useRoute().params.slug as string));
+const route = useRoute();
+const store = useArtistsStore();
 
+// Récupération de l'artiste en fonction du slug
+const artist = computed<Artist | undefined>(() => store.getArtistBySlug(route.params.slug as string));
+
+// SEO dynamique avec mise à jour réactive
+watchEffect(() => {
+    if (!artist.value) return;
+
+    const name = artist.value.name;
+    const description = artist.value.description?.slice(0, 160) || `Découvre ${name} au Ersatz Festival !`;
+    const image = artist.value.pictureProfile
+        ? `https://ersatzfestival.ch/img/${artist.value.pictureProfile}`
+        : `https://ersatzfestival.ch/img/default-share.png`;
+
+    useHead({
+        title: `${name} – Ersatz Festival`,
+        meta: [
+            { name: 'description', content: description },
+            { property: 'og:title', content: `${name} – Ersatz Festival` },
+            { property: 'og:description', content: description },
+            { property: 'og:image', content: image },
+            { property: 'og:url', content: `https://ersatzfestival.ch/artiste/${artist.value.slug}` },
+            { property: 'og:type', content: 'website' },
+            { name: 'twitter:card', content: 'summary_large_image' },
+        ],
+    });
+});
+
+// Fonctions utilitaires
 const getDayDate = (day: string) => {
     switch (day) {
         case 'Vendredi':
             return '22';
         case 'Samedi':
             return '23';
-        case 'Diamche':
+        case 'Dimanche':
             return '24';
         default:
             return '';

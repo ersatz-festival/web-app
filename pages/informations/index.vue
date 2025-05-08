@@ -60,6 +60,35 @@
 </template>
 
 <script setup lang="ts">
+import { useHead } from '#imports';
+
+useHead({
+    title: 'Informations – Ersatz Festival',
+    meta: [
+        {
+            name: 'description',
+            content:
+                'Toutes les informations pratiques pour Ersatz Festival 2025 à St-Blaise : accès, horaires, transports, camping et  bénévolat.',
+        },
+        {
+            property: 'og:title',
+            content: 'Informations – Ersatz Festival',
+        },
+        {
+            property: 'og:description',
+            content: 'Prépare ta venue à Ersatz Festival 2025 à St-Blaise : horaires, accès, transports, camping et bénévolat.',
+        },
+        {
+            property: 'og:image',
+            content: 'https://ersatzfestival.ch/img/ersatz-cover.png',
+        },
+        {
+            property: 'og:url',
+            content: 'https://ersatzfestival.ch/informations',
+        },
+    ],
+});
+
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue';
 import IconsPlus from '~/components/icons/Plus.vue';
 import IconsMinus from '~/components/icons/Minus.vue';
@@ -87,7 +116,7 @@ const informations = [
     },
     {
         title: 'Charte Aretha',
-        text: "Le festival s'engage depuis toujours à proposer un environnement safer, et adhère à la charte Aretha.\nSur place, une équipe de bénévoles spécialement formé.e.s, appelée les « Bienveillant.e.s », veille à ta sécurité, et est là pour t'écouter et t'aider en cas de besoin. N'éhiste pas à les solliciter !",
+        text: "Le festival s'engage depuis toujours à proposer un environnement safer, et adhère à la charte Aretha.\nSur place, une équipe de bénévoles spécialement formé.e.s, appelé.e.s les « Bienveillant.e.s », veille à ta sécurité, et est là pour t'écouter et t'aider en cas de besoin. N'hésite pas à les solliciter !",
     },
     {
         title: 'Devenir bénévole',

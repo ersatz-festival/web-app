@@ -6,7 +6,7 @@
 
         <!-- Filters section -->
         <section class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 space-y-4">
-            <div class="flex items-center space-x-2">
+            <div class="flex items-center space-x-2 overflow-x-auto whitespace-nowrap px-1 scrollbar-hide">
                 <button
                     v-for="(btn, index) in daysFilters"
                     :key="index"
@@ -38,6 +38,35 @@
 </template>
 
 <script setup lang="ts">
+import { useHead } from '#imports';
+
+useHead({
+    title: 'Programme – Ersatz Festival',
+    meta: [
+        {
+            name: 'description',
+            content:
+                'Découvre le programme complet de Ersatz Festival 2025 : tous les artistes et les jours de passage du 22 au 24 août à St-Blaise.',
+        },
+        {
+            property: 'og:title',
+            content: 'Programme – Ersatz Festival',
+        },
+        {
+            property: 'og:description',
+            content: 'Consulte le programme officiel de Ersatz Festival 2025 avec tous les concerts jour par jour.',
+        },
+        {
+            property: 'og:image',
+            content: 'https://ersatzfestival.ch/img/ersatz-cover.png',
+        },
+        {
+            property: 'og:url',
+            content: 'https://ersatzfestival.ch/programme',
+        },
+    ],
+});
+
 import { computed, ref } from 'vue';
 import { useArtistsStore } from '~/stores/artists';
 
