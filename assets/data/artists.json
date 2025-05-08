@@ -111,8 +111,8 @@
         "description": "Hantébius est un projet artistique qui explore les frontières du rock et de la musique électronique à travers des chansons brutes et des textes profondément personnels.\nSur scène, c’est un voyage émotionnel intense où se tisse une véritable complicité avec le public.",
         "genre": "Rock, Electro",
         "name": "Hantébius",
-        "pictureCover": "hantebius-1.jpg",
-        "pictureProfile": "hantebius-2.jpg",
+        "pictureCover": "hantebius-1.JPG",
+        "pictureProfile": "hantebius-2.JPG",
         "public": true,
         "slug": "hantebius",
         "socialNetworks": {
@@ -238,7 +238,7 @@
         "genre": "Progressive House, Hip House",
         "name": "Zadkiel",
         "pictureCover": "zadkiel-1.jpg",
-        "pictureProfile": "zadkiel-2.jpg",
+        "pictureProfile": "zadkiel-2.JPG",
         "public": true,
         "slug": "zadkiel",
         "socialNetworks": {
