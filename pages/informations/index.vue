@@ -93,7 +93,7 @@ const informations = [
     },
     {
         title: 'Charte Aretha',
-        text: "Le festival s'engage depuis toujours à proposer un environnement safer, et adhère à la charte Aretha.\nSur place, une équipe de bénévoles spécialement formé.e.s, appelée les « Bienveillant.e.s », veille à ta sécurité, et est là pour t'écouter et t'aider en cas de besoin. N'éhiste pas à les solliciter !",
+        text: "Le festival s'engage depuis toujours à proposer un environnement safer, et adhère à la charte Aretha.\nSur place, une équipe de bénévoles spécialement formé.e.s, appelé.e.s les « Bienveillant.e.s », veille à ta sécurité, et est là pour t'écouter et t'aider en cas de besoin. N'hésite pas à les solliciter !",
     },
     {
         title: 'Devenir bénévole',
