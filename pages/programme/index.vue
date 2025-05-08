@@ -38,6 +38,12 @@
 </template>
 
 <script setup lang="ts">
+import { useHead } from '#imports';
+
+useHead({
+  title: 'Programme – Ersatz Festival',
+});
+
 import { computed, ref } from 'vue';
 import { useArtistsStore } from '~/stores/artists';
 

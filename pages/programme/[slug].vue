@@ -91,6 +91,9 @@
 </template>
 
 <script setup lang="ts">
+import { useHead } from '#imports';
+import { watch } from 'vue';
+
 import { ref } from 'vue';
 import { useRoute } from 'vue-router';
 import InstagramIcon from '~/components/icons/Instagram.vue';
@@ -99,6 +102,12 @@ import { type Artist } from '~/interfaces/artist';
 import { useArtistsStore } from '~/stores/artists';
 
 const artist = ref<Artist | undefined>(useArtistsStore().getArtistBySlug(useRoute().params.slug as string));
+
+if (artist.value) {
+    useHead({
+        title: `${artist.value.name} – Ersatz Festival`,
+    });
+}
 
 const getDayDate = (day: string) => {
     switch (day) {

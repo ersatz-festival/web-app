@@ -25,6 +25,12 @@
 </template>
 
 <script setup>
+import { useHead } from '#imports';
+
+useHead({
+  title: 'Historique – Ersatz Festival',
+});
+
 const editions = [
     {
         year: 2023,

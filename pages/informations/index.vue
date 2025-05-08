@@ -60,6 +60,12 @@
 </template>
 
 <script setup lang="ts">
+import { useHead } from '#imports';
+
+useHead({
+  title: 'Informations – Ersatz Festival',
+});
+
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue';
 import IconsPlus from '~/components/icons/Plus.vue';
 import IconsMinus from '~/components/icons/Minus.vue';

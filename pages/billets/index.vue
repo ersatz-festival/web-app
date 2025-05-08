@@ -34,6 +34,12 @@
 </template>
 
 <script setup lang="ts">
+import { useHead } from '#imports';
+
+useHead({
+  title: 'Billets – Ersatz Festival',
+});
+
 const pricesPerDay = [
     {
         name: 'Early-bird',
