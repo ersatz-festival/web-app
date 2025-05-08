@@ -25,6 +25,10 @@
                     </tr>
                 </tbody>
             </table>
+            <p class="mt-4 text-xl md:text-2xl">
+                Nous proposons un prix normal, et un prix de soutien — un peu plus élevé — pour les coeurs généreux qui
+                veulent donner un coup de pouce à notre petit festival (et gagner notre amour éternel) !
+            </p>
         </section>
 
         <section class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
