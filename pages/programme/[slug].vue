@@ -114,17 +114,46 @@ watchEffect(() => {
     const image = artist.value.pictureProfile
         ? `https://ersatzfestival.ch/img/${artist.value.pictureProfile}`
         : `https://ersatzfestival.ch/img/default-share.png`;
-
     useHead({
-        title: `${name} – Ersatz Festival`,
+        title: `${name} à Ersatz Festival 2025 | Concert ${artist.value.day} août`,
         meta: [
-            { name: 'description', content: description },
-            { property: 'og:title', content: `${name} – Ersatz Festival` },
-            { property: 'og:description', content: description },
+            {
+                name: 'description',
+                content: `${description} Retrouvez ${name} en concert le ${getDayDate(artist.value.day)} août 2025 au Ersatz Festival à St-Blaise.`,
+            },
+            { property: 'og:title', content: `${name} à Ersatz Festival 2025 | Concert ${artist.value.day} août` },
+            { property: 'og:description', content: `${description} En concert le ${getDayDate(artist.value.day)} août 2025 à St-Blaise.` },
             { property: 'og:image', content: image },
-            { property: 'og:url', content: `https://ersatzfestival.ch/artiste/${artist.value.slug}` },
+            { property: 'og:url', content: `https://ersatzfestival.ch/programme/${artist.value.slug}` },
             { property: 'og:type', content: 'website' },
             { name: 'twitter:card', content: 'summary_large_image' },
+            {
+                name: 'keywords',
+                content: `${name}, Ersatz Festival, concert, ${artist.value.genre}, ${artist.value.day}, St-Blaise, festival musique`,
+            },
+        ],
+        script: [
+            {
+                type: 'application/ld+json',
+                innerHTML: JSON.stringify({
+                    '@context': 'https://schema.org',
+                    '@type': 'MusicEvent',
+                    name: `${name} en concert à Ersatz Festival`,
+                    startDate: `2025-08-${getDayDate(artist.value.day)}`,
+                    location: {
+                        '@type': 'Place',
+                        name: 'Ferme du Clos-aux-Moines, St-Blaise',
+                        address: 'St-Blaise, Neuchâtel, Suisse',
+                    },
+                    performer: {
+                        '@type': 'MusicGroup',
+                        name: name,
+                        genre: artist.value.genre,
+                    },
+                    image: image,
+                    description: description,
+                }),
+            },
         ],
     });
 });
