@@ -43,19 +43,21 @@
 import { useHead } from '#imports';
 
 useHead({
-    title: 'Billets – Ersatz Festival',
+    title: 'Billets Ersatz Festival 2025 | Billets et Tarifs',
     meta: [
         {
             name: 'description',
-            content: 'Infos sur les billets du Ersatz Festival 2025.',
+            content:
+                'Réservez vos billets pour le Ersatz Festival 2025 à St-Blaise. Early-bird, normal ou soutien, à partir de 15 CHF. Pass journalier ou 3 jours disponibles. Entrée gratuite -12 ans.',
         },
         {
             property: 'og:title',
-            content: 'Billets – Ersatz Festival',
+            content: 'Billets Ersatz Festival 2025 | Billets et Tarifs',
         },
         {
             property: 'og:description',
-            content: 'Tous les prix pour accéder au Ersatz Festival 2025 à St-Blaise..',
+            content:
+                'Réservez vos billets pour le Ersatz Festival 2025 à St-Blaise. Early-bird, normal ou soutien, à partir de 15 CHF. Pass journalier ou 3 jours disponibles.',
         },
         {
             property: 'og:image',
@@ -64,6 +66,38 @@ useHead({
         {
             property: 'og:url',
             content: 'https://ersatzfestival.ch/billets',
+        },
+        {
+            property: 'og:type',
+            content: 'website',
+        },
+        {
+            name: 'keywords',
+            content: 'Ersatz Festival, billetterie, tickets, billets, St-Blaise, festival musique, prix billets, réservation',
+        },
+    ],
+    script: [
+        {
+            type: 'application/ld+json',
+            innerHTML: JSON.stringify({
+                '@context': 'https://schema.org',
+                '@type': 'Event',
+                name: 'Ersatz Festival 2025',
+                startDate: '2025-08-22',
+                endDate: '2025-08-24',
+                location: {
+                    '@type': 'Place',
+                    name: 'Ferme du Clos-aux-Moines, St-Blaise',
+                    address: 'St-Blaise, Neuchâtel, Suisse',
+                },
+                image: 'https://ersatzfestival.ch/img/ersatz-cover.png',
+                offers: {
+                    '@type': 'Offer',
+                    price: '15-60',
+                    priceCurrency: 'CHF',
+                    url: 'https://ersatzfestival.ch/billets',
+                },
+            }),
         },
     ],
 });

@@ -41,20 +41,21 @@
 import { useHead } from '#imports';
 
 useHead({
-    title: 'Programme – Ersatz Festival',
+    title: 'Programme Ersatz Festival 2025 | Artistes et concerts du 22-24 août',
     meta: [
         {
             name: 'description',
             content:
-                'Découvre le programme complet de Ersatz Festival 2025 : tous les artistes et les jours de passage du 22 au 24 août à St-Blaise.',
+                'Découvrez le programme complet de Ersatz Festival 2025 à St-Blaise : tous les artistes, groupes et horaires de concerts du 22 au 24 août. Festival de musique indépendante avec scène locale.',
         },
         {
             property: 'og:title',
-            content: 'Programme – Ersatz Festival',
+            content: 'Programme Ersatz Festival 2025 | Artistes et concerts du 22-24 août',
         },
         {
             property: 'og:description',
-            content: 'Consulte le programme officiel de Ersatz Festival 2025 avec tous les concerts jour par jour.',
+            content:
+                'Découvrez le programme complet de Ersatz Festival 2025 à St-Blaise : tous les artistes, groupes et horaires de concerts du 22 au 24 août. Musique indépendante et locale.',
         },
         {
             property: 'og:image',
@@ -63,6 +64,18 @@ useHead({
         {
             property: 'og:url',
             content: 'https://ersatzfestival.ch/programme',
+        },
+        {
+            property: 'og:type',
+            content: 'website',
+        },
+        {
+            name: 'keywords',
+            content: 'Ersatz Festival, programme, artistes, concerts, St-Blaise, festival musique, programmation, scène locale',
+        },
+        {
+            name: 'twitter:card',
+            content: 'summary_large_image',
         },
     ],
 });
