@@ -102,6 +102,20 @@ import { useArtistsStore } from '~/stores/artists';
 const route = useRoute();
 const store = useArtistsStore();
 
+// Fonctions utilitaires - déplacer avant le watchEffect qui les utilise
+const getDayDate = (day: string) => {
+    switch (day) {
+        case 'Vendredi':
+            return '22';
+        case 'Samedi':
+            return '23';
+        case 'Dimanche':
+            return '24';
+        default:
+            return '';
+    }
+};
+
 // Récupération de l'artiste en fonction du slug
 const artist = computed<Artist | undefined>(() => store.getArtistBySlug(route.params.slug as string));
 
@@ -158,19 +172,7 @@ watchEffect(() => {
     });
 });
 
-// Fonctions utilitaires
-const getDayDate = (day: string) => {
-    switch (day) {
-        case 'Vendredi':
-            return '22';
-        case 'Samedi':
-            return '23';
-        case 'Dimanche':
-            return '24';
-        default:
-            return '';
-    }
-};
+// Fonction getDayDate a été déplacée en haut du script
 
 const getInstagramUsername = (url: string): string => {
     try {
