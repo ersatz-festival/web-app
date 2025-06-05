@@ -40,7 +40,12 @@ export default defineConfig([
         rules: {
             ...vue.configs['flat/recommended'].rules,
             'vue/multi-word-component-names': 'off',
-            'prettier/prettier': 'error',
+            'prettier/prettier': [
+                'error',
+                {
+                    endOfLine: 'auto',
+                },
+            ],
         },
     },
 ]);

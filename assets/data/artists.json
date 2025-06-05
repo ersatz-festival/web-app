@@ -9,9 +9,7 @@
         "public": true,
         "slug": "softlander",
         "socialNetworks": {
-            "instagram": [
-                "https://www.instagram.com/softlanderband/"
-            ],
+            "instagram": ["https://www.instagram.com/softlanderband/"],
             "spotify": "https://open.spotify.com/intl-fr/artist/1e9jsGUOvtzJHyTdKZQ11g"
         },
         "clip": "https://www.youtube.com/watch?v=47i7QUDADNc"
@@ -26,9 +24,7 @@
         "public": true,
         "slug": "batbait",
         "socialNetworks": {
-            "instagram": [
-                "https://www.instagram.com/batbaitband/"
-            ],
+            "instagram": ["https://www.instagram.com/batbaitband/"],
             "spotify": "https://open.spotify.com/intl-fr/artist/1PGFrlFMjm2RIi2ndQ0lHG"
         },
         "clip": "https://www.youtube.com/watch?v=9OIv9FrL51Y"
@@ -43,9 +39,7 @@
         "public": true,
         "slug": "redmoon",
         "socialNetworks": {
-            "instagram": [
-                "https://www.instagram.com/weareredmoon/"
-            ],
+            "instagram": ["https://www.instagram.com/weareredmoon/"],
             "spotify": "https://open.spotify.com/intl-fr/artist/1tRFUNiUD1F6JEUTa2aQAo"
         }
     },
@@ -59,9 +53,7 @@
         "public": true,
         "slug": "tomorrow-s-ghost",
         "socialNetworks": {
-            "instagram": [
-                "https://www.instagram.com/tomorrowsghost.band/"
-            ],
+            "instagram": ["https://www.instagram.com/tomorrowsghost.band/"],
             "spotify": "https://open.spotify.com/intl-fr/artist/6zoKupq8FXHSnFnfPt8Lkb"
         },
         "clip": "https://www.youtube.com/watch?v=tM9jDJ6PVwg"
@@ -76,9 +68,7 @@
         "public": true,
         "slug": "nonante",
         "socialNetworks": {
-            "instagram": [
-                "https://www.instagram.com/no.nante/"
-            ],
+            "instagram": ["https://www.instagram.com/no.nante/"],
             "spotify": "https://open.spotify.com/intl-fr/artist/6BsmUIZhJySlcQykccTxka"
         },
         "clip": "https://www.youtube.com/watch?v=UB8OCnt7mz0"
@@ -93,9 +83,7 @@
         "public": true,
         "slug": "orphia",
         "socialNetworks": {
-            "instagram": [
-                "https://www.instagram.com/_orphia"
-            ],
+            "instagram": ["https://www.instagram.com/_orphia"],
             "spotify": "https://open.spotify.com/intl-fr/artist/0CHfW6MGVxHRVL3A8UUO1U"
         },
         "soundcloud": [
@@ -112,9 +100,7 @@
         "public": true,
         "slug": "coup-de-coeur",
         "socialNetworks": {
-            "instagram": [
-                "https://www.instagram.com/coupdecoeur_ill/"
-            ],
+            "instagram": ["https://www.instagram.com/coupdecoeur_ill/"],
             "spotify": "https://open.spotify.com/intl-fr/artist/0omSVHBVpwAO7b5A0KY8Ez"
         },
         "erste": true,
@@ -130,9 +116,7 @@
         "public": true,
         "slug": "hantebius",
         "socialNetworks": {
-            "instagram": [
-                "https://www.instagram.com/_hantebius_/"
-            ],
+            "instagram": ["https://www.instagram.com/_hantebius_/"],
             "spotify": "https://open.spotify.com/intl-fr/artist/1orK4RW5FDZyyLQeWIOhQh"
         },
         "erste": true,
@@ -148,9 +132,7 @@
         "public": true,
         "slug": "ely-tina",
         "socialNetworks": {
-            "instagram": [
-                "https://www.instagram.com/elytinaa/"
-            ]
+            "instagram": ["https://www.instagram.com/elytinaa/"]
         },
         "clip": "https://www.youtube.com/watch?v=tXTyw1TMbUg"
     },
@@ -164,9 +146,7 @@
         "public": true,
         "slug": "pug-impact",
         "socialNetworks": {
-            "instagram": [
-                "https://www.instagram.com/pug_impact/"
-            ],
+            "instagram": ["https://www.instagram.com/pug_impact/"],
             "spotify": "https://open.spotify.com/intl-fr/artist/2vlWKNxLbtnNKUf0p2JH88"
         },
         "clip": "https://www.youtube.com/watch?v=pT2OYiAoJbU"
@@ -181,9 +161,7 @@
         "public": true,
         "slug": "dibby",
         "socialNetworks": {
-            "instagram": [
-                "https://www.instagram.com/dibby.officiel"
-            ],
+            "instagram": ["https://www.instagram.com/dibby.officiel"],
             "spotify": "https://open.spotify.com/intl-fr/artist/2nsPmEKuv4TDmMVK1qhLaX"
         },
         "clip": "https://www.youtube.com/watch?v=0pI_9tl0hr8"
@@ -198,9 +176,7 @@
         "public": true,
         "slug": "serotonine",
         "socialNetworks": {
-            "instagram": [
-                "https://www.instagram.com/serotonine_acid/"
-            ],
+            "instagram": ["https://www.instagram.com/serotonine_acid/"],
             "spotify": "https://open.spotify.com/intl-fr/artist/5JJGbB2Jo4ulSF9q7ySSey"
         },
         "clip": "https://www.youtube.com/watch?v=1IrZWBlw9ZQ"
@@ -215,9 +191,7 @@
         "public": true,
         "slug": "barbicop",
         "socialNetworks": {
-            "instagram": [
-                "https://www.instagram.com/barbicop.maddie/"
-            ],
+            "instagram": ["https://www.instagram.com/barbicop.maddie/"],
             "spotify": "https://open.spotify.com/intl-fr/artist/3ZUBFjhQCDfQoFcaj965b9"
         },
         "clip": "https://www.youtube.com/watch?v=CS5ZmUoEuZ0"
@@ -253,9 +227,7 @@
         "public": true,
         "slug": "esaia",
         "socialNetworks": {
-            "instagram": [
-                "https://www.instagram.com/esaia.eaz"
-            ],
+            "instagram": ["https://www.instagram.com/esaia.eaz"],
             "spotify": "https://open.spotify.com/intl-fr/artist/0WnZZIIgtyE3Qdfzfhje70"
         },
         "clip": "https://www.youtube.com/watch?v=e3ZIeYhiwig"
@@ -270,9 +242,7 @@
         "public": true,
         "slug": "zadkiel",
         "socialNetworks": {
-            "instagram": [
-                "https://www.instagram.com/hzjm.7"
-            ]
+            "instagram": ["https://www.instagram.com/hzjm.7"]
         },
         "soundcloud": [
             "https://soundcloud.com/zadkiel-hzjm/hzjm7-le-phare-festineuch-13062024?si=09e7fd0c502e4a8abf57599cd2f0eb2c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
@@ -288,10 +258,7 @@
         "public": true,
         "slug": "roxo",
         "socialNetworks": {
-            "instagram": [
-                "https://www.instagram.com/roxo_",
-                "https://www.instagram.com/psychoweazel"
-            ],
+            "instagram": ["https://www.instagram.com/roxo_", "https://www.instagram.com/psychoweazel"],
             "spotify": "https://open.spotify.com/intl-fr/artist/0jPLiTRTpRgGobZdrtxXWx"
         },
         "clip": "https://www.youtube.com/watch?v=q6dO1EBoRSE"
@@ -306,9 +273,7 @@
         "public": true,
         "slug": "isia",
         "socialNetworks": {
-            "instagram": [
-                "https://www.instagram.com/isiamend"
-            ],
+            "instagram": ["https://www.instagram.com/isiamend"],
             "spotify": "https://open.spotify.com/intl-fr/artist/0km8lKLOPSLaE11Ztn8vlX"
         },
         "clip": "https://www.youtube.com/watch?v=Q-_DQ1foeOM"
@@ -323,9 +288,7 @@
         "public": true,
         "slug": "eggs-and-tiaras",
         "socialNetworks": {
-            "instagram": [
-                "https://www.instagram.com/eggs_and_tiaras/"
-            ],
+            "instagram": ["https://www.instagram.com/eggs_and_tiaras/"],
             "spotify": "https://open.spotify.com/intl-fr/artist/1wLCzyqTut4tZz2TfuJOHi"
         },
         "clip": "https://www.youtube.com/watch?v=IzFdouQM7_E"
