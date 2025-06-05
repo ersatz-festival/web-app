@@ -48,7 +48,7 @@ useHead({
         {
             name: 'description',
             content:
-                'Réservez vos billets pour le Ersatz Festival 2025 à St-Blaise. Early-bird, normal ou soutien, à partir de 15 CHF. Pass journalier ou 3 jours disponibles. Entrée gratuite -12 ans.',
+                'Réservez vos billets pour Ersatz Festival 2025 à St-Blaise. Early-bird, normal ou soutien, à partir de 15 CHF. Pass journalier ou 3 jours disponibles. Entrée gratuite -12 ans.',
         },
         {
             property: 'og:title',
@@ -57,7 +57,7 @@ useHead({
         {
             property: 'og:description',
             content:
-                'Réservez vos billets pour le Ersatz Festival 2025 à St-Blaise. Early-bird, normal ou soutien, à partir de 15 CHF. Pass journalier ou 3 jours disponibles.',
+                'Réservez vos billets pour Ersatz Festival 2025 à St-Blaise. Early-bird, normal ou soutien, à partir de 15 CHF. Pass journalier ou 3 jours disponibles.',
         },
         {
             property: 'og:image',
