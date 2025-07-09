@@ -113,11 +113,11 @@ const informations = [
     },
     {
         title: "Venir en voiture (c'est moins bien !!)",
-        text: 'Des informations seront annoncées prochainement concernant les parkings à disposition du public.',
+        text: 'Il est possible de se parquer aux parkings de Bucher + Walt, eureka FORMATION et GastroNeuchâtel, à St-Blaise. Merci à eux pour leur soutien !\n\nLes parkings sont situés à environ 10 minutes à pied du festival.',
     },
     {
-        title: 'Horaires',
-        text: 'Le festival commence le vendredi 22 août à 18h et se termine le dimanche 24 août à 22h30.\nVendredi : 18h - 02h30\nSamedi : 16h30 - 03h30\nDimanche : 15h30 - 22h30',
+        title: 'Horaires du festival',
+        text: 'Le festival commence le vendredi 22 août à 18h et se termine le dimanche 24 août à 22h00.\nVendredi : 18h - 03h00\nSamedi : 16h00 - 04h00\nDimanche : 15h00 - 22h00',
     },
     {
         title: 'Dormir sur place',
