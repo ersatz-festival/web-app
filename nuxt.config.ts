@@ -23,16 +23,16 @@ export default defineNuxtConfig({
                 { name: 'robots', content: 'index, follow' },
                 { name: 'format-detection', content: 'telephone=no' },
                 { name: 'theme-color', content: '#c026d3' },
-                { 
-                    name: 'google-site-verification', 
-                    content: 'wRbcABe2fWsfrbSGOOPp-fupnNioCRISm3HmHUPS-GM'
-                }
+                {
+                    name: 'google-site-verification',
+                    content: 'wRbcABe2fWsfrbSGOOPp-fupnNioCRISm3HmHUPS-GM',
+                },
             ],
             link: [
                 { rel: 'icon', href: '/favicon.ico' },
-                { rel: 'canonical', href: 'https://ersatzfestival.ch' }
-            ]
-        }
+                { rel: 'canonical', href: 'https://ersatzfestival.ch' },
+            ],
+        },
     },
     routeRules: {
         // Ajouter des règles de cache pour améliorer les performances
@@ -41,5 +41,5 @@ export default defineNuxtConfig({
         '/billets': { prerender: true },
         '/informations': { prerender: true },
         '/historique': { prerender: true },
-    }
+    },
 });

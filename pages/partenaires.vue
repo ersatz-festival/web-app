@@ -26,9 +26,7 @@ import LayoutTitle from '~/components/layout/Title.vue';
 
 useHead({
     title: 'Partenaires | Ersatz Festival',
-    meta: [
-        { name: 'description', content: 'Remerciements aux partenaires du Ersatz Festival.' }
-    ]
+    meta: [{ name: 'description', content: 'Remerciements aux partenaires du Ersatz Festival.' }],
 });
 
 const logos = ['LoRo.png', 'LATENA.png', 'PJNE.png', 'SUISA.png', 'DRG.png', 'CSP.png'];
