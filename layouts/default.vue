@@ -104,6 +104,7 @@ const links = [
     { name: 'Informations', to: '/informations' },
     { name: 'Billets', to: '/billets' },
     { name: 'Historique', to: '/historique' },
+    { name: 'Partenaires', to: '/partenaires' },
 ];
 
 const isActive = (path: string) => route.path.includes(path);
