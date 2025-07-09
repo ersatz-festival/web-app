@@ -28,7 +28,7 @@ const phrases = [
     'Réserve ton entrée !',
     "T'as ton billet ?",
     'Say no to fomo, get your ticket',
-    'Les billets Early Bird sont là !',
+    'Prends ton pass !',
 ];
 
 // Random selection of a phrase when loading
