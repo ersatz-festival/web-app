@@ -1,7 +1,7 @@
 <template>
-    <div class="text-pink-500 bg-purple-500 min-h-screen pt-12">
+    <div class="text-pink-500 bg-purple-500">
+        <LayoutTitle title="Partenaires" class="mb-8" />
         <section class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-            <LayoutTitle title="Partenaires" color="text-pink-500" class="mb-8" />
             <p class="text-lg text-center mb-12 max-w-2xl mx-auto">
                 Ersatz Festival remercie chaleureusement ses partenaires pour leur soutien précieux. Leur engagement rend cette aventure
                 possible !
