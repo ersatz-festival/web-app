@@ -6,10 +6,14 @@
                 Ersatz Festival remercie chaleureusement ses partenaires pour leur soutien précieux. Leur engagement rend cette aventure
                 possible !
             </p>
-            <div class="grid grid-cols-2 sm:grid-cols-3 gap-8 items-center justify-center">
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 items-center justify-center">
                 <div v-for="(logo, i) in logos" :key="logo" class="flex items-center justify-center">
                     <a :href="links[i]" target="_blank" rel="noopener noreferrer">
-                        <img :src="`/img/${logo}`" :alt="logo.replace('.png', '')" class="max-h-16 object-contain" />
+                        <img
+                            :src="`/img/${logo}`"
+                            :alt="logo.replace('.png', '')"
+                            :class="logo === 'Facchinetti.png' ? 'max-h-26 object-contain' : 'max-h-16 object-contain'"
+                        />
                     </a>
                 </div>
             </div>
@@ -29,7 +33,7 @@ useHead({
     meta: [{ name: 'description', content: 'Remerciements aux partenaires du Ersatz Festival.' }],
 });
 
-const logos = ['LoRo.png', 'LATENA.png', 'PJNE.png', 'SUISA.png', 'DRG.png', 'CSP.png'];
+const logos = ['LoRo.png', 'LATENA.png', 'PJNE.png', 'SUISA.png', 'DRG.png', 'CSP.png', 'Facchinetti.png', 'SO.png'];
 const links = [
     'https://soutien-loro.ch/fr',
     'https://commune-latena.ch/',
@@ -37,5 +41,7 @@ const links = [
     'https://www.suisa.ch/fr/',
     'https://www.docteurgabs.ch/fr/accueil/',
     'https://csp.ch/neuchatel/',
+    'https://www.facchinettisa.ch/',
+    'https://www.instagram.com/scene__ouverte/',
 ];
 </script>
