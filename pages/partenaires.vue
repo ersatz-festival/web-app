@@ -33,7 +33,7 @@ useHead({
     meta: [{ name: 'description', content: 'Remerciements aux partenaires du Ersatz Festival.' }],
 });
 
-const logos = ['LoRo.png', 'LATENA.png', 'PJNE.png', 'SUISA.png', 'DRG.png', 'CSP.png', 'Facchinetti.png'];
+const logos = ['LoRo.png', 'LATENA.png', 'PJNE.png', 'SUISA.png', 'DRG.png', 'CSP.png', 'Facchinetti.png', 'SO.png'];
 const links = [
     'https://soutien-loro.ch/fr',
     'https://commune-latena.ch/',
@@ -42,5 +42,6 @@ const links = [
     'https://www.docteurgabs.ch/fr/accueil/',
     'https://csp.ch/neuchatel/',
     'https://www.facchinettisa.ch/',
+    'https://www.instagram.com/scene__ouverte/',
 ];
 </script>
