@@ -6,7 +6,7 @@
                 Ersatz Festival remercie chaleureusement ses partenaires pour leur soutien précieux. Leur engagement rend cette aventure
                 possible !
             </p>
-            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 items-center justify-center">
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 items-center justify-center">
                 <div v-for="(logo, i) in logos" :key="logo" class="flex items-center justify-center">
                     <a :href="links[i]" target="_blank" rel="noopener noreferrer">
                         <img
@@ -33,7 +33,18 @@ useHead({
     meta: [{ name: 'description', content: 'Remerciements aux partenaires du Ersatz Festival.' }],
 });
 
-const logos = ['LoRo.png', 'LATENA.png', 'PJNE.png', 'SUISA.png', 'DRG.png', 'CSP.png', 'Facchinetti.png', 'Raiffeisen.png'];
+const logos = [
+    'LoRo.png',
+    'LATENA.png',
+    'PJNE.png',
+    'SUISA.png',
+    'DRG.png',
+    'CSP.png',
+    'Facchinetti.png',
+    'Raiffeisen.png',
+    'Ehro.png',
+    'ELLF.png',
+];
 const links = [
     'https://soutien-loro.ch/fr',
     'https://commune-latena.ch/',
@@ -43,5 +54,7 @@ const links = [
     'https://csp.ch/neuchatel/',
     'https://www.facchinettisa.ch/',
     'https://www.raiffeisen.ch/neuchatel-et-vallees/fr.html',
+    'https://ehro.app/',
+    'https://www.ellf-technique.ch/',
 ];
 </script>
