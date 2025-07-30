@@ -6,7 +6,7 @@
                 Ersatz Festival remercie chaleureusement ses partenaires pour leur soutien précieux. Leur engagement rend cette aventure
                 possible !
             </p>
-                    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 items-center justify-center">
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 items-center justify-center">
                 <div v-for="(logo, i) in logos" :key="logo" class="flex items-center justify-center">
                     <a :href="links[i]" target="_blank" rel="noopener noreferrer">
                         <img
