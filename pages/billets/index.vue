@@ -16,11 +16,18 @@
                 <tbody>
                     <tr v-for="(price, index) in pricesPerDay" :key="index" class="border-b border-pink-500">
                         <td class="text-left py-2">
-                            {{ price.name }}
+                            <span :class="{ 'line-through opacity-75': price.soldOut }">{{ price.name }}</span>
+                            <span v-if="price.soldOut" class="opacity-75"> (SOLD OUT)</span>
                         </td>
-                        <td class="text-right py-2">CHF {{ price.dayPrice }}.-</td>
                         <td class="text-right py-2">
-                            {{ price.passPrice ? 'CHF ' + price.passPrice + '.-' : '-' }}
+                            <span :class="{ 'line-through opacity-75': price.soldOut }">
+                                {{ typeof price.dayPrice === 'number' ? 'CHF ' + price.dayPrice + '.-' : price.dayPrice }}
+                            </span>
+                        </td>
+                        <td class="text-right py-2">
+                            <span :class="{ 'line-through opacity-75': price.soldOut }">
+                                {{ price.passPrice ? 'CHF ' + price.passPrice + '.-' : '-' }}
+                            </span>
                         </td>
                     </tr>
                 </tbody>
@@ -107,6 +114,7 @@ const pricesPerDay = [
         name: 'Early-bird',
         dayPrice: 15,
         passPrice: 45,
+        soldOut: true,
     },
     {
         name: 'Normal',
@@ -124,7 +132,7 @@ const pricesPerDay = [
     },
     {
         name: 'Camping',
-        dayPrice: 3,
+        dayPrice: 'Prix libre',
     },
 ];
 </script>

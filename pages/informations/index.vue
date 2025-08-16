@@ -44,9 +44,10 @@
                         leave-to-class="transform scale-95 opacity-0"
                     >
                         <DisclosurePanel>
-                            <p class="pb-2 text-xl md:text-2xl whitespace-pre-line">
-                                {{ info.text }}
-                            </p>
+                            <div class="pb-2 text-xl md:text-2xl whitespace-pre-line">
+                                <p v-if="info.html" v-html="info.html"></p>
+                                <p v-else>{{ info.text }}</p>
+                            </div>
                         </DisclosurePanel>
                     </transition>
                 </Disclosure>
@@ -129,7 +130,8 @@ const informations = [
     },
     {
         title: 'Devenir bénévole',
-        text: 'Merci pour ton implication !! Nous communiquerons bientôt les informations pour devenir bénévole au festival.',
+        text: '',
+        html: 'Merci pour ton implication !! Tu peux t\'inscrire comme bénévole en cliquant <a href="https://super.ehro.app/o/ersatz-festival/e/HUqst_BqTBKBwT6az82KyA==/details" target="_blank" rel="noopener" class="underline hover:text-gray-50 duration-200">ici</a>.',
     },
 ];
 </script>

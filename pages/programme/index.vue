@@ -20,6 +20,17 @@
                     {{ btn }}
                 </button>
             </div>
+            <div class="flex">
+                <a
+                    href="/ERSATZ-horaires.pdf"
+                    target="_blank"
+                    rel="noopener"
+                    class="inline-flex items-center space-x-2 px-6 py-3 text-lg bg-pink-500 hover:bg-pink-600 text-white rounded-lg shadow hover:shadow-lg duration-200"
+                >
+                    <IconsCalendarDays class="w-5 h-5" />
+                    <span>Voir les horaires détaillés</span>
+                </a>
+            </div>
         </section>
 
         <!-- Artists grid -->
