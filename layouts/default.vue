@@ -56,23 +56,25 @@
         </div>
 
         <div v-if="isMenuOpen" class="lg:hidden px-6 pb-4 flex flex-col gap-4 bg-purple-500">
-            <NuxtLink
-                v-for="link in links"
-                :key="link.name"
-                :to="link.to"
-                @click="isMenuOpen = false"
-                class="text-lg hover:text-gray-50 duration-200"
-            >
-                {{ link.name }}
-            </NuxtLink>
-            <a
-                href="https://super.ehro.app/o/ersatz-festival/e/HUqst_BqTBKBwT6az82KyA==/details"
-                target="_blank"
-                rel="noopener"
-                class="text-lg hover:text-gray-50 duration-200 border border-pink-500/50 rounded-full px-4 py-1 w-fit"
-            >
-                Bénévoles
-            </a>
+            <template v-for="link in links" :key="link.name">
+                <NuxtLink
+                    v-if="!link.to.startsWith('http')"
+                    :to="link.to"
+                    @click="isMenuOpen = false"
+                    class="text-lg hover:text-gray-50 duration-200"
+                >
+                    {{ link.name }}
+                </NuxtLink>
+                <a
+                    v-else
+                    :href="link.to"
+                    target="_blank"
+                    rel="noopener"
+                    class="text-lg hover:text-gray-50 duration-200"
+                >
+                    {{ link.name }}
+                </a>
+            </template>
             <a
                 href="https://open.spotify.com/playlist/1zb6DNXLiK9UL7VqimfjMA"
                 target="_blank"
