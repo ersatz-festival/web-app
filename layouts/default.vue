@@ -9,6 +9,13 @@
                     ERSATZ
                 </NuxtLink>
 
+                <p class="mt-4 text-base sm:text-lg tracking-[0.25em] text-[var(--color-primary)]">
+                    du 21 au 23 août 2026
+                </p>
+                <p class="mt-1 text-sm sm:text-base tracking-widest text-[var(--color-ink)]">
+                    St-Blaise · ferme du Clos-aux-Moines
+                </p>
+
                 <nav class="mt-6 flex flex-wrap justify-center gap-x-8 gap-y-2 text-base sm:text-lg uppercase">
                     <NuxtLink
                         v-for="link in links"
@@ -27,9 +34,9 @@
             <slot />
         </main>
 
-        <footer class="mt-24 border-t-2 border-[var(--color-primary)] py-10">
+        <footer class="border-t-2 border-[var(--color-primary)] py-6 sm:py-8">
             <div
-                class="mx-auto max-w-6xl px-6 flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left text-base"
+                class="mx-auto max-w-6xl px-6 flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-6 text-center sm:text-left text-base"
             >
                 <div>
                     <p class="text-xs uppercase tracking-widest text-[var(--color-primary)] mb-1">Contact</p>

@@ -1,8 +1,15 @@
 ﻿<template>
-    <div class="mx-auto max-w-3xl px-6 pt-16 pb-24">
+    <div class="mx-auto max-w-3xl px-6 pt-16 pb-6">
         <LayoutTitle title="Billets" />
 
         <div class="mt-12 border-t-2 border-[var(--color-primary)]">
+            <div
+                class="grid grid-cols-3 sm:grid-cols-[2fr_1fr_1fr] gap-4 py-4 border-b-2 border-[var(--color-primary)] text-sm sm:text-lg uppercase tracking-wider text-[var(--color-primary)]"
+            >
+                <div></div>
+                <div class="text-right sm:text-left">1 jour</div>
+                <div class="text-right">3 jours</div>
+            </div>
             <div
                 v-for="price in pricesPerDay"
                 :key="price.name"
@@ -13,13 +20,11 @@
                     <span v-if="price.soldOut" class="ml-2 text-xs uppercase tracking-wider text-[var(--color-muted)]">Sold out</span>
                 </div>
                 <div class="text-right sm:text-left text-sm sm:text-lg text-[var(--color-ink)] uppercase tracking-wider">
-                    <span class="sm:hidden">1 jour : </span>
                     <span :class="{ 'line-through opacity-60': price.soldOut }">
                         {{ typeof price.dayPrice === 'number' ? `CHF ${price.dayPrice}.-` : price.dayPrice }}
                     </span>
                 </div>
                 <div class="text-right text-sm sm:text-lg text-[var(--color-ink)] uppercase tracking-wider">
-                    <span class="sm:hidden">3 jours : </span>
                     <span :class="{ 'line-through opacity-60': price.soldOut }">
                         {{ price.passPrice ? `CHF ${price.passPrice}.-` : '-' }}
                     </span>
@@ -28,7 +33,7 @@
         </div>
 
         <p class="mt-6 text-base sm:text-lg text-[var(--color-ink)]">
-            Prix normal et prix de soutien - un peu plus élevé - pour les cœurs généreux qui veulent donner un coup de pouce
+            Prix normal et prix de soutien - un peu plus élevé - pour les coeurs généreux qui veulent donner un coup de pouce
             au festival.
         </p>
         <p class="mt-2 text-base sm:text-lg text-[var(--color-ink)]">Entrée gratuite pour les enfants de 12 ans et moins.</p>

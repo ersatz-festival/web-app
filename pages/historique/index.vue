@@ -1,21 +1,18 @@
 <template>
-    <div class="mx-auto max-w-5xl px-6 pt-16 pb-24">
+    <div class="mx-auto max-w-5xl px-6 pt-16 pb-6">
         <LayoutTitle title="Historique" />
 
         <div class="mt-16 space-y-12">
-            <article v-for="edition in editions" :key="edition.year">
-                <h2 class="text-5xl sm:text-7xl text-[var(--color-primary)] leading-none border-b-2 border-[var(--color-primary)] pb-2 mb-4">
+            <article v-for="edition in editions" :key="edition.year" class="text-center">
+                <h2 class="text-5xl sm:text-7xl text-[var(--color-primary)] leading-none border-b-2 border-[var(--color-primary)] pb-2 mb-6">
                     {{ edition.year }}
                 </h2>
-                <p
+                <div
                     v-if="edition.artists.length"
-                    class="text-2xl sm:text-4xl uppercase leading-[0.95] tracking-tight text-[var(--color-primary)]"
+                    class="flex flex-wrap justify-center items-baseline gap-x-10 gap-y-1 text-[var(--color-primary)] uppercase leading-[0.95] tracking-tight text-xl sm:text-3xl"
                 >
-                    <template v-for="(artist, idx) in edition.artists" :key="artist">
-                        <span class="whitespace-nowrap">{{ artist.toUpperCase() }}</span>
-                        <span v-if="idx < edition.artists.length - 1" class="text-[var(--color-ink)] mx-2">·</span>
-                    </template>
-                </p>
+                    <span v-for="artist in edition.artists" :key="artist" class="break-words max-w-full">{{ artist.toUpperCase() }}</span>
+                </div>
                 <p v-else class="italic text-[var(--color-muted)]">Artistes non renseignés</p>
             </article>
         </div>
@@ -42,25 +39,25 @@ const editions = [
     {
         year: 2025,
         artists: [
-            'Softlander',
+            'Barbicop',
             'Batbait',
-            'REDMOON',
-            "Tomorrow's Ghost",
+            'Coup de Coeur',
+            'Dibby',
+            'eggs and tiaras',
+            'Ely Tina',
+            'Esaïa',
+            'Hantébius',
+            'Isia',
             'NONANTE',
             'Orphia',
-            'Coup de Coeur',
-            'Hantébius',
-            'Ely Tina',
-            'Pug Impact',
-            'Dibby',
-            'Serotonine',
-            'Barbicop',
             'Pho3 b2b 13R',
-            'Esaïa',
-            'Zadkiel',
+            'Pug Impact',
+            'REDMOON',
             'Roxo',
-            'Isia',
-            'eggs and tiaras',
+            'Serotonine',
+            'Softlander',
+            "Tomorrow's Ghost",
+            'Zadkiel',
         ],
     },
     {

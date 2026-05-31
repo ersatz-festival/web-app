@@ -1,5 +1,5 @@
 ﻿<template>
-    <div class="mx-auto max-w-3xl px-6 pt-16 pb-24">
+    <div class="mx-auto max-w-3xl px-6 pt-16 pb-6">
         <LayoutTitle title="Infos" />
 
         <p class="mt-8 text-xl text-[var(--color-ink)] leading-relaxed">

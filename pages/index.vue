@@ -1,25 +1,15 @@
 ﻿<template>
     <div>
-        <section class="mx-auto max-w-5xl px-6 pt-10 pb-8 text-center">
-            <p class="text-base sm:text-lg uppercase tracking-[0.25em] text-[var(--color-primary)]">
-                5<sup>e</sup> édition · 21 - 23 août 2026
-            </p>
-            <p class="mt-1 text-sm sm:text-base uppercase tracking-widest text-[var(--color-ink)]">
-                St-Blaise · Ferme du Clos-aux-Moines
-            </p>
-        </section>
-
-        <section class="mx-auto max-w-5xl px-6 pb-16">
-            <div class="space-y-14">
+        <section class="mx-auto max-w-5xl px-6 pt-10 pb-6">
+            <div class="space-y-4 sm:space-y-6">
                 <article v-for="day in programme" :key="day.day" class="text-center">
-                    <h2 class="text-xs sm:text-sm uppercase tracking-[0.3em] text-[var(--color-ink)] mb-1">
-                        {{ day.day }}
-                    </h2>
-                    <p class="text-xs uppercase tracking-widest text-[var(--color-muted)] mb-5">{{ day.date }}</p>
+                    <p class="text-xs sm:text-sm uppercase tracking-[0.3em] text-[var(--color-primary)] mb-2">
+                        {{ day.day }} · {{ day.date }}
+                    </p>
 
                     <div
                         v-if="day.artists.length"
-                        class="flex flex-wrap justify-center items-baseline gap-x-8 gap-y-2 text-[var(--color-primary)] uppercase leading-[0.95] tracking-tight text-3xl sm:text-5xl md:text-6xl"
+                        class="flex flex-wrap justify-center items-baseline gap-x-8 gap-y-1 text-[var(--color-primary)] uppercase leading-[0.95] tracking-tight text-3xl sm:text-5xl md:text-6xl"
                     >
                         <span v-for="artist in day.artists" :key="artist.name">{{ artist.name }}</span>
                     </div>
