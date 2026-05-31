@@ -1,48 +1,48 @@
-<template>
-    <div class="text-pink-500 bg-purple-500">
-        <LayoutTitle title="Billetterie" />
+﻿<template>
+    <div class="mx-auto max-w-3xl px-6 pt-16 pb-24">
+        <LayoutTitle title="Billets" />
 
-        <section class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-            <LayoutSubTitle title="Prix" />
+        <div class="mt-12 border-t-2 border-[var(--color-primary)]">
+            <div
+                v-for="price in pricesPerDay"
+                :key="price.name"
+                class="grid grid-cols-3 sm:grid-cols-[2fr_1fr_1fr] gap-4 py-4 border-b-2 border-[var(--color-primary)] items-baseline"
+            >
+                <div class="text-lg sm:text-xl" :class="{ 'line-through opacity-60': price.soldOut }">
+                    <span class="text-2xl sm:text-3xl uppercase text-[var(--color-primary)]">{{ price.name }}</span>
+                    <span v-if="price.soldOut" class="ml-2 text-xs uppercase tracking-wider text-[var(--color-muted)]">Sold out</span>
+                </div>
+                <div class="text-right sm:text-left text-sm sm:text-lg text-[var(--color-ink)] uppercase tracking-wider">
+                    <span class="sm:hidden">1 jour : </span>
+                    <span :class="{ 'line-through opacity-60': price.soldOut }">
+                        {{ typeof price.dayPrice === 'number' ? `CHF ${price.dayPrice}.-` : price.dayPrice }}
+                    </span>
+                </div>
+                <div class="text-right text-sm sm:text-lg text-[var(--color-ink)] uppercase tracking-wider">
+                    <span class="sm:hidden">3 jours : </span>
+                    <span :class="{ 'line-through opacity-60': price.soldOut }">
+                        {{ price.passPrice ? `CHF ${price.passPrice}.-` : '-' }}
+                    </span>
+                </div>
+            </div>
+        </div>
 
-            <table class="w-full text-base sm:text-xl md:text-2xl">
-                <thead>
-                    <tr class="border-b border-pink-500">
-                        <th class="text-right py-2"></th>
-                        <th class="text-right py-2">1 jour</th>
-                        <th class="text-right py-2">Pass 3 jours</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr v-for="(price, index) in pricesPerDay" :key="index" class="border-b border-pink-500">
-                        <td class="text-left py-2">
-                            <span :class="{ 'line-through opacity-75': price.soldOut }">{{ price.name }}</span>
-                            <span v-if="price.soldOut" class="opacity-75"> (SOLD OUT)</span>
-                        </td>
-                        <td class="text-right py-2">
-                            <span :class="{ 'line-through opacity-75': price.soldOut }">
-                                {{ typeof price.dayPrice === 'number' ? 'CHF ' + price.dayPrice + '.-' : price.dayPrice }}
-                            </span>
-                        </td>
-                        <td class="text-right py-2">
-                            <span :class="{ 'line-through opacity-75': price.soldOut }">
-                                {{ price.passPrice ? 'CHF ' + price.passPrice + '.-' : '-' }}
-                            </span>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <p class="mt-4 text-xl md:text-2xl">
-                Nous proposons un prix normal, et un prix de soutien — un peu plus élevé — pour les coeurs généreux qui veulent donner un
-                coup de pouce à notre petit festival (et gagner notre amour éternel) !
-            </p>
+        <p class="mt-6 text-base sm:text-lg text-[var(--color-ink)]">
+            Prix normal et prix de soutien - un peu plus élevé - pour les cœurs généreux qui veulent donner un coup de pouce
+            au festival.
+        </p>
+        <p class="mt-2 text-base sm:text-lg text-[var(--color-ink)]">Entrée gratuite pour les enfants de 12 ans et moins.</p>
 
-            <p class="mt-4 text-xl md:text-2xl">L'entrée est gratuite pour les enfants de 12 ans et moins.</p>
-        </section>
-
-        <section class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-            <LayoutCTA />
-        </section>
+        <div class="mt-12 text-center">
+            <a
+                href="https://www.petzi.ch/fr/events/61295-ersatz-festival-ersatz-2026/"
+                target="_blank"
+                rel="noopener"
+                class="inline-block px-10 py-4 rounded-full bg-[var(--color-primary)] text-[var(--color-bg)] uppercase text-base sm:text-lg tracking-widest shadow-sm hover:bg-[var(--color-primary-hover)] hover:shadow-md transition"
+            >
+                Acheter un billet
+            </a>
+        </div>
     </div>
 </template>
 
@@ -50,89 +50,24 @@
 import { useHead } from '#imports';
 
 useHead({
-    title: 'Billets Ersatz Festival 2025 | Billets et Tarifs',
+    title: 'Billets Ersatz Festival 2026 | Tarifs',
     meta: [
         {
             name: 'description',
             content:
-                'Réservez vos billets pour le Ersatz Festival 2025 à St-Blaise. Early-bird, normal ou soutien, à partir de 15 CHF. Pass journalier ou 3 jours disponibles. Entrée gratuite -12 ans.',
+                'Réservez vos billets pour le Ersatz Festival 2026 à St-Blaise. Pass journalier ou 3 jours. Entrée gratuite -12 ans.',
         },
-        {
-            property: 'og:title',
-            content: 'Billets Ersatz Festival 2025 | Billets et Tarifs',
-        },
-        {
-            property: 'og:description',
-            content:
-                'Réservez vos billets pour le Ersatz Festival 2025 à St-Blaise. Early-bird, normal ou soutien, à partir de 15 CHF. Pass journalier ou 3 jours disponibles.',
-        },
-        {
-            property: 'og:image',
-            content: 'https://ersatzfestival.ch/img/ersatz-cover.png',
-        },
-        {
-            property: 'og:url',
-            content: 'https://ersatzfestival.ch/billets',
-        },
-        {
-            property: 'og:type',
-            content: 'website',
-        },
-        {
-            name: 'keywords',
-            content: 'Ersatz Festival, billetterie, tickets, billets, St-Blaise, festival musique, prix billets, réservation',
-        },
-    ],
-    script: [
-        {
-            type: 'application/ld+json',
-            innerHTML: JSON.stringify({
-                '@context': 'https://schema.org',
-                '@type': 'Event',
-                name: 'Ersatz Festival 2025',
-                startDate: '2025-08-22',
-                endDate: '2025-08-24',
-                location: {
-                    '@type': 'Place',
-                    name: 'Ferme du Clos-aux-Moines, St-Blaise',
-                    address: 'St-Blaise, Neuchâtel, Suisse',
-                },
-                image: 'https://ersatzfestival.ch/img/ersatz-cover.png',
-                offers: {
-                    '@type': 'Offer',
-                    price: '15-60',
-                    priceCurrency: 'CHF',
-                    url: 'https://ersatzfestival.ch/billets',
-                },
-            }),
-        },
+        { property: 'og:title', content: 'Billets Ersatz Festival 2026' },
+        { property: 'og:image', content: 'https://ersatzfestival.ch/ersatz2026.jpg' },
+        { property: 'og:url', content: 'https://ersatzfestival.ch/billets' },
     ],
 });
 
 const pricesPerDay = [
-    {
-        name: 'Early-bird',
-        dayPrice: 15,
-        passPrice: 45,
-        soldOut: true,
-    },
-    {
-        name: 'Normal',
-        dayPrice: 20,
-        passPrice: 50,
-    },
-    {
-        name: 'Soutien',
-        dayPrice: 30,
-        passPrice: 60,
-    },
-    {
-        name: 'Sur place',
-        dayPrice: 25,
-    },
-    {
-        name: 'Camping',
-        dayPrice: 'Prix libre',
-    },
-];
+    { name: 'Early-bird', dayPrice: 15, passPrice: 45 },
+    { name: 'Normal', dayPrice: 20, passPrice: 50 },
+    { name: 'Soutien', dayPrice: 30, passPrice: 60 },
+    { name: 'Sur place', dayPrice: 25, passPrice: null },
+    { name: 'Camping', dayPrice: 'Prix libre', passPrice: null },
+] as { name: string; dayPrice: number | string; passPrice: number | null; soldOut?: boolean }[];
 </script>

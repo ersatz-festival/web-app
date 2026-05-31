@@ -1,19 +1,12 @@
 import tailwindcss from '@tailwindcss/vite';
-import minifyImages from './tools/minify-images';
 
 export default defineNuxtConfig({
     ssr: true,
     compatibilityDate: '2024-11-01',
     devtools: { enabled: true },
     css: ['~/assets/css/fonts.css', '~/assets/css/main.css'],
-    modules: ['@pinia/nuxt'],
     vite: {
         plugins: [tailwindcss()],
-    },
-    hooks: {
-        'build:before': async () => {
-            await minifyImages();
-        },
     },
     app: {
         head: {
@@ -22,22 +15,20 @@ export default defineNuxtConfig({
             meta: [
                 { name: 'robots', content: 'index, follow' },
                 { name: 'format-detection', content: 'telephone=no' },
-                { name: 'theme-color', content: '#c026d3' },
+                { name: 'theme-color', content: '#ff604d' },
                 {
                     name: 'google-site-verification',
                     content: 'wRbcABe2fWsfrbSGOOPp-fupnNioCRISm3HmHUPS-GM',
                 },
             ],
             link: [
-                { rel: 'icon', href: '/favicon.ico' },
+                { rel: 'icon', href: '/ersatz2026.ico' },
                 { rel: 'canonical', href: 'https://ersatzfestival.ch' },
             ],
         },
     },
     routeRules: {
-        // Ajouter des règles de cache pour améliorer les performances
         '/': { prerender: true },
-        '/programme': { prerender: true },
         '/billets': { prerender: true },
         '/informations': { prerender: true },
         '/historique': { prerender: true },

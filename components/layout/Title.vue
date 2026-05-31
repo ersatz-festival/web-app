@@ -1,21 +1,9 @@
 <template>
-    <section :class="{ 'mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8': !props.noMargin }">
-        <h1 class="text-5xl sm:text-7xl md:text-9xl tracking-tight" :class="props.color">
-            {{ props.title }}
-        </h1>
-    </section>
+    <h1 class="text-6xl sm:text-8xl md:text-9xl text-[var(--color-primary)] leading-[0.85] tracking-tight">
+        {{ title }}
+    </h1>
 </template>
 
 <script setup lang="ts">
-const props = defineProps({
-    title: String,
-    color: {
-        type: String,
-        default: 'text-pink-500',
-    },
-    noMargin: {
-        type: Boolean,
-        default: false,
-    },
-});
+defineProps<{ title: string }>();
 </script>

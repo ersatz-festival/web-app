@@ -1,0 +1,39 @@
+[
+    {
+        "day": "Vendredi",
+        "date": "21 août 2026",
+        "artists": [
+            { "name": "BLISS!" },
+            { "name": "CLEBS" },
+            { "name": "ERREURJEAN" },
+            { "name": "GODASSE" },
+            { "name": "S.G.A.T.V." },
+            { "name": "SUICIDE CATDOORS" }
+        ]
+    },
+    {
+        "day": "Samedi",
+        "date": "22 août 2026",
+        "artists": [
+            { "name": "24KIARA" },
+            { "name": "CHAUFAU" },
+            { "name": "LEYLA" },
+            { "name": "MOICTANI" },
+            { "name": "NANA" },
+            { "name": "OK.CROQUETTE B2B DARJEELING" },
+            { "name": "ULTRAMODERNE" }
+        ]
+    },
+    {
+        "day": "Dimanche",
+        "date": "23 août 2026",
+        "artists": [
+            { "name": "BËTISE" },
+            { "name": "LILY GASC" },
+            { "name": "LUCIE" },
+            { "name": "NOAH VESSAZ" },
+            { "name": "OWNI" },
+            { "name": "U4F" }
+        ]
+    }
+]

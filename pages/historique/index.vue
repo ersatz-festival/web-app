@@ -1,116 +1,122 @@
 <template>
-    <div class="text-pink-500 bg-purple-500">
-        <LayoutTitle title="Historique" class="mb-6" />
+    <div class="mx-auto max-w-5xl px-6 pt-16 pb-24">
+        <LayoutTitle title="Historique" />
 
-        <div class="flex flex-wrap justify-center gap-8 pb-24">
-            <div v-for="edition in editions" :key="edition.year" class="w-full max-w-xs">
-                <h2 class="text-2xl mb-1 text-center">{{ edition.year }}</h2>
-                <p class="text-sm text-center text-gray-300 mb-2">{{ edition.date }}</p>
-                <div class="text-sm text-pink-500 text-center">
-                    <template v-if="edition.artists.length">
-                        <template v-for="(artist, idx) in edition.artists" :key="artist">
-                            <span>{{ artist }}</span>
-                            <span v-if="idx < edition.artists.length - 1" class="mx-1">·</span>
-                        </template>
+        <div class="mt-16 space-y-12">
+            <article v-for="edition in editions" :key="edition.year">
+                <h2 class="text-5xl sm:text-7xl text-[var(--color-primary)] leading-none border-b-2 border-[var(--color-primary)] pb-2 mb-4">
+                    {{ edition.year }}
+                </h2>
+                <p
+                    v-if="edition.artists.length"
+                    class="text-2xl sm:text-4xl uppercase leading-[0.95] tracking-tight text-[var(--color-primary)]"
+                >
+                    <template v-for="(artist, idx) in edition.artists" :key="artist">
+                        <span class="whitespace-nowrap">{{ artist.toUpperCase() }}</span>
+                        <span v-if="idx < edition.artists.length - 1" class="text-[var(--color-ink)] mx-2">·</span>
                     </template>
-                    <span v-else class="italic">Artistes non renseignés</span>
-                </div>
-            </div>
+                </p>
+                <p v-else class="italic text-[var(--color-muted)]">Artistes non renseignés</p>
+            </article>
         </div>
-
-        <section class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-            <LayoutCTA />
-        </section>
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { useHead } from '#imports';
 
 useHead({
-    title: 'Historique des précédentes éditions | Ersatz Festival',
+    title: 'Historique | Ersatz Festival',
     meta: [
         {
             name: 'description',
-            content: 'Retour sur les éditions précédentes de Ersatz Festival depuis 2020 : artistes invités et dates de chaque édition.',
+            content: 'Retour sur les éditions précédentes de Ersatz Festival depuis 2020.',
         },
-        {
-            property: 'og:title',
-            content: 'Historique – Ersatz Festival',
-        },
-        {
-            property: 'og:description',
-            content: 'Parcours les programmations des éditions passées de Ersatz Festival, de 2020 à 2023.',
-        },
-        {
-            property: 'og:image',
-            content: 'https://ersatzfestival.ch/img/ersatz-cover.png',
-        },
-        {
-            property: 'og:url',
-            content: 'https://ersatzfestival.ch/historique',
-        },
+        { property: 'og:title', content: 'Historique | Ersatz Festival' },
+        { property: 'og:image', content: 'https://ersatzfestival.ch/ersatz2026.jpg' },
+        { property: 'og:url', content: 'https://ersatzfestival.ch/historique' },
     ],
 });
 
 const editions = [
     {
-        year: 2023,
-        date: '25–27 août',
+        year: 2025,
         artists: [
-            'CLUB PLAISIR',
-            'COSTARD CREVETTE',
-            "DON'T KILL DUNCAN",
-            'ELYSSA FLEUR',
-            'ENSEMBLE DIAPHANE',
-            'FLUFFY MACHINE',
-            'GOLDEN MAMMI',
-            'GRIMACE',
-            'HYBISAE',
-            'JO MAYASI',
-            'LES CLAUDES',
-            'LICKING RAINBOWS',
-            'LOVE IN A MIST',
-            'POTOCHKINE',
-            'PRUNE',
-            'SABBIA NELLA FIGA',
-            'SAILLING ON PLUTO',
-            'SILANCE',
-            'SMOKY',
-            'TAF TRIO',
+            'Softlander',
+            'Batbait',
+            'REDMOON',
+            "Tomorrow's Ghost",
+            'NONANTE',
+            'Orphia',
+            'Coup de Coeur',
+            'Hantébius',
+            'Ely Tina',
+            'Pug Impact',
+            'Dibby',
+            'Serotonine',
+            'Barbicop',
+            'Pho3 b2b 13R',
+            'Esaïa',
+            'Zadkiel',
+            'Roxo',
+            'Isia',
+            'eggs and tiaras',
+        ],
+    },
+    {
+        year: 2023,
+        artists: [
+            'Club Plaisir',
+            'Costard Crevette',
+            "Don't Kill Duncan",
+            'Elyssa Fleur',
+            'Ensemble Diaphane',
+            'Fluffy Machine',
+            'Golden Mammi',
+            'Grimace',
+            'Hybisae',
+            'Jo Mayasi',
+            'Les Claudes',
+            'Licking Rainbows',
+            'Love in a Mist',
+            'Potochkine',
+            'Prune',
+            'Sabbia nella Figa',
+            'Sailling on Pluto',
+            'Silance',
+            'Smoky',
+            'Taf Trio',
             '13R',
         ],
     },
     {
         year: 2021,
-        date: '27–29 août',
         artists: [
-            'AL TOQUE MESTIZO & SERGIO VALDEOS',
-            'BAD PICTURE',
-            'BIFIDUS.JPG & TÉOLEFURIEUX & UNTERSCHRIFT',
-            'COLIN JEAN',
-            'DUO PARASOL',
-            'FELIX RABIN',
-            'FICHIER IMPORTANT',
-            'GIPSY TONIC',
-            'GOFEFO KONATÉ BAND',
-            'HAZE',
-            'JURIGOZ',
-            'JUSTE ICI',
-            'KÉROSÈNE',
-            'LA CLINIQUE DU DR JEDD',
-            'LAURA PEREZ',
-            'LOS AZULEJOS',
-            'NAMO',
-            'PSYCHO WEAZEL',
-            'SABBIA NELLA FIGA',
-            'TRIO EPICURE',
+            'Al Toque Mestizo & Sergio Valdeos',
+            'Bad Picture',
+            'Bifidus.jpg & Téolefurieux & Unterschrift',
+            'Colin Jean',
+            'Duo Parasol',
+            'Felix Rabin',
+            'Fichier Important',
+            'Gipsy Tonic',
+            'Gofefo Konaté Band',
+            'Haze',
+            'Jurigoz',
+            'Juste Ici',
+            'Kérosène',
+            'La Clinique du Dr Jedd',
+            'Laura Perez',
+            'Los Azulejos',
+            'Namo',
+            'Psycho Weazel',
+            'Sabbia nella Figa',
+            'Trio Epicure',
         ],
     },
     {
         year: 2020,
-        date: '18-19 juillet',
-        artists: ['édition privée :)'],
+        artists: ['Édition privée :)'],
     },
 ];
 </script>
