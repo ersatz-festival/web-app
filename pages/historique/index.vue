@@ -2,7 +2,9 @@
     <div class="mx-auto max-w-5xl px-6 pt-8 pb-6">
         <div class="space-y-12">
             <article v-for="edition in editions" :key="edition.year" class="text-center">
-                <h2 class="text-5xl sm:text-7xl text-[var(--color-primary)] leading-none border-b-2 border-[var(--color-primary)] pb-2 mb-6">
+                <h2
+                    class="text-5xl sm:text-7xl text-[var(--color-primary)] leading-none border-b-2 border-[var(--color-primary)] pb-2 mb-6"
+                >
                     {{ edition.year }}
                 </h2>
                 <div
