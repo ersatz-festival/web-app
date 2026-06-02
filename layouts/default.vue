@@ -10,7 +10,7 @@
                     />
                 </NuxtLink>
 
-                <nav class="mt-6 flex flex-col sm:flex-row sm:flex-wrap justify-center items-center gap-x-8 gap-y-2 text-base sm:text-lg uppercase">
+                <nav class="mt-6 flex flex-row flex-nowrap justify-center items-center gap-x-4 sm:gap-x-8 text-sm sm:text-lg uppercase">
                     <NuxtLink
                         v-for="link in links"
                         :key="link.to"
