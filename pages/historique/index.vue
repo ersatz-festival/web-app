@@ -21,7 +21,7 @@
 import { useHead } from '#imports';
 
 useHead({
-    title: 'Historique | Ersatz Festival',
+    title: 'Historique | Ersatz Festival 2026',
     meta: [
         {
             name: 'description',

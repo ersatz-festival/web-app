@@ -2,7 +2,7 @@
     <div class="mx-auto max-w-3xl px-6 pt-8 pb-6">
         <div>
             <div
-                class="grid grid-cols-3 sm:grid-cols-[2fr_1fr_1fr] gap-4 py-4 border-b-2 border-[var(--color-primary)] text-sm sm:text-lg uppercase tracking-wider text-[var(--color-primary)]"
+                class="grid grid-cols-3 sm:grid-cols-[2fr_1fr_1fr] gap-4 py-4 border-b-2 border-[var(--color-primary)] text-base sm:text-lg uppercase tracking-wider text-[var(--color-primary)]"
             >
                 <div></div>
                 <div class="text-right sm:text-left">1 jour</div>
@@ -13,16 +13,16 @@
                 :key="price.name"
                 class="grid grid-cols-3 sm:grid-cols-[2fr_1fr_1fr] gap-4 py-4 border-b-2 border-[var(--color-primary)] items-baseline last:border-b-0"
             >
-                <div class="text-lg sm:text-xl" :class="{ 'line-through opacity-60': price.soldOut }">
-                    <span class="text-2xl sm:text-3xl uppercase text-[var(--color-primary)]">{{ price.name }}</span>
+                <div :class="{ 'line-through opacity-60': price.soldOut }">
+                    <span class="text-base sm:text-lg uppercase text-[var(--color-primary)]">{{ price.name }}</span>
                     <span v-if="price.soldOut" class="ml-2 text-xs uppercase tracking-wider text-[var(--color-muted)]">Sold out</span>
                 </div>
-                <div class="text-right sm:text-left text-sm sm:text-lg text-[var(--color-ink)] uppercase tracking-wider">
+                <div class="text-right sm:text-left text-base sm:text-lg text-[var(--color-ink)] uppercase tracking-wider">
                     <span :class="{ 'line-through opacity-60': price.soldOut }">
                         {{ typeof price.dayPrice === 'number' ? `CHF ${price.dayPrice}.-` : price.dayPrice }}
                     </span>
                 </div>
-                <div class="text-right text-sm sm:text-lg text-[var(--color-ink)] uppercase tracking-wider">
+                <div class="text-right text-base sm:text-lg text-[var(--color-ink)] uppercase tracking-wider">
                     <span :class="{ 'line-through opacity-60': price.soldOut }">
                         {{ price.passPrice ? `CHF ${price.passPrice}.-` : '-' }}
                     </span>
@@ -31,8 +31,7 @@
         </div>
 
         <p class="mt-6 text-base sm:text-lg text-[var(--color-ink)]">
-            Prix normal et prix de soutien - un peu plus élevé - pour les coeurs généreux qui veulent donner un coup de pouce
-            au festival.
+            Prix normal et prix de soutien - un peu plus élevé - pour les coeurs généreux qui veulent donner un coup de pouce au festival. <3
         </p>
         <p class="mt-2 text-base sm:text-lg text-[var(--color-ink)]">Entrée gratuite pour les enfants de 12 ans et moins.</p>
 
@@ -53,7 +52,7 @@
 import { useHead } from '#imports';
 
 useHead({
-    title: 'Billets Ersatz Festival 2026 | Tarifs',
+    title: 'Billets | Ersatz Festival 2026',
     meta: [
         {
             name: 'description',

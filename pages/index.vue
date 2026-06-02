@@ -46,7 +46,7 @@ interface Day {
 const programme = programmeData as Day[];
 
 useHead({
-    title: 'Ersatz Festival 2026 | 5e édition · 21 - 23 août à St-Blaise',
+    title: 'Programme | Ersatz Festival 2026',
     meta: [
         {
             name: 'description',

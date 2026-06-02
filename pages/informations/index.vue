@@ -1,9 +1,10 @@
 ﻿<template>
     <div class="mx-auto max-w-3xl px-6 pt-8 pb-6">
         <p class="text-xl text-[var(--color-ink)] leading-relaxed">
-            Ersatz est un festival de musique et d'art de rue, fondé en 2020. En 2026, il vivra sa
-            <strong>5<sup>e</sup> édition</strong> du <strong>21 au 23 août</strong>, à la ferme du Clos-aux-Moines, à
-            St-Blaise.
+            Ersatz revient pour sa <strong>5<sup>e</sup> édition</strong> ! La formule reste la même : trois jours de
+            musique et de fête, du <strong>21 au 23 août 2026</strong>. Des groupes, des
+            chanteur·euse·s et des DJs - du coin et d'un peu plus loin - à (re)découvrir à St-Blaise, dans un cadre
+            champêtre aux abords de la ferme du Clos-aux-Moines. Deux scènes, un bar, des food trucks et bien plus encore !
         </p>
 
         <div class="mt-12 divide-y-2 divide-[var(--color-primary)] border-t-2 border-b-2 border-[var(--color-primary)]">
@@ -27,7 +28,7 @@
 import { useHead } from '#imports';
 
 useHead({
-    title: 'Infos pratiques | Ersatz Festival 2026',
+    title: 'Infos | Ersatz Festival 2026',
     meta: [
         {
             name: 'description',
