@@ -2,21 +2,15 @@
     <div class="min-h-screen flex flex-col">
         <header class="bg-[var(--color-bg)] border-b-2 border-[var(--color-primary)]">
             <div class="mx-auto max-w-6xl px-6 pt-10 pb-6 flex flex-col items-center text-center">
-                <NuxtLink
-                    to="/"
-                    class="block text-[var(--color-primary)] leading-[0.85] tracking-tight text-7xl sm:text-9xl md:text-[10rem]"
-                >
-                    ERSATZ
+                <NuxtLink to="/" class="block">
+                    <img
+                        src="/logo_header.png"
+                        alt="Ersatz Festival"
+                        class="block w-auto max-w-full h-48 sm:h-72 md:h-96"
+                    />
                 </NuxtLink>
 
-                <p class="mt-4 text-base sm:text-lg tracking-[0.25em] text-[var(--color-primary)]">
-                    du 21 au 23 août 2026
-                </p>
-                <p class="mt-1 text-sm sm:text-base tracking-widest text-[var(--color-ink)]">
-                    St-Blaise · ferme du Clos-aux-Moines
-                </p>
-
-                <nav class="mt-6 flex flex-wrap justify-center gap-x-8 gap-y-2 text-base sm:text-lg uppercase">
+                <nav class="mt-6 flex flex-col sm:flex-row sm:flex-wrap justify-center items-center gap-x-8 gap-y-2 text-base sm:text-lg uppercase">
                     <NuxtLink
                         v-for="link in links"
                         :key="link.to"
