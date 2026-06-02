@@ -31,7 +31,8 @@
         </div>
 
         <p class="mt-6 text-base sm:text-lg text-[var(--color-ink)]">
-            Prix normal et prix de soutien - un peu plus élevé - pour les coeurs généreux qui veulent donner un coup de pouce au festival. <3
+            Prix normal et prix de soutien - un peu plus élevé - pour les coeurs généreux qui veulent donner un coup de pouce au festival.
+            <3
         </p>
         <p class="mt-2 text-base sm:text-lg text-[var(--color-ink)]">Entrée gratuite pour les enfants de 12 ans et moins.</p>
 
@@ -56,8 +57,7 @@ useHead({
     meta: [
         {
             name: 'description',
-            content:
-                'Réservez vos billets pour le Ersatz Festival 2026 à St-Blaise. Pass journalier ou 3 jours. Entrée gratuite -12 ans.',
+            content: 'Réservez vos billets pour le Ersatz Festival 2026 à St-Blaise. Pass journalier ou 3 jours. Entrée gratuite -12 ans.',
         },
         { property: 'og:title', content: 'Billets Ersatz Festival 2026' },
         { property: 'og:image', content: 'https://ersatzfestival.ch/ersatz2026.jpg' },

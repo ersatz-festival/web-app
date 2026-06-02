@@ -1,10 +1,10 @@
 ﻿<template>
     <div class="mx-auto max-w-3xl px-6 pt-8 pb-6">
         <p class="text-xl text-[var(--color-ink)] leading-relaxed">
-            Ersatz revient pour sa <strong>5<sup>e</sup> édition</strong> ! La formule reste la même : trois jours de
-            musique et de fête, du <strong>21 au 23 août 2026</strong>. Des groupes, des
-            chanteur·euse·s et des DJs - du coin et d'un peu plus loin - à (re)découvrir à St-Blaise, dans un cadre
-            champêtre aux abords de la ferme du Clos-aux-Moines. Deux scènes, un bar, des food trucks et bien plus encore !
+            Ersatz revient pour sa <strong>5<sup>e</sup> édition</strong> ! La formule reste la même : trois jours de musique et de fête,
+            du <strong>21 au 23 août 2026</strong>. Des groupes, des chanteur·euse·s et des DJs - du coin et d'un peu plus loin - à
+            (re)découvrir à St-Blaise, dans un cadre champêtre aux abords de la ferme du Clos-aux-Moines. Deux scènes, un bar, des food
+            trucks et bien plus encore !
         </p>
 
         <div class="mt-12 divide-y-2 divide-[var(--color-primary)] border-t-2 border-b-2 border-[var(--color-primary)]">
@@ -32,8 +32,7 @@ useHead({
     meta: [
         {
             name: 'description',
-            content:
-                'Toutes les infos pratiques pour Ersatz Festival 2026 à St-Blaise : accès, horaires, transports, camping.',
+            content: 'Toutes les infos pratiques pour Ersatz Festival 2026 à St-Blaise : accès, horaires, transports, camping.',
         },
         { property: 'og:title', content: 'Infos pratiques | Ersatz Festival 2026' },
         { property: 'og:image', content: 'https://ersatzfestival.ch/ersatz2026.jpg' },
@@ -48,7 +47,7 @@ const informations = [
     },
     {
         title: 'Venir en transports publics',
-        text: "Les lignes R13, R16, S20 et S21 permettent de venir facilement au festival. Selon la ligne, descendre à St-Blaise ou Marin-Epagnier, puis environ 15 minutes à pied. Voir les horaires CFF pour plus de détails.",
+        text: 'Les lignes R13, R16, S20 et S21 permettent de venir facilement au festival. Selon la ligne, descendre à St-Blaise ou Marin-Epagnier, puis environ 15 minutes à pied. Voir les horaires CFF pour plus de détails.',
     },
     {
         title: 'Venir en voiture',
