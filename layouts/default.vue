@@ -3,7 +3,11 @@
         <header class="bg-[var(--color-bg)] border-b-2 border-[var(--color-primary)]">
             <div class="mx-auto max-w-6xl px-6 pt-10 pb-6 flex flex-col items-center text-center">
                 <NuxtLink to="/" class="block">
-                    <img src="/logo_header.png" alt="Ersatz Festival" class="block w-auto max-w-full h-48 sm:h-72 md:h-96" />
+                    <img
+                        src="/logo_header.png"
+                        alt="Ersatz Festival"
+                        class="block h-auto w-auto max-w-full max-h-48 sm:max-h-72 md:max-h-96 object-contain"
+                    />
                 </NuxtLink>
 
                 <nav class="mt-6 flex flex-row flex-nowrap justify-center items-center gap-x-4 sm:gap-x-8 text-sm sm:text-lg uppercase">
