@@ -1,8 +1,6 @@
 ﻿<template>
-    <div class="mx-auto max-w-3xl px-6 pt-16 pb-6">
-        <LayoutTitle title="Infos" />
-
-        <p class="mt-8 text-xl text-[var(--color-ink)] leading-relaxed">
+    <div class="mx-auto max-w-3xl px-6 pt-8 pb-6">
+        <p class="text-xl text-[var(--color-ink)] leading-relaxed">
             Ersatz est un festival de musique et d'art de rue, fondé en 2020. En 2026, il vivra sa
             <strong>5<sup>e</sup> édition</strong> du <strong>21 au 23 août</strong>, à la ferme du Clos-aux-Moines, à
             St-Blaise.

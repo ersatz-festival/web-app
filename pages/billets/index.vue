@@ -1,8 +1,6 @@
 ﻿<template>
-    <div class="mx-auto max-w-3xl px-6 pt-16 pb-6">
-        <LayoutTitle title="Billets" />
-
-        <div class="mt-12 border-t-2 border-[var(--color-primary)]">
+    <div class="mx-auto max-w-3xl px-6 pt-8 pb-6">
+        <div>
             <div
                 class="grid grid-cols-3 sm:grid-cols-[2fr_1fr_1fr] gap-4 py-4 border-b-2 border-[var(--color-primary)] text-sm sm:text-lg uppercase tracking-wider text-[var(--color-primary)]"
             >
@@ -13,7 +11,7 @@
             <div
                 v-for="price in pricesPerDay"
                 :key="price.name"
-                class="grid grid-cols-3 sm:grid-cols-[2fr_1fr_1fr] gap-4 py-4 border-b-2 border-[var(--color-primary)] items-baseline"
+                class="grid grid-cols-3 sm:grid-cols-[2fr_1fr_1fr] gap-4 py-4 border-b-2 border-[var(--color-primary)] items-baseline last:border-b-0"
             >
                 <div class="text-lg sm:text-xl" :class="{ 'line-through opacity-60': price.soldOut }">
                     <span class="text-2xl sm:text-3xl uppercase text-[var(--color-primary)]">{{ price.name }}</span>
