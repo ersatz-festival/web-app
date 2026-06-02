@@ -17,7 +17,7 @@
                 </article>
             </div>
 
-            <div class="mt-16 text-center">
+            <div class="mt-8 text-center">
                 <NuxtLink
                     to="/billets"
                     class="inline-block px-10 py-4 rounded-full bg-[var(--color-primary)] text-[var(--color-bg)] uppercase text-base sm:text-lg tracking-widest shadow-sm hover:bg-[var(--color-primary-hover)] hover:shadow-md transition"
