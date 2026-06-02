@@ -1,7 +1,7 @@
 <template>
     <div class="min-h-screen flex flex-col">
         <header class="bg-[var(--color-bg)] border-b-2 border-[var(--color-primary)]">
-            <div class="mx-auto max-w-6xl px-6 pt-10 pb-6 flex flex-col items-center text-center">
+            <div class="mx-auto max-w-6xl px-6 pt-2 pb-3 flex flex-col items-center text-center">
                 <NuxtLink to="/" class="block">
                     <img
                         src="/logo_header.png"
@@ -10,7 +10,7 @@
                     />
                 </NuxtLink>
 
-                <nav class="mt-6 flex flex-row flex-nowrap justify-center items-center gap-x-4 sm:gap-x-8 text-sm sm:text-lg uppercase">
+                <nav class="mt-2 flex flex-row flex-nowrap justify-center items-center gap-x-4 sm:gap-x-8 text-sm sm:text-lg uppercase">
                     <NuxtLink
                         v-for="link in links"
                         :key="link.to"
