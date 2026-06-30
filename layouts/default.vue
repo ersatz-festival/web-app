@@ -38,15 +38,26 @@
                         info@ersatzfestival.ch
                     </a>
                 </div>
-                <a
-                    href="https://www.instagram.com/ersatz.festival"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-flex items-center gap-2 text-[var(--color-ink)] hover:text-[var(--color-primary)]"
-                >
-                    <Instagram class="w-5 h-5 fill-current" />
-                    @ersatz.festival
-                </a>
+                <div class="flex flex-col items-center sm:items-start gap-2">
+                    <a
+                        href="https://www.instagram.com/ersatz.festival"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center gap-2 text-[var(--color-ink)] hover:text-[var(--color-primary)]"
+                    >
+                        <Instagram class="w-5 h-5 fill-current" />
+                        @ersatz.festival
+                    </a>
+                    <a
+                        href="https://www.facebook.com/Ersatzfestival/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center gap-2 text-[var(--color-ink)] hover:text-[var(--color-primary)]"
+                    >
+                        <Facebook class="w-5 h-5 fill-current" />
+                        Ersatz Festival
+                    </a>
+                </div>
                 <p class="text-xs uppercase tracking-widest text-[var(--color-muted)]">© {{ new Date().getFullYear() }} Ersatz Festival</p>
             </div>
         </footer>
@@ -56,6 +67,7 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router';
 import Instagram from '~/components/icons/Instagram.vue';
+import Facebook from '~/components/icons/Facebook.vue';
 
 const route = useRoute();
 
