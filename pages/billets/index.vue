@@ -42,7 +42,6 @@
 
         <div class="mt-10 pt-6 border-t-2 border-[var(--color-primary)]">
             <div class="flex items-center gap-4">
-                
                 <a href="https://www.agculturel.ch/" target="_blank" rel="noopener" class="shrink-0">
                     <img :src="agCulturelLogo" alt="AG Culturel" class="h-12 sm:h-14 w-auto object-contain" />
                 </a>
