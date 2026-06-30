@@ -36,6 +36,28 @@
         </p>
         <p class="mt-2 text-base sm:text-lg text-[var(--color-ink)]">Entrée gratuite pour les enfants de 12 ans et moins.</p>
 
+        <div class="mt-10 pt-6 border-t-2 border-[var(--color-primary)]">
+            <h2 class="text-base sm:text-lg uppercase tracking-wider text-[var(--color-primary)]">AG Culturel</h2>
+            <p class="mt-3 text-base sm:text-lg text-[var(--color-ink)]">
+                Ersatz est partenaire de l'<a
+                    href="https://www.agculturel.ch/"
+                    target="_blank"
+                    rel="noopener"
+                    class="underline hover:text-[var(--color-primary)] transition"
+                    >AG Culturel</a
+                >&nbsp;! Si tu as moins de 26 ans et que tu possèdes un AG Culturel, l'entrée au festival est gratuite.
+            </p>
+            <p class="mt-2 text-base sm:text-lg text-[var(--color-ink)]">
+                Pour en profiter, réserve ta place à l'avance par e-mail à
+                <a
+                    href="mailto:info@ersatzfestival.ch?subject=R%C3%A9servation%20AG%20Culturel"
+                    class="underline hover:text-[var(--color-primary)] transition"
+                    >info@ersatzfestival.ch</a
+                >
+                en indiquant ton nom et le ou les jours souhaités.
+            </p>
+        </div>
+
         <div class="mt-12 text-center">
             <a
                 href="https://www.petzi.ch/fr/events/61295-ersatz-festival-ersatz-2026/"
