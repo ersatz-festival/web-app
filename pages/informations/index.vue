@@ -65,5 +65,9 @@ const informations = [
         title: 'Charte Aretha',
         text: "Le festival s'engage à proposer un environnement safer et adhère à la charte Aretha. Une équipe de bénévoles formé·e·s - les Bienveillant·e·s - veille à ta sécurité et est à l'écoute en cas de besoin.",
     },
+    {
+        title: 'AG Culturel',
+        html: 'Ersatz est partenaire de l\'<a href="https://www.agculturel.ch/" target="_blank" rel="noopener" class="underline hover:text-[var(--color-primary)] transition">AG Culturel</a>&nbsp;! Si tu as moins de 26 ans et que tu possèdes un AG Culturel, l\'entrée au festival est gratuite. Pour en profiter, réserve ta place à l\'avance par e-mail à <a href="mailto:info@ersatzfestival.ch?subject=R%C3%A9servation%20AG%20Culturel" class="underline hover:text-[var(--color-primary)] transition">info@ersatzfestival.ch</a> en indiquant ton nom et le ou les jours souhaités.',
+    },
 ];
 </script>
