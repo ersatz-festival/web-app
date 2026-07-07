@@ -63,7 +63,7 @@ const informations = [
     },
     {
         title: 'Accès PMR',
-        html: "Le festival est entièrement accessible. Le sol est fait de gazon et de gravier. Une toilette PMR est à disposition sur le site. Les parkings pour le public sont situés à 500m, mais nous pouvons volontiers vous accueillir à côté de l'entrée du festival. Pour toute demande, contacte <a href=\"mailto:info@ersatzfestival.ch\" class=\"underline hover:text-[var(--color-primary)] transition\">info@ersatzfestival.ch</a>.",
+        html: 'Le festival est entièrement accessible. Le sol est fait de gazon et de gravier. Une toilette PMR est à disposition sur le site. Les parkings pour le public sont situés à 500m, mais nous pouvons volontiers vous accueillir à côté de l\'entrée du festival. Pour toute demande, contacte <a href="mailto:info@ersatzfestival.ch" class="underline hover:text-[var(--color-primary)] transition">info@ersatzfestival.ch</a>.',
     },
     {
         title: 'Charte Aretha',

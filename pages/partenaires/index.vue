@@ -2,8 +2,8 @@
     <div class="mx-auto max-w-4xl px-6 pt-8 pb-12">
         <h1 class="text-4xl sm:text-5xl uppercase text-[var(--color-primary)] leading-none">Merci&nbsp;!</h1>
         <p class="mt-6 text-base sm:text-lg text-[var(--color-ink)] leading-relaxed">
-            Ersatz ne serait pas possible sans le soutien précieux de nos partenaires. Un grand merci à celles et ceux qui
-            nous accompagnent et rendent l'aventure possible&nbsp;!
+            Ersatz ne serait pas possible sans le soutien précieux de nos partenaires. Un grand merci à celles et ceux qui nous
+            accompagnent et rendent l'aventure possible&nbsp;!
         </p>
 
         <div class="mt-12 grid grid-cols-2 sm:grid-cols-3 gap-8 items-center">
@@ -60,7 +60,11 @@ const partnerUrls: Record<string, string> = {
 type Partner = { name: string; src: string; url?: string };
 
 const basePartners: Partner[] = Object.entries(modules).map(([path, src]) => {
-    const name = path.split('/').pop()?.replace(/\.[^.]+$/, '') ?? '';
+    const name =
+        path
+            .split('/')
+            .pop()
+            ?.replace(/\.[^.]+$/, '') ?? '';
     return { name, src, url: partnerUrls[name] };
 });
 
