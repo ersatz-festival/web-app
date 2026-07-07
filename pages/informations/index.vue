@@ -62,6 +62,10 @@ const informations = [
         text: 'Il est possible de planter sa tente et de dormir sur place le vendredi et le samedi soir. Petite restauration disponible.',
     },
     {
+        title: 'Accès PMR',
+        html: 'Le festival est entièrement accessible. Le sol est fait de gazon et de gravier. Une toilette PMR est à disposition sur le site. Les parkings pour le public sont situés à 500m, mais nous pouvons volontiers vous accueillir à côté de l\'entrée du festival. Pour toute demande, contacte <a href="mailto:info@ersatzfestival.ch" class="underline hover:text-[var(--color-primary)] transition">info@ersatzfestival.ch</a>.',
+    },
+    {
         title: 'Charte Aretha',
         text: "Le festival s'engage à proposer un environnement safer et adhère à la charte Aretha. Une équipe de bénévoles formé·e·s - les Bienveillant·e·s - veille à ta sécurité et est à l'écoute en cas de besoin.",
     },

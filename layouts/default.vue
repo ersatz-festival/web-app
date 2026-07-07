@@ -10,16 +10,19 @@
                     />
                 </NuxtLink>
 
-                <nav class="mt-2 flex flex-row flex-nowrap justify-center items-center gap-x-4 sm:gap-x-8 text-sm sm:text-lg uppercase">
-                    <NuxtLink
-                        v-for="link in links"
-                        :key="link.to"
-                        :to="link.to"
-                        class="text-[var(--color-ink)] hover:text-[var(--color-primary)]"
-                        :class="{ '!text-[var(--color-primary)]': isActive(link.to) }"
-                    >
-                        {{ link.name }}
-                    </NuxtLink>
+                <nav
+                    class="mt-2 flex flex-row flex-wrap sm:flex-nowrap justify-center items-center gap-x-4 gap-y-1 sm:gap-x-8 text-sm sm:text-lg uppercase"
+                >
+                    <template v-for="(link, index) in links" :key="link.to">
+                        <NuxtLink
+                            :to="link.to"
+                            class="text-[var(--color-ink)] hover:text-[var(--color-primary)]"
+                            :class="{ '!text-[var(--color-primary)]': isActive(link.to) }"
+                        >
+                            {{ link.name }}
+                        </NuxtLink>
+                        <div v-if="index === 1" class="basis-full h-0 sm:hidden" aria-hidden="true"></div>
+                    </template>
                 </nav>
             </div>
         </header>
@@ -76,6 +79,7 @@ const links = [
     { name: 'Infos', to: '/informations' },
     { name: 'Billets', to: '/billets' },
     { name: 'Historique', to: '/historique' },
+    { name: 'Partenaires', to: '/partenaires' },
 ];
 
 const isActive = (path: string) => (path === '/' ? route.path === '/' : route.path.startsWith(path));
