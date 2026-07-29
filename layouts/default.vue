@@ -23,6 +23,14 @@
                         </NuxtLink>
                         <div v-if="index === 1" class="basis-full h-0 sm:hidden" aria-hidden="true"></div>
                     </template>
+                    <a
+                        href="https://app.ersatzfestival.ch/benevolat/inscription/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="px-4 py-1 rounded-full border border-[var(--color-primary)] text-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-[var(--color-bg)] transition"
+                    >
+                        Rejoins-nous
+                    </a>
                 </nav>
             </div>
         </header>
