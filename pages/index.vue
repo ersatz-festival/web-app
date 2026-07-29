@@ -6,7 +6,7 @@
                     type="button"
                     :aria-pressed="showTimes"
                     class="inline-block px-6 py-2 rounded-full border border-[var(--color-primary)] text-[var(--color-primary)] uppercase text-xs sm:text-sm tracking-widest hover:bg-[var(--color-primary)] hover:text-[var(--color-bg)] transition cursor-pointer"
-                    @click="showTimes = !showTimes"
+                    @click="toggleTimes"
                 >
                     {{ showTimes ? 'Masquer les horaires' : 'Voir les horaires' }}
                 </button>
@@ -22,23 +22,25 @@
                         v-if="day.artists.length"
                         tag="div"
                         name="prog"
-                        class="text-[var(--color-primary)] uppercase leading-[0.95] tracking-tight text-3xl sm:text-5xl md:text-6xl"
-                        :class="showTimes
-                            ? 'flex flex-col items-start gap-y-2 max-w-full text-left'
-                            : 'flex flex-wrap justify-center items-baseline gap-x-8 gap-y-1'"
+                        class="prog-group text-[var(--color-primary)] uppercase leading-[0.95] tracking-tight text-3xl sm:text-5xl md:text-6xl"
+                        :class="[
+                            showTimes
+                                ? 'flex flex-col items-start gap-y-2 max-w-full text-left'
+                                : 'flex flex-wrap justify-center items-baseline gap-x-8 gap-y-1',
+                            { 'prog-group--blurred': isShuffling },
+                        ]"
                     >
-                        <div
-                            v-for="artist in artistsFor(day)"
-                            :key="artist.name"
-                            class="flex items-baseline max-w-full"
-                        >
+                        <div v-for="artist in artistsFor(day)" :key="artist.name" class="flex items-baseline max-w-full">
                             <span
                                 v-if="artist.start"
                                 class="time-label shrink-0 overflow-hidden whitespace-nowrap tabular-nums tracking-normal text-sm sm:text-lg md:text-xl text-[var(--color-muted)]"
                                 :class="{ 'time-label--visible': showTimes }"
                                 :aria-hidden="!showTimes"
-                            >{{ artist.start }} – {{ artist.end }}</span>
-                            <span class="min-w-0" :class="{ 'whitespace-pre-line': showTimes }">{{ showTimes ? artist.name : artist.name.replace('\n', ' ') }}</span>
+                                >{{ artist.start }} – {{ artist.end }}</span
+                            >
+                            <span class="min-w-0" :class="{ 'whitespace-pre-line': showTimes }">{{
+                                showTimes ? artist.name : artist.name.replace('\n', ' ')
+                            }}</span>
                         </div>
                     </TransitionGroup>
                     <p v-else class="italic text-[var(--color-muted)]">À dévoiler prochainement</p>
@@ -76,6 +78,17 @@ interface Day {
 const programme = programmeData as Day[];
 
 const showTimes = ref(false);
+const isShuffling = ref(false);
+let shuffleTimer: ReturnType<typeof setTimeout> | undefined;
+
+function toggleTimes() {
+    showTimes.value = !showTimes.value;
+    isShuffling.value = true;
+    clearTimeout(shuffleTimer);
+    shuffleTimer = setTimeout(() => {
+        isShuffling.value = false;
+    }, 700);
+}
 
 function artistsFor(day: Day): Slot[] {
     if (showTimes.value) return day.artists;
@@ -108,6 +121,15 @@ useHead({
     transition: transform 1.1s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
+/* Léger flou pendant le réarrangement */
+.prog-group {
+    transition: filter 0.45s ease;
+}
+
+.prog-group--blurred {
+    filter: blur(4px);
+}
+
 /* Les horaires se déplient en douceur */
 .time-label {
     width: 15ch;
@@ -136,8 +158,13 @@ useHead({
 
 @media (prefers-reduced-motion: reduce) {
     .prog-move,
-    .time-label {
+    .time-label,
+    .prog-group {
         transition: none;
+    }
+
+    .prog-group--blurred {
+        filter: none;
     }
 }
 </style>
