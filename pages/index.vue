@@ -1,18 +1,46 @@
 ﻿<template>
     <div>
         <section class="mx-auto max-w-5xl px-6 pt-10 pb-6">
-            <div class="space-y-4 sm:space-y-6">
+            <div class="mb-6 sm:mb-8 text-center">
+                <button
+                    type="button"
+                    :aria-pressed="showTimes"
+                    class="inline-block px-6 py-2 rounded-full border border-[var(--color-primary)] text-[var(--color-primary)] uppercase text-xs sm:text-sm tracking-widest hover:bg-[var(--color-primary)] hover:text-[var(--color-bg)] transition cursor-pointer"
+                    @click="showTimes = !showTimes"
+                >
+                    {{ showTimes ? 'Masquer les horaires' : 'Voir les horaires' }}
+                </button>
+            </div>
+
+            <div class="space-y-4 sm:space-y-6" :class="{ 'w-fit max-w-full mx-auto': showTimes }">
                 <article v-for="day in programme" :key="day.day" class="text-center">
                     <p class="text-xs sm:text-sm uppercase tracking-[0.3em] text-[var(--color-primary)] mb-2">
                         {{ day.day }} · {{ day.date }}
                     </p>
 
-                    <div
+                    <TransitionGroup
                         v-if="day.artists.length"
-                        class="flex flex-wrap justify-center items-baseline gap-x-8 gap-y-1 text-[var(--color-primary)] uppercase leading-[0.95] tracking-tight text-3xl sm:text-5xl md:text-6xl"
+                        tag="div"
+                        name="prog"
+                        class="text-[var(--color-primary)] uppercase leading-[0.95] tracking-tight text-3xl sm:text-5xl md:text-6xl"
+                        :class="showTimes
+                            ? 'flex flex-col items-start gap-y-2 max-w-full text-left'
+                            : 'flex flex-wrap justify-center items-baseline gap-x-8 gap-y-1'"
                     >
-                        <span v-for="artist in day.artists" :key="artist.name">{{ artist.name }}</span>
-                    </div>
+                        <div
+                            v-for="artist in artistsFor(day)"
+                            :key="artist.name"
+                            class="flex items-baseline max-w-full"
+                        >
+                            <span
+                                v-if="artist.start"
+                                class="time-label shrink-0 overflow-hidden whitespace-nowrap tabular-nums tracking-normal text-sm sm:text-lg md:text-xl text-[var(--color-muted)]"
+                                :class="{ 'time-label--visible': showTimes }"
+                                :aria-hidden="!showTimes"
+                            >{{ artist.start }} – {{ artist.end }}</span>
+                            <span class="min-w-0" :class="{ 'whitespace-pre-line': showTimes }">{{ showTimes ? artist.name : artist.name.replace('\n', ' ') }}</span>
+                        </div>
+                    </TransitionGroup>
                     <p v-else class="italic text-[var(--color-muted)]">À dévoiler prochainement</p>
                 </article>
             </div>
@@ -30,12 +58,14 @@
 </template>
 
 <script setup lang="ts">
-import { useHead } from '#imports';
+import { ref, useHead } from '#imports';
 import programmeData from '~/assets/data/programme2026.json';
 
 interface Slot {
     name: string;
     genre?: string;
+    start?: string;
+    end?: string;
 }
 interface Day {
     day: string;
@@ -44,6 +74,13 @@ interface Day {
 }
 
 const programme = programmeData as Day[];
+
+const showTimes = ref(false);
+
+function artistsFor(day: Day): Slot[] {
+    if (showTimes.value) return day.artists;
+    return [...day.artists].sort((a, b) => a.name.localeCompare(b.name, 'fr'));
+}
 
 useHead({
     title: 'Programme | Ersatz Festival 2026',
@@ -64,3 +101,43 @@ useHead({
     ],
 });
 </script>
+
+<style scoped>
+/* Les noms « volent » vers leur nouvelle position (FLIP) */
+.prog-move {
+    transition: transform 1.1s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Les horaires se déplient en douceur */
+.time-label {
+    width: 15ch;
+    max-width: 0;
+    opacity: 0;
+    transform: translateX(-0.5rem);
+    transition:
+        max-width 1.1s cubic-bezier(0.25, 0.8, 0.25, 1),
+        opacity 0.8s ease 0.3s,
+        transform 1.1s cubic-bezier(0.25, 0.8, 0.25, 1),
+        margin-right 1.1s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.time-label--visible {
+    max-width: 15ch;
+    opacity: 1;
+    transform: translateX(0);
+    margin-right: 1rem;
+}
+
+@media (min-width: 640px) {
+    .time-label--visible {
+        margin-right: 1.5rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .prog-move,
+    .time-label {
+        transition: none;
+    }
+}
+</style>

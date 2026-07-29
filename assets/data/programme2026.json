@@ -3,37 +3,37 @@
         "day": "Vendredi",
         "date": "21 août 2026",
         "artists": [
-            { "name": "BLISS!" },
-            { "name": "CLEBS" },
-            { "name": "ERREURJEAN" },
-            { "name": "GODASSE" },
-            { "name": "S.G.A.T.V." },
-            { "name": "SUICIDE CATDOORS" }
+            { "name": "BLISS!", "start": "18h30", "end": "19h30" },
+            { "name": "GODASSE", "start": "20h00", "end": "21h00" },
+            { "name": "SUICIDE CATDOORS", "start": "21h45", "end": "22h45" },
+            { "name": "CLEBS", "start": "23h00", "end": "00h00" },
+            { "name": "S.G.A.T.V.", "start": "00h15", "end": "01h15" },
+            { "name": "ERREURJEAN", "start": "01h45", "end": "02h45" }
         ]
     },
     {
         "day": "Samedi",
         "date": "22 août 2026",
         "artists": [
-            { "name": "24KIARA" },
-            { "name": "CHAUFAU" },
-            { "name": "LEYLA" },
-            { "name": "MOICTANI" },
-            { "name": "NANA" },
-            { "name": "OK.CROQUETTE B2B DARJEELING" },
-            { "name": "ULTRAMODERNE" }
+            { "name": "LEYLA", "start": "17h30", "end": "18h00" },
+            { "name": "NANA", "start": "18h30", "end": "19h30" },
+            { "name": "MOICTANI", "start": "20h00", "end": "21h00" },
+            { "name": "24KIARA", "start": "21h30", "end": "22h30" },
+            { "name": "CHAUFAU", "start": "23h00", "end": "00h00" },
+            { "name": "ULTRAMODERNE", "start": "00h15", "end": "01h15" },
+            { "name": "OK.CROQUETTE B2B\nDARJEELING", "start": "01h30", "end": "03h45" }
         ]
     },
     {
         "day": "Dimanche",
         "date": "23 août 2026",
         "artists": [
-            { "name": "BËTISE" },
-            { "name": "LILY GASC" },
-            { "name": "LUCIE" },
-            { "name": "NOAH VESSAZ" },
-            { "name": "OWNI" },
-            { "name": "U4F" }
+            { "name": "U4F", "start": "14h15", "end": "15h45" },
+            { "name": "NOAH VESSAZ", "start": "16h00", "end": "16h45" },
+            { "name": "LUCIE", "start": "17h00", "end": "17h30" },
+            { "name": "OWNI", "start": "18h00", "end": "19h00" },
+            { "name": "BËTISE", "start": "19h30", "end": "20h30" },
+            { "name": "LILY GASC", "start": "20h45", "end": "21h45" }
         ]
     }
 ]
