@@ -38,9 +38,12 @@
                                 :aria-hidden="!showTimes"
                                 >{{ artist.start }} – {{ artist.end }}</span
                             >
-                            <span class="min-w-0" :class="{ 'whitespace-pre-line': showTimes }">{{
-                                showTimes ? artist.name : artist.name.replace('\n', ' ')
-                            }}</span>
+                            <NuxtLink
+                                :to="`/artistes/${artist.slug}`"
+                                class="min-w-0 hover:text-[var(--color-primary-hover)]"
+                                :class="{ 'whitespace-pre-line': showTimes }"
+                                >{{ showTimes ? artist.name : artist.name.replace('\n', ' ') }}</NuxtLink
+                            >
                         </div>
                     </TransitionGroup>
                     <p v-else class="italic text-[var(--color-muted)]">À dévoiler prochainement</p>
@@ -64,6 +67,7 @@ import { ref, useHead } from '#imports';
 import programmeData from '~/assets/data/programme2026.json';
 
 interface Slot {
+    slug: string;
     name: string;
     genre?: string;
     start?: string;
