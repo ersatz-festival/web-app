@@ -32,6 +32,7 @@ export default defineNuxtConfig({
         '/billets': { prerender: true },
         '/informations': { prerender: true },
         '/historique': { prerender: true },
+        '/artistes': { prerender: true },
         '/artistes/**': { prerender: true },
     },
 });
