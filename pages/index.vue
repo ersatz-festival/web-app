@@ -1,7 +1,7 @@
 ﻿<template>
     <div>
         <section class="mx-auto max-w-5xl px-6 pt-10 pb-6">
-            <div class="mb-6 sm:mb-8 text-center">
+            <div class="mb-6 sm:mb-8 flex flex-wrap justify-center gap-3">
                 <button
                     type="button"
                     :aria-pressed="showTimes"
@@ -10,6 +10,12 @@
                 >
                     {{ showTimes ? 'Masquer les horaires' : 'Voir les horaires' }}
                 </button>
+                <NuxtLink
+                    to="/artistes"
+                    class="inline-block px-6 py-2 rounded-full border border-[var(--color-primary)] text-[var(--color-primary)] uppercase text-xs sm:text-sm tracking-widest hover:bg-[var(--color-primary)] hover:text-[var(--color-bg)] transition"
+                >
+                    Le détail de la prog'
+                </NuxtLink>
             </div>
 
             <div class="space-y-4 sm:space-y-6" :class="{ 'w-fit max-w-full mx-auto': showTimes }">
@@ -38,9 +44,12 @@
                                 :aria-hidden="!showTimes"
                                 >{{ artist.start }} – {{ artist.end }}</span
                             >
-                            <span class="min-w-0" :class="{ 'whitespace-pre-line': showTimes }">{{
-                                showTimes ? artist.name : artist.name.replace('\n', ' ')
-                            }}</span>
+                            <NuxtLink
+                                :to="`/artistes/${artist.slug}`"
+                                class="min-w-0 hover:text-[var(--color-primary-hover)]"
+                                :class="{ 'whitespace-pre-line': showTimes }"
+                                >{{ showTimes ? artist.name : artist.name.replace('\n', ' ') }}</NuxtLink
+                            >
                         </div>
                     </TransitionGroup>
                     <p v-else class="italic text-[var(--color-muted)]">À dévoiler prochainement</p>
@@ -64,6 +73,7 @@ import { ref, useHead } from '#imports';
 import programmeData from '~/assets/data/programme2026.json';
 
 interface Slot {
+    slug: string;
     name: string;
     genre?: string;
     start?: string;
