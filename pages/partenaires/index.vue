@@ -47,6 +47,7 @@ const modules = import.meta.glob('~/assets/img/partenaires/*.{png,jpg,jpeg,svg,w
 
 const partnerUrls: Record<string, string> = {
     agculturel: 'https://www.agculturel.ch/',
+    cdl: 'https://www.cdlneuchatel.ch/',
     Raiffeisen: 'https://www.raiffeisen.ch/neuchatel-et-vallees/fr/qui-sommes-nous/votre-banque-locale/ce-qui-nous-differencie.html',
     DRG: 'https://www.docteurgabs.ch/fr/accueil/',
     ELLF: 'https://www.ellf-technique.ch/',
