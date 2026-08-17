@@ -55,11 +55,11 @@ const informations = [
     },
     {
         title: 'Horaires',
-        text: 'Vendredi 21 août : 18h00 - 03h00\nSamedi 22 août : 16h00 - 04h00\nDimanche 23 août : 15h00 - 22h00',
+        text: 'Vendredi 21 août : 18h00 - 03h00\nSamedi 22 août : 16h00 - 04h00\nDimanche 23 août : 14h00 - 22h00',
     },
     {
         title: 'Camping sur place',
-        text: 'Il est possible de planter sa tente et de dormir sur place le vendredi et le samedi soir. Petite restauration disponible.',
+        text: 'Il est possible de planter sa tente et de dormir sur place le vendredi et le samedi soir.',
     },
     {
         title: 'Accès PMR',
