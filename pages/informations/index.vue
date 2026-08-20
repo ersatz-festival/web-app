@@ -59,7 +59,7 @@ const informations = [
     },
     {
         title: 'Camping sur place',
-        text: 'Il est possible de planter sa tente et de dormir sur place le vendredi et le samedi soir.',
+        text: 'Il est possible de planter sa tente et de dormir sur place le vendredi, le samedi et le dimanche soir.',
     },
     {
         title: 'Accès PMR',
